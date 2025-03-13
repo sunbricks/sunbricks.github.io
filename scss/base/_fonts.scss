@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+$fonts: (
+    "GB": "../fonts/GmarketSansTTFBold.ttf",
+    "GM": "../fonts/GmarketSansTTFMedium.ttf",
+    "GL": "../fonts/GmarketSansTTFLight.ttf"
+);
+
+@each $font, $path in $fonts {
+    @font-face {
+        font-family: $font;
+        src: url(#{$path});
+    }
+}
