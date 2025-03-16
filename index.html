@@ -24,6 +24,13 @@
         <header id="header" class="header">
             <div class="inner">
                 <nav class="header__nav">
+                    <!-- 햄버거 버튼 -->
+                    <button class="header__nav-toggle" aria-label="Menu toggle">
+                        <span class="header__nav-toggle-bar"></span>
+                        <span class="header__nav-toggle-bar"></span>
+                        <span class="header__nav-toggle-bar"></span>
+                    </button>
+
                     <ul class="header__nav-list">
                         <li class="header__nav-item">
                             <a href="#home" class="header__nav-link">HOME</a>
@@ -206,10 +213,58 @@
 
             <section id="skills" class="skills">
                 <div class="inner">
-                    <h1 class="section__title">SKILLS</h1>
-                    <div class="skills__content">
-
-                    </div>
+                <h1 class="section__title">SKILLS</h1>
+                    <ul class="skills__groups">
+                        <li class="skills__group">
+                            <h2 class="skills__group-title">Front-End</h2>
+                            <div class="skills__item">
+                                <p class="skills__item-desc">
+                                    - 간단한 설명을 여기에 작성하세요.
+                                </p>
+                                <ul class="skills__icons">
+                                    <li><img src="" alt=""></li>
+                                    <li><img src="" alt=""></li>
+                                    <li><img src="" alt=""></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="skills__group">
+                        <h2 class="skills__group-title">Design</h2>
+                            <div class="skills__item">
+                                <p class="skills__item-desc">
+                                    - 간단한 설명을 여기에 작성하세요.
+                                </p>
+                                <ul class="skills__icons">
+                                    <li><img src="" alt=""></li>
+                                    <li><img src="" alt=""></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="skills__group">
+                        <h2 class="skills__group-title">Back-End</h2>
+                            <div class="skills__item">
+                                <p class="skills__item-desc">
+                                    - 간단한 설명을 여기에 작성하세요.
+                                </p>
+                                <ul class="skills__icons">
+                                    <li><img src="" alt=""></li>
+                                    <li><img src="" alt=""></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="skills__group">
+                        <h2 class="skills__group-title">Tool</h2>
+                            <div class="skills__item">
+                                <p class="skills__item-desc">
+                                    - 간단한 설명을 여기에 작성하세요.
+                                </p>
+                                <ul class="skills__icons">
+                                    <li><img src="" alt=""></li>
+                                    <li><img src="" alt=""></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </section>
             <!-- skill -->
@@ -217,19 +272,81 @@
             <section id="portfolio" class="portfolio">
                 <div class="inner">
                     <h1 class="section__title">PORTFOLIO</h1>
-                    <div class="portfolio__content">
+                    <ul class="portfolio__list">
+                        <li class="portfolio__item">
+                            <div class="portfolio__header">
+                                <h2 class="portfolio__project-name">프로젝트 이름</h2>
+                                <span class="portfolio__completion">퍼블리싱 100%</span>
+                            </div>
+                            <p class="portfolio__desc">
+                                프로젝트에 대한 간단한 소개를 여기에 작성하세요.
+                            </p>
+                            <ul class="portfolio__techs">
+                                <li class="portfolio__tech">HTML5</li>
+                                <li class="portfolio__tech">CSS3</li>
+                                <li class="portfolio__tech">jQuery</li>
+                            </ul>
+                            <div class="portfolio__image">
+                                <img src="" alt="프로젝트 이미지" />
+                                <a href="#" class="portfolio__corner-btn" target="_blank" rel="noopener">
+                                    <span class="portfolio__arrow-icon">→</span>
+                                </a>
+                            </div>
+                        </li>
+                
+                        <li class="portfolio__item">
+                            <div class="portfolio__header">
+                                <h2 class="portfolio__project-name">프로젝트 이름</h2>
+                                <span class="portfolio__completion">퍼블리싱 100%</span>
+                            </div>
+                            <p class="portfolio__desc">
+                                다른 프로젝트 설명을 여기에 작성하세요.
+                            </p>
+                            <ul class="portfolio__techs">
+                                <li class="portfolio__tech">HTML5</li>
+                                <li class="portfolio__tech">CSS3</li>
+                                <li class="portfolio__tech">JavaScript</li>
+                            </ul>
+                            <div class="portfolio__image">
+                                <img src="" alt="프로젝트 이미지" />
+                                <a href="#" class="portfolio__corner-btn" target="_blank" rel="noopener">
+                                    <span class="portfolio__arrow-icon">→</span>
+                                </a>
+                            </div>
+                        </li>
 
-                    </div>
+                        <li class="portfolio__item">
+                            <div class="portfolio__header">
+                                <h2 class="portfolio__project-name">프로젝트 이름</h2>
+                                <span class="portfolio__completion">퍼블리싱 100%</span>
+                            </div>
+                            <p class="portfolio__desc">
+                                다른 프로젝트 설명을 여기에 작성하세요.
+                            </p>
+                            <ul class="portfolio__techs">
+                                <li class="portfolio__tech">HTML5</li>
+                                <li class="portfolio__tech">CSS3</li>
+                                <li class="portfolio__tech">JavaScript</li>
+                            </ul>
+                            <div class="portfolio__image">
+                                <img src="" alt="프로젝트 이미지" />
+                                <a href="#" class="portfolio__corner-btn" target="_blank" rel="noopener">
+                                    <span class="portfolio__arrow-icon">→</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </section>
             <!-- portfolio -->
+            
         </main>
         <!-- main -->
 
         <footer id="footer" class="footer">
             <div class="inner">
                 Park Jae Young © 2025 Web Portfolio
-            </div>
+            </div> 
         </footer>
         <!-- footer -->
     </div>

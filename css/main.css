@@ -87,6 +87,35 @@ input, button {
   justify-content: center;
   align-items: center;
 }
+.header__nav-toggle {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+.header__nav-toggle-bar {
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin: 5px 0;
+  background-color: #fff;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.header__nav-toggle.active .header__nav-toggle-bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.header__nav-toggle.active .header__nav-toggle-bar:nth-child(2) {
+  opacity: 0;
+}
+.header__nav-toggle.active .header__nav-toggle-bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
 .header__nav-list {
   display: flex;
 }
@@ -113,7 +142,28 @@ input, button {
 .header__nav-link:hover::after {
   width: 100%;
 }
-
+@media screen and (max-width: 1023px) {
+  .header__nav-toggle {
+    display: block;
+  }
+  .header__nav-list {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .header__nav-list--active {
+    display: flex;
+  }
+  .header__nav-item {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
 #footer {
   padding: 50px 0;
   text-align: center;
@@ -341,6 +391,106 @@ input, button {
 
 /* about 끝 */
 /* skills 시작 */
+.skills__groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.skills__group {
+  flex: 0 0 calc(50% - 20px);
+}
+.skills__group-title {
+  font-family: "GB";
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #D25DEF;
+}
+.skills__item {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+}
+.skills__item-desc {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.skills__item .skills__icons {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skills__item .skills__icons li img {
+  max-width: 40px;
+  height: auto;
+  display: block;
+}
+
 /* skills 끝 */
 /* portfolio 시작 */
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.portfolio__item {
+  flex: 0 0 calc(33.333% - 20px);
+  box-sizing: border-box;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+.portfolio__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.portfolio__header .portfolio__project-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #c84ae8;
+}
+.portfolio__header .portfolio__completion {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+.portfolio__desc {
+  font-size: 0.95rem;
+  color: #ddd;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.portfolio__techs {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.portfolio__techs .portfolio__tech {
+  background-color: #555;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.portfolio .portfolio__image {
+  position: relative;
+  background-color: #333;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.portfolio .portfolio__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* portfolio 끝 *//*# sourceMappingURL=main.css.map */

@@ -285,9 +285,128 @@
 /* about 끝 */
 
 /* skills 시작 */
-.skills {}
+.skills {
+    &__groups {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    &__group {
+        flex: 0 0 calc(50% - 20px);
+    }
+
+    &__group-title {
+        font-family: "GB";
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        color: #D25DEF; // 타이틀 색상 (예시)
+    }
+
+    &__item {
+        background-color: #333; // 박스 배경색
+        padding: 20px;
+        border-radius: 8px;
+
+        &-desc {
+            color: #fff; // 설명 텍스트 색상 (예시)
+            margin-bottom: 10px;
+        }
+
+        .skills__icons {
+            display: flex;
+            gap: 10px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                img {
+                    max-width: 40px; // 아이콘 크기 (필요에 따라 조정)
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+    }
+}
 /* skills 끝 */
 
 /* portfolio 시작 */
-.portfolio {}
+.portfolio {
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+        flex: 0 0 calc(33.333% - 20px);
+        box-sizing: border-box;
+        background-color: #333;
+        padding: 20px;
+        border-radius: 8px;
+        position: relative;
+    
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .portfolio__project-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #c84ae8;
+        }
+    
+        .portfolio__completion {
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    }
+
+    &__desc {
+        font-size: 0.95rem;
+        color: #ddd;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+    &__techs {
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        margin: 0 0 10px;
+        padding: 0;
+    
+        .portfolio__tech {
+            background-color: #555;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+    }
+
+    .portfolio__image {
+        position: relative;
+        background-color: #333;
+        width: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+    }
+}
 /* portfolio 끝 */

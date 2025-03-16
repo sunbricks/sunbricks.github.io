@@ -5,12 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
 function createStars() {
   const starContainer = document.querySelector('.stars-container');
   
-  // 전체 문서 높이의 50%를 별 영역으로 사용
-  const containerHeight = document.documentElement.scrollHeight * 0.5;
+  const containerHeight = document.documentElement.scrollHeight * 0.95;
   starContainer.style.height = containerHeight + 'px';
   
   const containerWidth = document.documentElement.clientWidth;
-  const numStars = 100; // 생성할 별의 개수
+  const numStars = 200; // 생성할 별의 개수
   
   // 기존 별 제거
   starContainer.innerHTML = '';
@@ -51,6 +50,18 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       header.classList.remove('header--active');
     }
+  });
+});
+
+// --------------------------------
+
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleButton = document.querySelector(".header__nav-toggle");
+  const navList = document.querySelector(".header__nav-list");
+
+  toggleButton.addEventListener("click", () => {
+    navList.classList.toggle("header__nav-list--active");
+    toggleButton.classList.toggle("active");
   });
 });
 
