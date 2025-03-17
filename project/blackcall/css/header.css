@@ -1,0 +1,163 @@
+
+/* PC 1920 size 시작 */
+#header {
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+
+.h_in {
+    height: 100px;
+    margin: 0 auto;
+}
+
+.h_in .nav_pc {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.nav_pc .logo {
+    padding-top: 22px;
+    padding-left: 160px;
+    padding-right: 30px;
+    background-color: rgba(230, 0, 18, 0.8);
+}
+
+.mo_logo {
+    display: none;
+}
+
+.right_mo_logo {
+    display: none;
+}
+
+.nav_pc .logo a img {
+    width: 280px;
+}
+
+.nav_pc .nav_menu {
+    padding-top: 40px;
+    padding-right: 220px;
+    display: flex;
+}
+
+.nav_pc .nav_menu li  {
+    font-family: "sub";
+    font-size: 22px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.nav_pc .nav_menu li:last-child {
+    padding-right: 0px;
+}
+
+/* PC 1920 size 끝 */
+
+/* Notebook size 시작*/
+@media screen and (max-width:1750px) {
+    .nav_pc .nav_menu li {
+        font-size: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .nav_pc .nav_menu li {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .nav_pc .nav_menu {
+        padding-right: 160px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .nav_pc .logo {
+        padding-top: 28px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .nav_pc .logo a img {
+        width: 240px;
+    }
+
+    .nav_pc .nav_menu {
+        padding-top: 40px;
+        padding-right: 30px;
+    }
+}
+/* Notebook size 끝 */
+
+/* tablet size 시작 */
+@media screen and (max-width:1023px) {
+    .h_in {
+        height: 80px;
+        margin: 0 auto;
+    }
+    
+    .h_in .nav_pc {
+        height: 80px;
+        border: none;
+        color: #fff;
+        background-color: rgba(230, 0, 18, 0.8);
+    }
+    
+    .nav_pc .logo {
+        padding-top: 25px;
+    }
+
+    .pc_logo {
+        display: none;
+    }
+
+    .mo_logo {
+        display: block;
+    }
+
+    .right_mo_logo {
+        display: block;
+        padding-top: 15px;
+        padding-right: 30px;
+        width: 80px;
+    }
+
+    .nav_pc .nav_menu {
+        display: none;
+    }
+}
+/* tablet size 끝 */
+
+/* mobile 425 size 시작 */
+@media screen and (max-width:767px) {
+    .nav_pc .logo {
+        padding-top: 30px;
+    }
+
+    .nav_pc .logo a img {
+        width: 180px;
+    }
+
+    .right_mo_logo {
+        padding-top: 20px;
+        padding-right: 30px;
+        width: 70px;
+    }
+}
+/* mobile 425 size 끝 */
+
+/* mobile 320 size 시작 */
+@media screen and (max-width:424px) {
+    .nav_pc .logo a img {
+        width: 160px;
+    }
+}
+/* mobile 320 size 끝 */
+
+

@@ -1,0 +1,16 @@
+$tech-colors: (
+    html5: #E34F26,
+    css3: #1572B6,
+    jquery: #0769AD,
+    javascript: #F7DF1E,
+    scss: #CC6699,
+);
+
+// 맵에 저장된 컬러들을 활용하여 각 기술 항목 클래스 자동 생성
+@each $tech, $color in $tech-colors {
+    .portfolio__tech--#{$tech} {
+        color: $color;
+        border: 1px solid;
+        border-color: $color;
+    }
+}

@@ -1,0 +1,46 @@
+body {}
+#container {}
+
+.inner {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section {}
+.bold_point {
+    font-weight: 700;
+}
+
+.col_point {
+    color: #E8CDB0;
+}
+
+.font_up {
+    font-size: 28px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .mo_br {
+        display: none;
+    }
+
+    .font_up {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .font_up {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .inner {
+        width: 1200px;
+        margin: 0 auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

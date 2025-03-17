@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "IBM-B";
+    src: url(../fonts/IBMPLEXSANSKR-BOLD.OTF);
+}
+
+@font-face {
+    font-family: "IBM-R";
+    src: url(../fonts/IBMPLEXSANSKR-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: "Inter-L";
+    src: url(../fonts/Inter-Light.otf);
+}
+
+@font-face {
+    font-family: "Inter-R";
+    src: url(../fonts/Inter-Regular.otf);
+}
+
+@font-face {
+    font-family: "Inter-B";
+    src: url(../fonts/Inter-Bold.otf);
+}

@@ -1,0 +1,1466 @@
+@charset "utf-8";
+
+/* 공통 시작 */
+
+.main {
+    background-color: #efefef;
+}
+
+.main .main_inner {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* 공통 끝 */
+
+/* section home 시작 */
+
+.home {
+    width: 100%;
+}
+
+.main_bg {
+    background-image: url(../image/home_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.main_box {
+    padding-top: 120px;
+}
+
+.main_title_box {}
+
+.main_title_text {
+    font-size: 26px;
+    color: #fcb323;
+    margin-bottom: 20px;
+    font-family: "GB";
+    font-weight: bold;
+    width: 240px;
+    line-height: 1.4em;
+}
+
+.go_nft_btn {
+    margin-bottom: 20px;
+}
+
+.main_video {
+    
+}
+
+video {
+    width: 100%;
+}
+
+/* section home 끝 */
+
+/* section project 시작 */
+
+.project {
+    height: 100%;
+    width: 100%;
+}
+
+.project_box_01, .project_box_02, .project_box_03, .project_box_04 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.project_mo {
+    cursor: pointer;
+}
+
+.swiper {
+    display: none;
+}
+
+.project_box_01 {
+    background-image: url(../image/project_01_bg.png);
+}
+
+.project_box_02 {
+    background-image: url(../image/project_02_bg.png);
+}
+
+.project_box_03 {
+    background-image: url(../image/project_03_bg.png);
+}
+
+.project_box_04 {
+    background-image: url(../image/project_04_bg.png);
+}
+
+.project_title_number {
+    padding-top: 50px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: "GM";
+}
+
+.number_line {
+    width: 150px;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.project_title_text {
+    font-family: "GB";
+    width: 250px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.4em;
+    word-break: keep-all;
+}
+
+.project_title_text span {
+    font-size: 18px;
+}
+
+.project_more_btn {
+    padding: 5px 20px;
+    background-color: #0d4090;
+    display: inline;
+    border-radius: 20px;
+    font-family: "NBRG";
+    font-weight: bold;
+}
+
+.project_info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.4em;
+    font-size: 16px;
+}
+
+.info_text_title {
+    margin-bottom: 10px;
+    color: #0d4090;
+    font-family: "NEHV";
+}
+
+.info_text_box {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #e5e5e5;
+}
+
+.info_text_box:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.info_text {
+    font-family: "NCBD";
+    margin-bottom: 10px;
+}
+
+.info_text:last-child {
+    margin-bottom: 0px;
+}
+
+.arrow {
+    height: 20px;
+    border-top: 2px solid #e1e1e1;
+    text-align: center;
+}
+
+.arrow img {
+    padding-top: 5px;
+}
+
+/* section project 끝 */
+
+/* section langnft 시작 */
+
+.langnft {
+    width: 100%;
+    background-image: url(../image/langnft_mo_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.langnft_title {
+    line-height: 1.4em;
+    word-break: keep-all;
+    font-family: "GB";
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.langnft_title .langnft_title_text {
+    color: #fff;
+    width: 250px;
+}
+
+.langnft_title .langnft_sub_text {
+    color: #fcb323;
+}
+
+.langnft_info {}
+.langnft_info .langnft_info_title {
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    background-color: #202020;
+    color: #fcb323;
+    font-family: "GB";
+    font-size: 14px;
+}
+
+.langnft_info .langnft_info_sub {
+    color: #fff;
+}
+
+.langnft_info .langnft_info_sub div {
+    margin-bottom: 10px;
+    font-family: "NALT";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+.langnft_info .langnft_info_sub div:nth-child(2) {
+    margin-bottom: 0px;
+}
+
+.lang_bg_box {
+    display: none;
+}
+
+/* section langnft 끝 */
+
+
+/* section token 시작 */
+
+.token {
+    background-color: #202020;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.token_top_img {
+    text-align: center;
+}
+
+.token_top_img img {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.token_top_img_pc img {
+    display: none;
+}
+
+.token_info_img {
+    text-align: center;
+}
+
+.token_info_img img {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.ecosys_img {
+    text-align: center;
+}
+
+.ecosys_img img {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.token_ecosys ul {
+    margin-bottom: 50px;
+}
+.token_ecosys ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.token_ecosys ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.token_ecosys ul li img {
+    margin-right: 10px;
+}
+
+.token_ecosys ul li p {
+    margin-left: 10px;
+    word-break: keep-all;
+    color: #ffc653;
+    font-family: "NCBD";
+    line-height: 1.4em;
+}
+
+.token_bot_box {
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 5px 5px 5px 5px;
+    margin-left: 70px;
+    font-family: "NCBD";
+    line-height: 2em;
+    border-right: none;
+}
+
+.token_bot_text {
+    padding: 10px 20px;
+    color: #fff;
+    word-break: keep-all;
+}
+
+.token_bot_text span {
+    font-family: "NEHV";
+}
+/* section token 끝 */
+
+
+/* section partner 시작 */
+
+.partner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.partner_title {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partner_title .partner_title_text {
+    font-family: "GB";
+    font-size: 24px;
+    width: 30%;
+}
+.partner_title .partner_title_line {
+    width: 55%;
+    height: 2px;
+    background-color: #000;
+}
+.partner_logo {}
+
+.partner_logo img {
+    width: 100%;
+}
+
+.partner_logo img.partner_pc {
+    display: none;
+}
+
+
+
+/* section partner 끝 */
+
+/* section roadmap 시작 */
+
+.roadmap {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0d4090;
+    color: #fff;
+}
+
+.roadmap_title {
+    font-family: "GB";
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.roadmap ul {}
+
+.roadmap_box {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+div.roadmap_box:last-child {
+    margin-bottom: 0px;
+}
+
+.roadmap_box .roadmap_date_box {
+    position: absolute;
+    top: -25px;
+    left: -8px;
+}
+
+.roadmap_box .roadmap_date_box img {}
+.roadmap_box .roadmap_info {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    border: 1px solid #fcb323;
+    border-radius: 0px 0px 30px 0px;
+}
+
+.roadmap_box .roadmap_info p {
+    line-height: 2em;
+    font-family: "NCBD";
+}
+
+/* section roadmap 끝 */
+
+/* section whitepaper 시작 */
+
+.whitepaper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../image/whitepaper_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.whitepaper_title {
+    font-size: 28px;
+    font-family: "GB";
+    margin-bottom: 10px;
+}
+
+.whitepaper_go_btn {
+    background-color: #202020;
+    color: #fff;
+    display: inline-block;
+    font-family: "NEHV";
+    padding: 10px 20px;
+}
+
+.whitepaper_go_btn a {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.whitepaper_go_btn span {
+    color: #fcb323;
+}
+
+/* section whitepaper 끝 */
+
+/* tablet 시작 */
+
+@media screen and (min-width: 768px) {
+    /* 공통 시작 */
+
+    .main .main_inner {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* 공통 끝 */
+
+    /* section home 시작 */
+
+    .home {
+        width: 100%;
+    }
+    
+    .main_bg {
+        background-image: url(../image/home_bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 50px;
+    }
+    
+    .main_box {
+        padding-top: 120px;
+        display: flex;
+        justify-content: center;
+        direction: rtl;
+    }
+
+    .main_title_box {
+        margin-left: 25px;
+        text-align: left;
+    }
+    
+    .main_title_text {
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    video {
+        width: 100%;
+    }
+
+    /* section home 끝 */
+
+    /* section project 시작 */
+
+    .project {
+        width: 100%;
+    }
+    
+    .project_box_01, .project_box_02, .project_box_03, .project_box_04 {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .project_title_number {
+        padding-top: 50px;
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-family: "GM";
+    }
+    
+    .number_line {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    
+    .project_title_text {
+        display: block;
+        width: 100%;
+    }
+    
+    .project_title_text span {
+        font-size: 18px;
+    }
+    
+    .project_info {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 17px;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    /* section project 끝 */
+
+    /* section langnft 시작 */
+
+    .langnft {
+        padding: 50px 0px;
+    }
+
+    .lang_box {}
+    
+    .langnft_title {
+        text-align: center;
+    }
+    
+    .langnft_title .langnft_title_text {
+        width: 100%;
+    }
+    
+    .langnft_info {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .langnft_info .langnft_info_title {
+        padding: 12px 12px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    
+    .langnft_info .langnft_info_sub {
+        text-align: left;
+        color: #fff;
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+    .langnft_info .langnft_info_sub div {
+        font-size: 15px;
+    }
+    
+
+    /* section langnft 끝 */
+
+    /* section token 시작 */
+    .token {
+        background-color: inherit;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        position: relative;
+    }
+
+    .token_bg_01 {
+        background-color: #202020;
+        width: 200%;
+        left: -50%;
+        top: 250px;
+        position: absolute;
+        height: 220px;
+        z-index: -9999;
+        transform: rotate(160deg);
+    }
+
+    .token_bg_02 {
+        background-color: #202020;
+        width: 200%;
+        left: -50%;
+        top: 250px;
+        position: absolute;
+        height: 220px;
+        z-index: -9999;
+        transform: rotate(-160deg);
+    }
+
+    .token_bg_03 {
+        background-color: #202020;
+        width: 100%;
+        height: 500px;
+        left: 0;
+        top: 0px;
+        z-index: -9999;
+        position: absolute;
+    }
+
+    .token_bg_04 {
+        background-color: #101010;
+        width: 100%;
+        height: 2200px;
+        left: 0;
+        top: 0px;
+        z-index: -10000;
+        position: absolute;
+    }
+
+    .token_top_img img {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
+        display: none;
+    }
+    
+    .token_info_img img {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
+        display: none;
+    }
+
+    .token_top_img_pc img {
+        display: block;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .ecosys_img {
+        text-align: center;
+    }
+    
+    .ecosys_img img {
+        text-align: center;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    
+    .token_ecosys {
+        position: relative;
+    }
+
+    .token_ecosys .token_line {
+        position: absolute;
+        height: 1100px;
+        width: 5px;
+        left: 50%;
+        top: 350px;
+        margin-left: -2px;
+        border-left: 5px dashed #3c3c3c;
+    }
+
+    .token_ecosys ul {
+        margin-bottom: 50px;
+        width: 600px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+
+    .token_ecosys ul li {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-bottom: 60px;
+        width: 100%;
+    }
+    
+    .token_ecosys ul li:last-child {
+        margin-bottom: 0px;
+    }
+
+    .token_ecosys ul li:nth-child(odd) {
+        direction: ltr;
+        text-align: right;
+    }
+
+    .token_ecosys ul li:nth-child(even) {
+        direction: rtl;
+        text-align: left;
+    }
+    
+    .token_ecosys ul li img {
+        margin-right: 10px;
+        position: absolute;
+        left: 50%;
+        margin-left: -30px;
+    }
+    
+    .token_ecosys ul li p {
+        width: 40%;
+        margin-left: 0px;
+        height: 100px;
+    }
+
+    .token_ecosys ul li p.step_info {
+        padding: 10px;
+        position: relative;
+        border-radius: .4em;
+        border: #7F7F7F solid 1px;
+    }
+
+    .token_ecosys ul li p.step_even::after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 16px 20px 17.5px;
+        border-color: #101010 transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        top: 50%;
+        margin-top: -10px; 
+        left: -25.5px;
+        transform: rotate(-90deg);
+    }
+    
+    .token_ecosys ul li p.step_even::before {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 16px 20px 17.5px;
+        border-color: #7F7F7F transparent;
+        display: block;
+        width: 0;
+        z-index: 0;
+        top: 50%;
+        margin-top: -10px;
+        left: -27px;
+        transform: rotate(-90deg);
+    }
+
+    .token_ecosys ul li p.step_odd::after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 16px 20px 17.5px;
+        border-color: #101010 transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        top: 50%;
+        margin-top: -10px;
+        right: -25.5px;
+        transform: rotate(90deg);
+    }
+
+    .token_ecosys ul li p.step_odd::before {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 16px 20px 17.5px;
+        border-color: #7F7F7F transparent;
+        display: block;
+        width: 0;
+        z-index: 0;
+        top: 50%;
+        margin-top: -10px;
+        right: -27px;
+        transform: rotate(90deg);
+    }
+    
+    .token_bot_box {
+        width: 600px;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 20px;
+        box-shadow: none;
+        line-height: 2em;
+        border-right: none;
+        background-color: #202020;
+    }
+    
+    .token_bot_text {
+        padding: 20px 20px;
+        color: #fff;
+        word-break: keep-all;
+        font-size: 16px;
+    }
+
+    /* section token 끝 */
+
+    /* section partner 시작 */
+
+    .partner {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .partner_title {
+        margin-bottom: 80px;
+        justify-content: space-around;
+    }
+
+    .partner_logo img.partner_mo {
+        display: none;
+    }
+
+    .partner_logo img.partner_pc {
+        display: block;
+    }
+
+    /* section partner 끝 */
+
+    /* section roadmap 시작 */
+
+    .roadmap {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .roadmap_title {
+        font-family: "GB";
+        font-size: 28px;
+        margin-bottom: 80px;
+        line-height: 1.6em;
+        margin-left: 80px;
+    }
+
+    .roadmap .roadmap_big_box {
+        width: 550px;
+        margin: 0 auto;
+    }
+
+    .roadmap_box {
+        margin-bottom: 80px;
+    }
+
+    .roadmap_box .roadmap_info p {
+        font-size: 16px;
+    }
+
+    /* section roadmap 끝 */
+
+    /* section whitepaper 시작 */
+
+    .whitepaper {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+
+    .whitepaper_title {
+        font-size: 32px;
+        font-family: "GB";
+        margin-bottom: 20px;
+    }
+
+    .whitepaper_go_btn {
+        background-color: #202020;
+        color: #fff;
+        display: inline-block;
+        padding: 15px 30px;
+        font-family: "NEHV";
+        font-size: 20px;
+    }
+
+    /* section whitepaper 끝 */
+}
+
+/* tablet 끝 */
+
+/* notebook 시작 */
+
+@media screen and (min-width: 1024px) {
+    /* 공통 시작 */
+
+    .main .main_inner {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    /* 공통 끝 */
+
+    /* section home 시작 */
+
+    .home {
+        width: 100%;
+    }
+    
+    .main_bg {
+        background-image: url(../image/home_bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    .main_title_box {
+        margin-left: 50px;
+    }
+    
+    .main_title_text {
+        padding-top: 50px;
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
+    
+    video {
+        width: 500px;
+    }
+
+    /* section home 끝 */
+
+    /* section project 시작 */
+    /* section project 끝 */
+
+    /* section langnft 시작 */
+
+    .langnft {
+        padding: 100px 0px;
+    }
+    
+    .langnft_title {
+        font-size: 30px;
+    }
+
+    .langnft_info .langnft_info_title {
+        padding: 15px 15px;
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+
+    .langnft_info .langnft_info_sub {
+        width: 700px;
+    }
+    
+    .langnft_info .langnft_info_sub div {
+        font-size: 18px;
+    }
+
+    /* section langnft 끝 */
+
+    /* section token 시작 */
+
+    .token {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .token_bg_01 {
+        height: 250px;
+    }
+
+    .token_bg_02 {
+        height: 250px;
+    }
+
+    .token_bg_04 {
+        height: 2262px;
+    }
+
+    .token_ecosys ul {
+        width: 800px;
+    }
+
+    .token_ecosys ul li {
+        margin-bottom: 60px;
+    }
+    
+    .token_ecosys ul li img {
+        margin-left: -35px;
+        width: 70px;
+    }
+    
+    .token_ecosys ul li p {
+        width: 38%;
+        margin-left: 0px;
+        height: 80px;
+    }
+
+    .token_ecosys ul li p.token_height {
+        height: 105px;
+    }
+
+    .token_ecosys ul li p.token_height2 {
+        height: 130px;
+    }
+
+    .token_ecosys ul li p.step_info {
+        font-size: 17px;
+        line-height: 1.6em;
+    }
+    
+    .token_bot_text {
+        font-size: 18px;
+    }
+
+    .token_ecosys .token_line {
+        height: 1100px;
+    }
+
+    /* section token 끝 */
+
+    /* section partner 시작 */
+
+    .partner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .partner_title {
+        margin-bottom: 100px;
+    }
+
+    .partner_title .partner_title_text {
+        font-size: 32px;
+    }
+
+    .partner_logo img.partner_pc {
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    /* section partner 끝 */
+
+    /* section roadmap 시작 */
+
+    .roadmap {
+        background-image: url(../image/roadmap_bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: inherit;
+    }
+
+    .roadmap_title {
+        font-size: 32px;
+        margin-bottom: 100px;
+    }
+
+    .roadmap_box {
+        margin-bottom: 100px;
+    }
+
+    .roadmap_box .roadmap_info p {
+        font-size: 18px;
+    }
+
+    /* section roadmap 끝 */
+}
+
+/* notebook 끝 */
+
+/* pc 시작 */
+
+@media screen and (min-width: 1300px) {
+    /* 공통 시작 */
+
+    .main .main_inner {
+        width: 100%;
+    }
+
+    /* 공통 끝 */
+
+    /* section home 시작 */
+    
+    .main_bg {
+        background-image: url(../image/home_bg_pc.png);
+        padding-top: 80px;
+        padding-bottom: 200px;
+    }
+
+    .main_box {
+        padding-top: 120px;
+        width: 1500px;
+        margin: 0 auto;
+    }
+
+    .main_title_box {
+        margin-left: 80px;
+    }
+    
+    .main_title_text {
+        width: 460px;
+        padding-top: 155px;
+        margin-bottom: 20px;
+        font-size: 42px;
+    }
+    
+    video {
+        width: 1000px;
+    }
+
+    .go_nft_btn img{
+        width: 280px;
+    }
+
+    /* section home 끝 */
+
+    /* section project 시작 */
+
+    .project_mo {
+        display: none;
+    }
+
+    .swiper {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-button-prev {
+        left: 500px !important;
+    }
+
+    .swiper-button-next {
+        right: 500px !important;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        top: 125px !important;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fractio {
+        bottom: 0px !important;
+        top: 200px !important;
+    }
+
+    .swiper-pagination-bullet {
+        background: #007aff !important;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .project_box_01 {
+        background-image: url(../image/project_01_bg_pc.png);
+    }
+
+    .project_box_02 {
+        background-image: url(../image/project_02_bg_pc.png);
+    }
+
+    .project_box_03 {
+        background-image: url(../image/project_03_bg_pc.png);
+    }
+
+    .project_box_04 {
+        background-image: url(../image/project_04_bg_pc.png);
+    }
+    
+    .project_box_01, .project_box_02, .project_box_03, .project_box_04 {
+        height: 250px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 0px;
+    }
+    
+    .project_title_number {
+        padding-top: 50px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    .number_line {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    
+    .project_title_text {
+        font-size: 32px;
+        line-height: 1.2em;
+    }
+    
+    .project_title_text span {
+        font-size: 20px;
+    }
+    
+    .project_info {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 18px;
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    /* section project 끝 */
+
+    /* section langnft 시작 */
+
+    .langnft {
+        padding: 120px 0px;
+        background-image: url(../image/lang_bg_pc.png);
+        position: relative;
+        z-index: -9998;
+    }
+
+    .lang_box {    
+        position: relative;
+        width: 1000px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    .lang_bg_box {
+        position: absolute;
+        z-index: -10;
+        left: -250px;
+        bottom: -120px;
+    }
+
+    .lang_bg_box img {
+        width: 700px;
+    }
+    
+    .langnft_title {
+        font-size: 30px;
+        text-align: right;
+        margin-bottom: 0px;
+        margin-right: 30px;
+        font-size: 34px;
+    }
+
+    .langnft_info {
+        margin-left: 30pxpx;
+    }
+
+    .langnft_info .langnft_info_title {
+        width: 600px;
+        padding: 15px 15px;
+        margin-bottom: 0px;
+        font-size: 24px;
+    }
+
+    .langnft_info .langnft_info_sub {
+        padding: 40px 50px;
+        width: 600px;
+        background-color: rgba(0,0,0,0.3);
+    }
+    
+    .langnft_info .langnft_info_sub div {
+        font-size: 20px;
+        line-height: 1.8em;
+    }
+
+    .lang_bg_box {
+        display: block;
+    }
+
+    /* section langnft 끝 */
+
+    /* section token 시작 */
+
+    .token_inner {
+        width: 1100px !important;
+    }
+
+    .token {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .token_bg_01 {
+        top: 300px;
+        height: 300px;
+    }
+
+    .token_bg_02 {
+        top: 300px;
+        height: 300px;
+    }
+
+    .token_bg_03 {
+        height: 635px;
+    }
+
+    .token_bg_04 {
+        background-color: #101010;
+        width: 100%;
+        height: 2902px;
+        left: 0;
+        top: 0px;
+        z-index: -10000;
+        position: absolute;
+    }
+
+    .ecosys_img img {
+        text-align: center;
+        width: 400px;
+        margin-bottom: 60px;
+    }
+
+    .token_ecosys .token_line {
+        height: 1200px;
+        top: 500px;
+        margin-left: -1px;
+    }
+
+    .token_ecosys ul li p.step_info {
+        padding: 15px;
+    }
+    
+    .token_ecosys ul li p {
+        width: 38%;
+        margin-left: 0px;
+        height: 110px;
+    }
+
+    /* section token 끝 */
+
+    /* section partner 시작 */
+
+    .partner_title {
+        margin: 0 auto;
+        margin-bottom: 80px;
+        width: 800px;
+    }
+
+    .partner_title .partner_title_text {
+        font-size: 36px;
+    }
+
+    .partner_title .partner_title_line {
+        width: 100%;
+    }
+
+    /* section partner 끝 */
+
+    /* section roadmap 시작 */
+
+    .roadmap {
+        height: 1500px;
+    }
+
+    .roadmap_title {
+        font-size: 32px;
+        margin-bottom: 100px;
+    }
+
+    .roadmap .roadmap_big_box {
+        width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .roadmap .roadmap_big_box .roadmap_box {
+        position: absolute;
+        width: 48%;
+        height: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 0px 0px 30px 0px;
+    }
+
+    .roadmap_box:nth-child(even) {
+        right: 0;
+    }
+
+    .roadmap .roadmap_big_box .roadmap_box:nth-child(4) {
+        top: 400px;
+    }
+
+    .roadmap .roadmap_big_box .roadmap_box:nth-child(3) {
+        top: 300px;
+    }
+
+    .roadmap .roadmap_big_box .roadmap_box:nth-child(5) {
+        top: 550px;
+    }
+
+    .roadmap .roadmap_big_box .roadmap_box:nth-child(6) {
+        top: 720px;
+    }
+
+    .roadmap .roadmap_big_box .roadmap_box_eng:nth-child(4) {
+        top: 480px;
+    }
+
+    .roadmap .roadmap_big_box .roadmap_box_eng:nth-child(3) {
+        top: 350px;
+    }
+
+    .roadmap .roadmap_big_box .roadmap_box_eng:nth-child(5) {
+        top: 660px;
+    }
+
+    .roadmap .roadmap_big_box .roadmap_box_eng:nth-child(6) {
+        top: 800px;
+    }
+
+    .roadmap_box {
+        margin-bottom: 100px;
+    }
+
+    .roadmap_box .roadmap_info {
+        padding-left: 25px;
+    }
+
+    .roadmap_box .roadmap_info p {
+        font-size: 20px;
+    }
+
+    /* section roadmap 끝 */
+
+    
+
+    /* section whitepaper 시작 */
+
+    .whitepaper {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .whitepaper_title {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .whitepaper_go_btn {
+        padding: 25px 40px;
+    }
+
+    .whitepaper_go_btn a {
+        padding: 25px 40px;
+        font-size: 22px;
+    }
+
+    /* section whitepaper 끝 */
+}
+
+/* pc 끝 */

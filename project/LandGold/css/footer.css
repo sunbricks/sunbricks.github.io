@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* section footer 시작 */
+
+#footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url(../image/footer_bg.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.ft_inner {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ft_top {
+    font-family: "NEHV";
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.ft_top .address {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.ft_top .address img {
+    margin-right: 10px;
+}
+.ft_top .address p {}
+.ft_top .contact {
+    display: flex;
+    align-items: center;
+}
+.ft_top .contact img {
+    margin-right: 10px;
+}
+.ft_top .contact p {}
+
+.ft_bot {}
+.ft_bot .copy {
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #9fa0a0;
+    font-family: "NALT";
+}
+
+.ft_bot .ft_logo {}
+.ft_bot .ft_logo img {
+    width: 150px;
+}
+
+/* section footer 끝 */
+
+/* tablet 시작 */
+
+@media screen and (min-width: 768px) {
+    .ft_inner {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .ft_bot .ft_logo {}
+    .ft_bot .ft_logo img {
+        width: 150px;
+    }
+
+    .ft_bot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .ft_bot .copy {
+        margin-bottom: 0px;
+    }
+}
+
+/* tablet 끝 */
+
+/* notobook 시작 */
+
+@media screen and (min-width: 1024px) {
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .ft_inner {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .ft_top {
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+
+    .ft_bot .copy {
+        font-size: 13px;
+    }
+
+}
+
+/* notobook 끝 */
+
+/* pc 시작 */
+
+
+
+/* pc 끝 */

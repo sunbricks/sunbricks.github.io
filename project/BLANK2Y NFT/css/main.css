@@ -1,0 +1,1614 @@
+@charset "utf-8";
+
+
+body {
+    background-color: #111;
+    position: relative;
+}
+
+#wrap {
+    position: relative;
+}
+
+#header {
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 2px solid #333;
+    z-index: 9999;
+    transition: all .5s;
+    font-family: "eng1";
+}
+
+#header .head_in {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 1720px;
+    height: 100px;
+}
+
+#header .head_in .head_logo {
+    width: 100px;
+}
+#header .head_in .head_logo a {
+    
+}
+
+#header .head_in .head_logo a img {
+    margin-top: 25px;
+    width: 180px;
+}
+
+#header .head_in .nav_bar {
+    display: flex;
+}
+
+#header .head_in .nav_bar li {
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #adadad;
+    height: 20px;
+    width: 200px;
+    transition: all .5s;
+    padding-top: 40px;
+}
+
+#header .head_in .nav_bar li a {}
+
+#header .head_in .nav_bar li:hover {
+    color: #fff;
+    transition: all .5s;
+}
+
+#header .head_in .lang {
+    padding-top: 40px;
+    color: #adadad;
+    transition: all .5s;
+    width: 100px;
+    height: 20px;
+}
+
+#header .head_in .lang:hover {
+    color: #fff;
+    transition: all .5s;
+}
+
+#header .head_in .lang .go_eng {}
+
+#header .head_in .lang .go_kor {}
+
+#header .head_in .nav_M {
+    display: none;
+}
+
+#header .head_in .burger_menu {
+    display: none;
+}
+
+#container {}
+
+/* main1 시작 */
+
+.main1 {
+    height: 968px;
+}
+.main1 .main1_box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.main1 .main1_box .main_img {
+    width: 100%;
+    height: 100%;
+}
+.main1 .main1_box .main_img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.main1 .main1_box .main_title {
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+    top: 420px;
+}
+/* main1 끝 */
+
+/* main2 시작 */
+
+.main2 {
+    background-image: url(../image/main2_bg.png);
+    height: 4500px;
+    padding-top: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main2 #video_con {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 100px;
+    height: 900px;
+}
+
+.video_box {
+    position: absolute;
+    left: 50%;
+    margin-left: -650px;
+}
+
+.video_box video {
+    width: 1280px;
+    height: 720px;
+    position: relative;
+}
+
+video::-webkit-media-controls-play-button {}
+
+video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+/* 전체화면 버튼 */
+
+video::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+/* 전체 진행 시간 버튼 */
+
+video::-webkit-media-controls-current-time-display{
+    display: none;
+}
+/* 현재 진행 시간 버튼 */
+
+button#mute, button#full-screen, input#volume-bar, input#seek-bar {
+    display: none;
+}
+/* 커스텀 버튼 */
+/* #video 끝 */
+
+.main2_inner {
+    width: 1580px;
+    margin: 0 auto;
+}
+
+.about {
+    margin-bottom: 300px;
+}
+
+.about .about_box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+.about .about_box .about_logo {
+    margin-right: 100px;
+}
+.about .about_box .about_logo img {
+    width: 100%;
+}
+.about .about_box .about_text {
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.about .about_box .about_text_title {
+    margin-bottom: 60px;
+    font-size: 32px;
+    font-family: "eng1";
+}
+.about .about_box .about_text_info {
+    font-size: 20px;
+    line-height: 2.2em;
+    font-family: "suitR";
+    width: 700px;
+}
+
+.about_member {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 30px;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 30px;
+    justify-content: center;
+}
+
+.about_member .member_image {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+    position: relative;
+}
+
+.about_member .member_image .member_info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    text-align: center;
+}
+
+.about_member .member_image:hover .member_info {
+    display: flex;
+    justify-content: center;
+    padding-top: 190px;
+}
+
+.about_member .member_image .member_info .member_name {
+    color: #fff;
+    font-family: "suitR";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.about_member .member_image .member_info .center_bar {
+    background-color: #e1005f;
+    width: 4px;
+    height: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 4px;
+}
+
+.about_member .member_image .member_info .member_birth {
+    color: #fff;
+    font-family: "suitR";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.about_member .member_image:first-child {
+    background-color: #fff;
+}
+
+.about_member .member_image img {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+/* #about 끝 */
+
+/* nft intro 시작 */
+#NFT_intro {
+    display: flex;
+    justify-content: center;
+}
+
+.NFT_intro_left {
+    margin-right: 50px;
+    width: 600px;
+}
+
+.NFT_intro_left .intro_text_box {}
+.NFT_intro_left .intro_text_box.kor_intro_info {
+    padding-top: 120px;
+}
+
+.NFT_intro_left .intro_text_box .intro_title {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 60px;
+    font-family: "eng1";
+}
+.NFT_intro_left .intro_text_box .intro_text_a {
+    color: #fff;
+    font-family: "suitR";
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 2.0em;
+}
+.NFT_intro_left .intro_text_box .intro_text_b {
+    color: #fff;
+    font-family: "suitR";
+    font-size: 20px;
+    margin-bottom: 60px;
+    line-height: 2.0em;
+}
+
+.NFT_intro_right {
+    margin-left: 50px;
+    width: 500px;
+    height: 700px;
+    border: 2px solid;
+    border-image: linear-gradient(To top, #a0e9c3, #cde39c, #f2c582, #ec9a7e);
+    border-image-slice: 1;
+}
+
+.NFT_intro_right img {
+    width: 500px;
+    height: 700px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+/* nft intro 끝 */
+/* main2 끝 */
+
+
+/* main3 시작 */
+
+.main3 {
+    background: linear-gradient(To bottom, #a0e9c3, #cde39c, #f2c582, #ec9a7e);
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.main3_inner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.main3_inner .about_santa {
+    display: flex;
+    justify-content: center;
+}
+
+.main3_inner .about_santa .about_santa_left {
+    margin-right: 80px;
+    border: 2px solid #fff;
+    transform: rotate(30deg);
+}
+
+.main3_inner .about_santa .about_santa_left img {
+    transform: rotate(-30deg);
+}
+
+
+
+.main3_inner .about_santa .about_santa_right {
+    margin-left: 80px;
+    padding-top: 100px;
+}
+
+
+
+.main3_inner .about_santa .about_santa_right .santa_title {
+    font-family: "eng1";
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+
+.main3_inner .about_santa .about_santa_right .santa_info {
+    font-family: "suitR";
+    font-size: 20px;
+    line-height: 2em;
+    font-weight: 600;
+}
+
+
+/* main3 끝 */
+
+/* main4 시작 */
+
+.main4 {
+    background-image: url(../image/membership_bg.png);
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.main4_inner {
+    width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main4_inner .main4_title {
+    font-family: "eng1";
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.4em;
+    margin-bottom: 200px;
+}
+
+.main4_inner .membership_list {
+    display: flex;
+    justify-content: space-around;
+    width: 1400px;
+    flex-wrap: wrap;
+}
+
+.main4_inner .membership_list li {
+    width: 500px;
+}
+
+.main4_inner .membership_list li:nth-child(even) {
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+.main4_inner .membership_list li:nth-child(odd) {
+    padding-left: 100px;
+}
+
+.main4_inner .membership_list li img {
+    width: 400px;
+    
+}
+
+/* main4 끝 */
+
+/* main5 시작 */
+
+.main5 {
+    background-image: url(../image/roadmap_bg.png);
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.main5_inner {
+    text-align: center;
+}
+.main5_inner .roadmap_title {
+    font-size: 32px;
+    margin-bottom: 140px;
+    line-height: 1.6em;
+    font-family: "eng1";
+}
+.main5_inner .roadmap_box {
+    
+}
+.main5_inner .roadmap_box .roadmap_info {
+    margin-bottom: 150px;
+    position: relative;
+}
+.main5_inner .roadmap_box .roadmap_info img {
+    width: 600px;
+}
+
+.roadmap_info span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -65%;
+    left: 49%;
+    height: 100px;
+    width: 10px;
+    border: 4px dotted;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.roadmap_info:last-child span::after {
+    content: "";
+    display: block;
+    height: 300px;
+    width: 10px;
+    position: absolute;
+    bottom: -175%;
+    left: 49%;
+    border: 4px dotted;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+/* main5 끝 */
+
+/* main6 시작 */
+
+.main6 {
+    background-image: url(../image/faq_bg.png);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.main6_inner {
+    text-align: center;
+}
+
+.main6_inner .faq_title {
+    font-size: 32px;
+    font-family: "eng1";
+    color: #fff;
+    margin-bottom: 150px;
+}
+
+.main6_inner .inc_acodian {
+    margin: 0 auto;
+    color: #fff;
+    width: 1200px;
+}
+
+.main6_inner .inc_acodian .acodian_list {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.main6_inner .inc_acodian .info_box {
+    display: flex;
+}
+
+.main6_inner .inc_acodian .quest_box {
+    height: 100px;
+    border: 1px solid;
+    border-image: linear-gradient(To top, #a0e9c3, #cde39c, #f2c582, #ec9a7e);
+    border-image-slice: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.info_box {
+    padding-top: 22px;
+}
+
+.quest_info, .answer_info {
+    padding-top: 14px;
+    margin-left: 60px;
+    font-size: 18px;
+}
+
+.quest_mark, .answer_mark {
+    font-family: "faq";
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+.quest_mark {
+    padding-top: 15px;
+}
+
+.answer_box {
+    padding-top: 10px;
+}
+
+.answer_mark {
+    background: linear-gradient(To bottom, #a0e9c3, #cde39c, #f2c582, #ec9a7e);
+    border-radius: 50%;
+    padding-top: 15px;
+    color: #000;
+}
+.answer_mark span {
+    
+}
+
+.main6_inner .inc_acodian .answer_box {
+    height: 100px;
+}
+
+/* main6 끝 */
+
+
+/* footer 시작 */
+
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#footer .ft_in {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+#footer .ft_in .ft_box {
+    display: flex;
+    justify-content: center;
+}
+
+#footer .ft_in .ft_box .ft_logo {
+    padding-top: 10px;
+    margin-right: 50px;
+}
+
+#footer .ft_in .ft_box .ft_logo img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer .ft_in .ft_box .ft_logo img.kpop_logo {
+    width: 100px;
+    padding-top: 1px;
+}
+
+#footer .ft_in .ft_box .ft_info {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#footer .ft_in .ft_box .ft_sns {
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+#footer .ft_in .ft_box .ft_sns img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.go_top {
+    position: fixed;
+    right: 10%;
+    bottom: 15%;
+    width: 44px;
+    height: 64px;
+}
+.go_top button {
+    background-image: url(../image/go_top.png);
+    width: 44px;
+    height: 64px;
+    transition: all .5s;
+    border: none;
+    background-color: inherit;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.go_top button:hover {
+    background-image: url(../image/go_top_hover.png);
+}
+
+/* footer 끝 */
+
+/* 테블릿 시작 */
+
+@media screen and (max-width: 1300px) {
+
+        /* header 시작 */
+
+    #header .head_in {
+        width: 100%;
+        height: 80px;
+        display: block;
+    }
+
+    #header .head_in .head_logo {
+        width: 100px;
+        position: relative;
+        z-index: 9999;
+        padding-left: 20px;
+    }
+    
+    #header .head_in .head_logo a img {
+        margin-top: 18px;
+        width: 160px;
+    }
+
+    #header .head_in .nav_bar {
+        display: none;
+    }
+
+    #header .head_in .lang {
+        display: none;
+    }
+
+    #header .head_in .burger_menu {
+        cursor: pointer;
+        position: absolute;
+        right: 2%;
+        top: 27%;
+        display: block;
+    }
+    #header .head_in .burger_menu div {
+        width: 30px;
+        height: 5px;
+        margin: 5px;
+        transition: all .5s;
+        background-color: #fff;
+    }
+
+    #header .head_in .nav_M {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background-color: rgba(0,0,0, 0.9);
+        height: 600px;
+        padding-top: 80px;
+    }
+    
+    #header .head_in .nav_M li {
+        cursor: pointer;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: #fff;
+        height: 40px;
+        width: 100%;
+        transition: all .5s;
+        font-size: 18px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    #header .head_in .nav_M li:first {
+        margin-top: 0px !important;
+    }
+
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(-8px, 6px);
+        color: #fff;
+    }
+    
+    .toggle .line2 {
+        opacity: 0;
+    }
+    
+    .toggle .line3 {
+        transform: rotate(45deg) translate(-8px, -6px);
+    }
+
+    /* header 끝 */
+
+    /* container 시작 */
+
+    /* main1 시작 */
+    /* main1 끝 */
+
+    /* main2 시작 */
+
+    .main2 {
+        background-image: url(../image/main2_bg.png);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        height: 100%;
+        padding-top: 150px;
+        width: 100%;
+    }
+
+    .main2_inner {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about {
+        margin-bottom: 200px;
+    }
+    
+    .main2 #video_con {
+        width: 820px;
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 100px;
+        height: 600px;
+    }
+    
+    .video_box {
+        position: sticky;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .video_box video {
+        width: 820px;
+        height: 460px;
+    }
+    
+    .about .about_box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+    .about .about_box .about_logo {
+        margin-right: 30px;
+    }
+    .about .about_box .about_logo img {
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .about .about_box .about_text {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .about .about_box .about_text_title {
+        margin-bottom: 40px;
+        font-size: 28px;
+    }
+    .about .about_box .about_text_info {
+        font-size: 20px;
+        line-height: 2em;
+        width: 700px;
+    }
+
+    .about_member {
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        column-gap: 10px;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 10px;
+        justify-content: center;
+    }
+    
+    .about_member .member_image {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .about_member .member_image .member_info {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about_member .member_image img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about_member .member_image:hover .member_info {
+        padding-top: 120px;
+    }
+
+    .pc_bar {
+        display: none;
+    }
+
+    /* nft intro 시작 */
+    #NFT_intro {}
+
+    .NFT_intro_left {
+        margin-right: 0px;
+        width: 500px;
+    }
+
+    .NFT_intro_left .intro_text_box {}
+    .NFT_intro_left .intro_text_box.kor_intro_info {
+        padding-top: 10px;
+    }
+
+    .NFT_intro_left .intro_text_box .intro_title {
+        color: #fff;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .NFT_intro_left .intro_text_box .intro_text_a {
+        font-size: 18px;
+        margin-bottom: 40px;
+        line-height: 1.8em;
+    }
+    .NFT_intro_left .intro_text_box .intro_text_b {
+        font-size: 18px;
+        margin-bottom: 60px;
+        line-height: 1.8em;
+    }
+
+    .NFT_intro_right {
+        margin-left: 20px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .NFT_intro_right img {
+        width: 400px;
+        height: 400px;
+    }
+
+    /* nft intro 끝 */
+
+    /* main2 끝 */
+
+    /* main3 시작 */
+
+    .main3 {
+        background: linear-gradient(To bottom, #a0e9c3, #cde39c, #f2c582, #ec9a7e);
+        padding-top: 180px;
+        padding-bottom: 180px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main3_inner {
+        width: 100%;
+    }
+
+    .main3_inner .about_santa .about_santa_left {
+        margin-right: 30px;
+        border: 2px solid #fff;
+        transform: rotate(30deg);
+        width: 300px;
+        height: 300px;
+    }
+
+    .main3_inner .about_santa .about_santa_left img {
+        transform: rotate(-30deg);
+        width: 300px;
+        height: 300px;
+    }
+
+    .main3_inner .about_santa .about_santa_right {
+        margin-left: 30px;
+        padding-top: 15px;
+    }
+
+    .main3_inner .about_santa .about_santa_right .santa_title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .main3_inner .about_santa .about_santa_right .santa_info {
+        font-size: 18px;
+        line-height: 1.8em;
+    }
+
+
+/* main3 끝 */
+    
+    /* container 끝 */
+
+        /* footer 시작 */
+
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #footer .ft_in {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #footer .ft_in .ft_box {
+        display: block;
+    }
+
+    #footer .ft_in .ft_box .ft_logo {
+        padding-top: 0px;
+        margin-right: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #footer .ft_in .ft_box .ft_logo img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #footer .ft_in .ft_box .ft_logo img.kpop_logo {
+        width: 100px;
+        padding-top: 1px;
+    }
+
+    #footer .ft_in .ft_box .ft_info {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    #footer .ft_in .ft_box .ft_sns {
+        margin-left: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    #footer .ft_in .ft_box .ft_sns img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .go_top {
+        position: fixed;
+        right: 10%;
+        bottom: 15%;
+        width: 44px;
+        height: 64px;
+    }
+    .go_top button {
+        background-image: url(../image/go_top.png);
+        width: 44px;
+        height: 64px;
+        transition: all .5s;
+        border: none;
+        background-color: inherit;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    .go_top button:hover {
+        background-image: url(../image/go_top.png);
+    }
+
+    /* footer 끝 */
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* main1 시작 */
+
+    .main1 {
+        height: 100vh;
+    }
+    .main1 .main1_box {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .main1 .main1_box .main_img {
+        width: 100%;
+        height: 100%;
+    }
+    .main1 .main1_box .main_img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -10;
+    }
+
+    .main1 .main1_box .main_title {
+        position: absolute;
+        left: 50%;
+        margin-left: -340px;
+        top: 320px;
+    }
+
+    .main1 .main1_box .main_title img {
+        width: 700px;
+    }
+    /* main1 끝 */
+
+    /* main2 시작 */
+
+    .main2 {
+        background-image: url(../image/main2_bg.png);
+        padding-top: 100px;
+        background-size: cover;
+    }
+
+    .main2_inner {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about {
+        margin-bottom: 100px;
+    }
+
+    /* about video 시작 */
+    
+    .main2 #video_con {
+        width: 720px;
+        margin-bottom: 100px;
+        height: 460px;
+    }
+    
+    .video_box video {
+        width: 720px;
+        height: 460px;
+    }
+    
+    /* about video 끝 */
+
+    .about .about_box {
+        display: block;
+        margin-bottom: 100px;
+    }
+    .about .about_box .about_logo {
+        margin-right: 0px;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .about .about_box .about_logo img {
+        width: 300px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .about .about_box .about_text {
+        margin: 0 auto;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .about .about_box .about_text_title {
+        margin-bottom: 40px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .about .about_box .about_text_info {
+        margin: 0 auto;
+        display: inline-block;
+        font-size: 20px;
+        line-height: 1.8em;
+        width: 700px;
+        text-align: center;
+    }
+
+    .about_member {
+        display: grid;
+        grid-template-columns: 220px 220px 220px;
+        column-gap: 10px;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 10px;
+        justify-content: center;
+    }
+    
+    .about_member .member_image {
+        width: 220px;
+        height: 220px;
+        margin: 0 auto;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .about_member .member_image .member_info {
+        width: 220px;
+        height: 220px;
+    }
+
+    .about_member .member_image img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .about_member .member_image:hover .member_info {
+        padding-top: 120px;
+    }
+
+    .pc_bar {
+        display: none;
+    }
+
+
+    #NFT_intro {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        display: block;
+        text-align: center;
+    }
+
+    .NFT_intro_left {
+        margin: 0 auto;
+        margin-right: 0px;
+        width: 650px;
+        display: inline-block;
+    }
+
+    .NFT_intro_left .intro_text_box.kor_intro_info {
+        padding-top: 10px;
+    }
+
+    .NFT_intro_left .intro_text_box .intro_title {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .NFT_intro_left .intro_text_box .intro_text_a {
+        font-size: 18px;
+        margin-bottom: 40px;
+        line-height: 1.8em;
+    }
+    .NFT_intro_left .intro_text_box .intro_text_b {
+        font-size: 18px;
+        margin-bottom: 60px;
+        line-height: 1.8em;
+    }
+
+    .NFT_intro_right {
+        display: inline-block;
+        margin-left: 0px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .NFT_intro_right img {
+        padding-right: 4px;
+        padding-bottom: 4px;
+        width: 400px;
+        height: 400px;
+    }
+
+    /* nft intro 끝 */
+
+    /* main3 시작 */
+
+    .main3_inner .about_santa {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .main3_inner .about_santa .about_santa_left {
+        margin-right: 0px;
+        width: 350px;
+        height: 350px;
+        display: inline-block;
+        margin-bottom: 120px;
+    }
+
+    .main3_inner .about_santa .about_santa_left img {
+        width: 350px;
+        height: 350px;
+        text-align: center;
+    }
+
+    .main3_inner .about_santa .about_santa_right {
+        display: inline-block;
+        width: 650px;
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+
+    .main3_inner .about_santa .about_santa_right .santa_title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .main3_inner .about_santa .about_santa_right .santa_info {
+        font-size: 18px;
+        line-height: 1.8em;
+    }
+
+    /* main3 끝 */
+
+
+    .go_top {
+        right: 12%;
+        bottom: 6%;
+        width: 40px;
+        height: 50px;
+    }
+    .go_top button {
+        background-image: url(../image/go_top.png);
+        width: 40px;
+        height: 50px;
+        border: none;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /* header 시작 */
+
+    #header .head_in .nav_M li {
+        font-size: 16px;
+    }
+    /* header 끝 */
+
+    /* container 시작 */
+
+    /* main1 시작 */
+    .main1 .main1_box .main_title {
+        position: absolute;
+        left: 50%;
+        margin-left: -185px;
+        top: 350px;
+    }
+
+    .main1 .main1_box .main_title img {
+        width: 380px;
+    }
+    /* main1 끝 */
+
+    /* main2 시작 */
+
+    .main2_inner {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about {
+        margin-bottom: 0px;
+    }
+
+    /* about video 시작 */
+
+    .main2 {
+        background-size: cover;
+        background-position: center;
+    } 
+    
+    .main2 #video_con {
+        width: 390px;
+        margin-bottom: 100px;
+        height: 220px;
+        display: none;
+    }
+    
+    .video_box video {
+        width: 390px;
+        height: 220px;
+    }
+    
+    /* about video 끝 */
+
+    .about .about_box {
+        display: block;
+        margin-bottom: 100px;
+    }
+    .about .about_box .about_logo {
+        margin-right: 0px;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .about .about_box .about_logo img {
+        width: 250px;
+    }
+    .about .about_box .about_text {
+        margin: 0 auto;
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .about .about_box .about_text_title {
+        margin-bottom: 30px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .about .about_box .about_text_info {
+        font-size: 18px;
+        line-height: 1.8em;
+        width: 100%;
+        text-align: left;
+    }
+
+    .about_member {
+        display: grid;
+        grid-template-columns: 180px 180px;
+        column-gap: 10px;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 10px;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    
+    .about_member .member_image {
+        width: 180px;
+        height: 180px;
+        margin: 0 auto;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .about_member .member_image .member_info {
+        width: 180px;
+        height: 180px;
+    }
+
+    .about_member .member_image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .about_member .member_image:hover .member_info {
+        padding-top: 120px;
+    }
+
+    .about_member .member_image .member_info .member_name {
+        font-size: 14px;
+    }
+    
+    .about_member .member_image .member_info .center_bar {
+        width: 4px;
+        height: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 4px;
+    }
+    
+    .about_member .member_image .member_info .member_birth {
+        font-size: 14px;
+    }
+
+    .ta_bar {
+        display: none;
+    }
+
+    .NFT_intro_left {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .NFT_intro_left .intro_text_box.kor_intro_info {
+        padding-top: 10px;
+    }
+
+    .NFT_intro_left .intro_text_box .intro_title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .NFT_intro_left .intro_text_box .intro_text_a {
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 1.6em;
+        text-align: left;
+    }
+    .NFT_intro_left .intro_text_box .intro_text_b {
+        font-size: 16px;
+        margin-bottom: 60px;
+        line-height: 1.6em;
+        text-align: left;
+    }
+
+    .NFT_intro_right {
+        width: 360px;
+        height: 360px;
+    }
+
+    .NFT_intro_right img {
+        padding-right: 4px;
+        padding-bottom: 4px;
+        width: 360px;
+        height: 360px;
+    }
+
+    /* nft intro 끝 */
+
+    /* main2 끝 */
+
+    /* main3 시작 */
+
+    .main3_inner .about_santa .about_santa_left {
+        width: 300px;
+        height: 300px;
+    }
+
+    .main3_inner .about_santa .about_santa_left img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .main3_inner .about_santa .about_santa_right {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+
+    .main3_inner .about_santa .about_santa_right .santa_title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .main3_inner .about_santa .about_santa_right .santa_info {
+        font-size: 16px;
+        line-height: 1.6em;
+        text-align: left;
+    }
+
+    /* main3 끝  */
+
+    /* container 끝 */
+}
+
+@media screen and (max-width: 424px) {
+    /* header 시작 */
+    
+    #header .head_in .head_logo a img {
+        margin-top: 24px;
+        width: 120px;
+    }
+
+    #header .head_in .burger_menu {
+        right: 3%;
+        top: 27%;
+    }
+    #header .head_in .burger_menu div {
+        width: 26px;
+    }
+
+    #header .head_in .nav_M {
+        padding-top: 60px;
+    }
+
+    /* header 끝 */
+
+    /* container 시작 */
+
+    /* main1 시작 */
+    .main1 .main1_box .main_title {
+        position: absolute;
+        left: 50%;
+        margin-left: -145px;
+        top: 350px;
+    }
+
+    .main1 .main1_box .main_title img {
+        width: 300px;
+    }
+    /* main1 끝 */
+
+    /* main2 시작 */
+
+
+    .about .about_box .about_logo img {
+        width: 200px;
+    }
+
+    .about .about_box .about_text_title {
+        margin-bottom: 20px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .about .about_box .about_text_info {
+        font-size: 16px;
+    }
+
+    .about_member {
+        grid-template-columns: 140px 140px;
+    }
+    
+    .about_member .member_image {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .about_member .member_image .member_info {
+        width: 140px;
+        height: 140px;
+    }
+
+    .about_member .member_image img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .about_member .member_image:hover .member_info {
+        padding-top: 65px;
+    }
+
+    .about_member .member_image .member_info .member_name {
+        font-size: 12px;
+    }
+    
+    .about_member .member_image .member_info .center_bar {
+        width: 4px;
+        height: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .about_member .member_image .member_info .member_birth {
+        font-size: 12px;
+    }
+
+
+    .NFT_intro_left .intro_text_box .intro_title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .NFT_intro_right {
+        width: 260px;
+        height: 260px;
+    }
+
+    .NFT_intro_right img {
+        padding-right: 4px;
+        padding-bottom: 4px;
+        width: 260px;
+        height: 260px;
+    }
+
+    /* nft intro 끝 */
+
+    /* main2 끝 */
+
+    /* main3 시작 */
+
+    .main3_inner .about_santa .about_santa_left {
+        width: 220px;
+        height: 220px;
+    }
+
+    .main3_inner .about_santa .about_santa_left img {
+        width: 220px;
+        height: 220px;
+    }
+
+    /* main3 끝  */
+
+    /* container 끝 */
+}
+

@@ -1,0 +1,316 @@
+@charset "utf-8";
+
+/* header 시작 */
+
+#header .hd_in {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header .hd_in .easter_egg {
+    position: absolute;
+    left: 740px;
+    top: 46px;
+}
+#header .hd_in .easter_egg img {
+    width: 30px;
+    height: 30px;
+}
+
+#header .hd_in .hd_top {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#header .hd_in .hd_top .hd_logo {
+    cursor: pointer;
+}
+
+#header .hd_in .hd_top .hd_img {
+    margin-left: 100px;
+    margin-right: 20px;
+}
+#header .hd_in .hd_top .lang_pc {
+    font-family: "Neo";
+    font-size: 18px;
+    padding-top: 35px;
+}
+#header .hd_in .hd_top .lang_pc .eng {}
+#header .hd_in .hd_top .lang_pc .kor {}
+#header .hd_in .hd_top .lang_pc .lang_on {
+    color: red;
+}
+
+
+#header .hd_in .hd_bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #9c9c9c;
+    height: 30px;
+}
+
+#header .hd_in .hd_bottom .nav {
+    display: flex;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+#header .hd_in .hd_bottom .nav li {
+    font-family: "neo";
+    font-size: 18px;
+    color: #fff;
+    background-color: #5e5e5e;
+    padding-top: 3px;
+}
+
+#header .hd_in .hd_bottom .nav li:hover {
+    background-color: #3e3e3e;
+}
+
+#header .hd_in .hd_bottom .nav li:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#header .hd_in .hd_bottom .nav li:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+#header .hd_in .hd_bottom .nav li a {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#header .hd_in .hd_bottom .sns {
+    display: flex;
+    padding-top: 0px;
+}
+
+#header .hd_in .hd_bottom .sns li {
+    margin-left: 30px;
+    margin-right: 50px;
+    font-family: "Star";
+    padding-top: 6px;
+    font-weight: bold;
+}
+
+#header .hd_in .hd_bottom .sns li:nth-child(1) {
+    margin-right: 0px;
+}
+
+#header .hd_in .hd_bottom .sns li a {
+    display: flex;
+}
+
+#header .hd_in .hd_bottom .sns li a img {
+    margin-right: 5px;
+    width: 17px;
+    height: 17px;
+    box-shadow: 1px 1px 0.8px 0.8px #5e5e5e;
+}
+
+#header .hd_in .hd_bottom .sns li a p {
+    
+}
+
+.hd_m {
+    display: none;
+}
+
+/* 노트북 시작 */
+
+@media screen and (max-width:1300px) {
+
+    /* header 시작 */
+    #header .hd_in {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    #header .hd_in .easter_egg {
+        position: absolute;
+        left: 600px;
+        top: 46px;
+    }
+    #header .hd_in .easter_egg img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #header .hd_in .hd_top .hd_img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #header .hd_in .hd_bottom .nav li a {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    #header .hd_in .hd_bottom .sns li {
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+
+
+    /* header 끝 */
+
+}
+
+/* 노트북 끝 */
+
+/* 테블릿 시작 */
+
+@media screen and (max-width:1023px) {
+
+    /* header 시작 */
+
+    #header .hd_in {
+        display: none;
+    }
+
+    #header .hd_m {
+        width: 100%;
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-bottom: 2px solid #fcd10d;
+    }
+    
+    #header .hd_m .logo_m {}
+    #header .hd_m .logo_m img {}
+    #header .hd_m .menu_btn {
+        padding-top: 10px;
+    }
+
+    #header .hd_m .lang_mo {
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    #header .hd_m .lang_mo .lang_on {
+        color: red;
+    }
+
+    #header .hd_m .sidebar_menu {
+        display: none;
+        width: 40%;
+        height: 100%;
+        background-color: #fcd10d;
+        position: absolute;
+        top: 0;
+        right: -50%;
+        z-index: 999;
+        border-radius: 30px 0px 0px 30px;
+        position: fixed;
+    }
+
+    #header .hd_m .sidebar_menu .close_btn {
+        position: absolute;
+        right: 8%;
+        top: 2.5%;
+    }
+
+    #header .hd_m .sidebar_menu .menu_wrap {
+        margin-top: 120px;
+        margin-bottom: 80px;
+    }
+    #header .hd_m .sidebar_menu .menu_wrap li {
+        text-align: center;
+        line-height: 3em;
+        font-family: "Uhbee";
+        font-weight: bold;
+        color: red;
+        font-size: 22px;
+        text-shadow: 1px 1px #fff, 2px 2px #fff, -1px -1px #fff, -2px -2px #fff;
+    }
+    #header .hd_m .sidebar_menu .menu_wrap li a {
+        width: 100%;
+    }
+
+    #header .hd_m .sidebar_menu .sns_wrap {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    #header .hd_m .sidebar_menu .sns_wrap li {
+        margin: 0 8px;
+        font-family: "Star";
+        font-weight: bold;
+    }
+
+    #header .hd_m .sidebar_menu .sns_wrap li a {
+        display: flex;
+    }
+
+    #header .hd_m .sidebar_menu .sns_wrap li a img {
+        width: 17px;
+        height: 17px;
+        box-shadow: 1px 1px 0.8px 0.8px #5e5e5e;
+    }
+
+    #header .hd_m .sidebar_menu .sns_wrap li a p {
+        margin-left: 5px;
+    }
+
+    /* header 끝 */
+
+}
+
+/* 테블릿 끝 */
+
+/* 모바일 시작 */
+
+@media screen and (max-width:425px) {
+
+    /* header 시작 */
+
+    #header .hd_m {
+        height: 60px;
+    }
+
+    #header .hd_m .logo_m img {
+        width: 120px;
+    }
+
+    #header .hd_m .menu_btn {
+        padding-top: 5px;
+    }
+
+    #header .hd_m .menu_btn img {
+        width: 25px;
+    }
+
+    #header .hd_m .sidebar_menu {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #header .hd_m .sidebar_menu .close_btn {
+        width: 25px;
+        position: absolute;
+        right: 5%;
+        top: 2%;
+    }
+
+    #header .hd_m .sidebar_menu .menu_wrap {
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+
+    #header .hd_m .sidebar_menu .menu_wrap li {
+        font-size: 18px;
+    }
+
+    /* header 끝 */
+
+}
+
+/* 모바일 끝 */

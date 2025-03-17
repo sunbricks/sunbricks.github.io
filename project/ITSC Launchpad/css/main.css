@@ -1,0 +1,2210 @@
+@charset "utf-8";
+
+/* 공통 시작 */
+
+#ITSC_container {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.ITSC_inner {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ITSC_section_line_box {
+    display: flex;
+    justify-content: space-between;
+}
+.ITSC_section_line_box .ITSC_section_line_01 {
+    width: 70%;
+    height: 10px;
+    background-color: #191a1b;
+    border-radius: 10px;
+}
+.ITSC_section_line_box .ITSC_section_line_02 {
+    width: 25%;
+    height: 10px;
+    background-color: #191a1b;
+    border-radius: 10px;
+}
+
+/* 공통 끝 */
+
+/* section 1 시작 */
+
+.ITSC_main1 {
+    margin-bottom: 50px;
+}
+
+.ITSC_main1 .ITSC_banner_pc {
+    display: none;
+}
+
+.ITSC_main1 img {
+    width: 100%;
+}
+
+/* section 1 끝 */
+
+/* section 2 시작 */
+
+.ITSC_main2 {
+    padding-bottom: 50px;
+}
+
+.ITSC_main2 .main2_content_box {
+    margin-bottom: 50px;
+}
+
+.ITSC_main2 .about_left {
+    margin-bottom: 50px;
+}
+
+.ITSC_main2 .about_left .left_con_01 {
+    padding: 10px 20px;
+    color: #fff;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    display: inline;
+    border-radius: 20px;
+    font-family: "Inter-R";
+    height: 100%;
+}
+
+.ITSC_main2 .about_left .left_con_02 {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 40px;
+    font-family: "IBM-B";
+}
+
+.ITSC_main2 .about_left .left_con_03 {
+    word-break: keep-all;
+    font-size: 16px;
+    margin-top: 30px;
+    color: #fff;
+    line-height: 1.6em;
+    font-family: "IBM-R";
+}
+
+.ITSC_main2 .about_right {
+    color: #a9a9a9;
+}
+
+.ITSC_main2 .about_right .right_con_01 {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.5);
+}
+
+.ITSC_main2 .about_right .right_con_01 .r_con_01_info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ITSC_main2 .about_right .right_con_01 .r_con_01_info .info_name {
+    font-family: "Inter-R";
+}
+
+.ITSC_main2 .about_right .right_con_01 .r_con_01_info .info_content {
+    line-height: 1.6em;
+    font-family: "Inter-B";
+    text-align: right;
+}
+
+
+.ITSC_main2 .about_right .right_con_02 {
+    
+}
+
+.ITSC_main2 .about_right .right_con_02 .r_con_02_info {
+    line-height: 2.4em;
+    display: flex;
+    font-size: 16px;
+    position: relative;
+}
+
+.ITSC_main2 .about_right .right_con_02 .r_con_02_info .info_name {
+    font-family: "Inter-L";
+    width: 230px;
+}
+
+.ITSC_main2 .about_right .right_con_02 .r_con_02_info .info_name::after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 160px;
+    bottom: 12px;
+    width: 2px;
+    height: 14px;
+    background-color: rgba(169, 169, 169, 0.3);
+
+}
+
+.ITSC_main2 .about_right .right_con_02 .r_con_02_info .info_content {
+    font-family: "Inter-L";
+    text-align: left;
+    margin-left: 50px;
+    width: 60%;
+}
+
+/* section 2 끝 */
+
+/* section 3 시작 */
+
+.ITSC_main3 {
+    margin-bottom: 50px;
+}
+
+.ITSC_main3 .ITSC_main3_box {
+    margin-bottom: 50px;
+}
+
+.ITSC_main3 .main3_img img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.ITSC_main3 .intro_box {}
+.ITSC_main3 .intro_box .intro_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 30px;
+}
+
+.ITSC_main3 .intro_box .intro_text {
+    color: #fff;
+    line-height: 2em;
+    font-family: "IBM-R";
+    font-size: 15px;
+}
+
+.ITSC_main3 .intro_box .intro_text_a {
+    margin-bottom: 30px;
+}
+
+.ITSC_main3 .intro_box .intro_text_b {
+    margin-bottom: 30px;
+}
+
+.ITSC_main3 .intro_box .intro_text_c {}
+
+/* section 3 끝 */
+
+/* section 4 시작 */
+
+.ITSC_main4 {
+    padding-bottom: 50px;
+}
+
+.ITSC_main4 .ITSC_main4_box {
+    margin-bottom: 50px;
+}
+
+.ITSC_main4 .main4_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 30px;
+}
+
+.ITSC_main4 .ITSC_story_box {
+    text-align: center;
+    font-family: "IBM-R";
+    font-size: 16px;
+}
+
+.ITSC_main4 .ITSC_story_box .story_img {
+    margin-bottom: 20px;
+}
+
+.ITSC_main4 .ITSC_story_box .story_img img {
+    width: 100%;
+}
+
+.ITSC_main4 .ITSC_story_box .story_ico {
+    margin-bottom: 20px;
+}
+
+.ITSC_main4 .ITSC_story_box .story_text {
+    line-height: 1.8em;
+    word-break: keep-all;
+}
+
+.ITSC_main4 .ITSC_story_box .story_text_a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ITSC_main4 .ITSC_story_box .story_text_b {
+    color: #9a9a9a;
+    font-size: 15px;
+}
+
+.ITSC_main4 .ITSC_story_box .story_ico img {
+    width: 60px;
+}
+.ITSC_main4 .ITSC_story_box .story_01_box {
+    margin-bottom: 40px;
+}
+.ITSC_main4 .ITSC_story_box .story_02_box {
+    margin-bottom: 40px;
+}
+.ITSC_main4 .ITSC_story_box .story_03_box {
+    margin-bottom: 40px;
+}
+
+/* section 4 끝 */
+
+/* section 5 시작 */
+
+.ITSC_main5 {
+    padding-bottom: 50px;
+}
+
+.ITSC_main5 .ITSC_main5_box {
+    margin-bottom: 50px;
+}
+
+.ITSC_main5 .main5_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 30px;
+}
+
+.ITSC_main5 .mint_info_box .mint_info_bg {
+    background-image: url(../img/mint_bg.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.ITSC_main5 .mint_info_box .mint_info {
+    height: 180px;
+    width: 100%;
+    padding: 40px 20px;
+    color: #fff;
+    line-height: 2em;
+    font-family: "IBM-R";
+    word-break: keep-all;
+    font-size: 15px;
+}
+
+.ITSC_main5 .mint_info_box .mint_info span {
+    color: #a9a9a9;
+}
+
+/* section 5 끝 */
+
+/* section 6 시작 */
+
+.ITSC_main6 {
+    padding-bottom: 50px;
+}
+
+.ITSC_main6 .ITSC_main6_box {
+    margin-bottom: 50px;
+}
+
+.ITSC_main6 .main6_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 50px;
+}
+
+.ITSC_swiper-container .swiper-wrapper {
+    transition-duration: 6000ms;
+    transform: translate3d(-3848.5px, 0px, 0px);
+    transition-timing-function: linear !important;
+}
+
+.ITSC_swiper-container {
+    margin-bottom: 50px;
+}
+
+.ITSC_swiper-container .swiper-slide {}
+.ITSC_swiper-container .swiper-slide img {
+    border: 1px solid #606060;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ITSC_main6 .main6_text img {
+    width: 100%;
+}
+
+/* section 6 끝 */
+
+/* section 7 시작 */
+
+.ITSC_main7 {
+    padding-bottom: 50px;
+}
+
+.ITSC_main7 .ITSC_main7_box {
+    margin-bottom: 50px;
+}
+
+.ITSC_main7 .main7_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 50px;
+}
+
+.ITSC_main7 .ITSC_main7_box .roadmap_img {
+    text-align: center;
+}
+
+.ITSC_main7 .ITSC_main7_box .roadmap_img img.road_img_mo {
+    width: 100%;
+}
+.ITSC_main7 .ITSC_main7_box .roadmap_img img.road_img_pc {
+    display: none;
+}
+
+/* section 7 끝 */
+
+/* section 8 시작 */
+
+.ITSC_main8 {
+    padding-bottom: 50px;
+}
+
+.ITSC_main8 .ITSC_main8_box {
+    margin-bottom: 50px;
+}
+
+.ITSC_main8 .main8_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 50px;
+}
+
+.ITSC_main8 .mint_info_box {
+    color: #fff;
+}
+
+.ITSC_main8 .mint_info_box .mint_info {
+    margin-bottom: 50px;
+}
+
+.ITSC_main8 .mint_info_box .mint_info .top_info {
+    font-family: "IBM-B";
+}
+
+.ITSC_main8 .mint_info_box .mint_info .top_info .sale {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ITSC_main8 .mint_info_box .mint_info .top_info .role {
+    font-size: 20px;
+    color: #a9a9a9;
+    margin-bottom: 20px;
+}
+
+.ITSC_main8 .mint_info_box .mint_info ul li {
+    display: flex;
+    justify-content: space-between;
+    line-height: 3em;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.3);
+    justify-items: center;
+    align-items: center;
+    font-family: "IBM-R";
+}
+
+.ITSC_text_point {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ITSC_right_pick {
+    text-align: right;
+}
+
+
+/* section 8 끝 */
+
+/* section 9 시작 */
+
+.ITSC_main9 {
+    margin-bottom: 50px;
+}
+.ITSC_main9 .ITSC_main9_box {}
+
+.ITSC_main9 .main9_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 50px;
+}
+
+.ITSC_que {
+    position: relative;
+    padding: 17px 0;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #606060;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    font-family: "IBM-B";
+    font-size: 16px;
+    color: #fff;
+}
+
+.ITSC_que_box {
+    margin-bottom: 30px;
+}
+
+.ITSC_que::before{
+    display: inline-block;
+    content: 'Q.';
+    font-size: 16px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.ITSC_que.on>span{
+    font-weight: bold;
+}
+
+.ITSC_anw {
+    display: none;
+    overflow: hidden;
+    font-size: 14px;
+    color: #a9a9a9;
+    background-color: #101010;
+    border: 1px solid #606060;
+    padding: 17px 20px;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    border-top: none;
+    font-family: "IBM-R";
+    word-break: keep-all;
+}
+
+.ITSC_anw::before {
+    display: inline-block;
+    content: 'A.';
+    font-size: 14px;
+    color: #a9a9a9;
+    margin: 0 5px;
+}
+
+/* section 9 끝 */
+
+/* section 10 시작 */
+
+.ITSC_main10 {
+    margin-bottom: 50px;
+}
+.ITSC_main10 .ITSC_main10_box {
+    padding-bottom: 50px;
+}
+.ITSC_main10 .main10_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 50px;
+}
+
+.ITSC_main10 .sns_box {
+    text-align: center;
+    color: #fff;
+    font-family: "IBM-B";
+    font-size: 18px;
+}
+
+.ITSC_main10 .sns_box a {
+    display: flex;
+    line-height: 2em;
+    padding: 16px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.ITSC_main10 .sns_box a.go_site {
+    background-color: #d5b958;
+    margin-bottom: 20px;
+}
+
+.ITSC_main10 .sns_box a.go_discord {
+    background-color: #7289da;
+    margin-bottom: 20px;
+}
+
+.ITSC_main10 .sns_box a.go_twitterKR {
+    background-color: #1d9bf0;
+    margin-bottom: 20px;
+}
+
+.ITSC_main10 .sns_box a.go_instar {
+    background-color: #b473ca;
+    margin-bottom: 20px;
+}
+
+.ITSC_main10 .sns_box a.go_kakao {
+    background-color: #fbe300;
+    margin-bottom: 20px;
+}
+
+.ITSC_main10 .sns_box a.go_linktree {
+    background-color: #39e09b;
+}
+
+.ITSC_main10 .sns_box a.go_site .site_btn {
+    background-image: url(../img/ITSC_btn_ico.png);
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.ITSC_main10 .sns_box a.go_discord .discord_btn {
+    background-image: url(../img/discord_btn_ico.png);
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.ITSC_main10 .sns_box a.go_twitterKR .twitter_btn {
+    background-image: url(../img/twitter_btn_ico.png);
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.ITSC_main10 .sns_box a.go_instar .instar_btn {
+    background-image: url(../img/insta_btn_ico.png);
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.ITSC_main10 .sns_box a.go_kakao .kakao_btn {
+    background-image: url(../img/kakao_btn_ico.png);
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.ITSC_main10 .sns_box a.go_linktree .linktree_btn {
+    background-image: url(../img/linktree_btn_ico.png);
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+/* section 10 끝 */
+
+/* section 11 시작 */
+
+.ITSC_main11 {
+    padding-bottom: 150px;
+}
+.ITSC_main11 .ITSC_main11_box {}
+
+.ITSC_main11 .main11_title_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #606060;
+}
+
+.ITSC_main11 .main11_title_box img {
+    width: 30%;
+}
+
+.ITSC_main11 .main11_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    color: #fff;
+    font-family: "IBM-B";
+}
+
+.ITSC_main11 .ex_text_box {
+    color: #fff;
+    font-family: "IBM-R";
+    font-size: 16px;
+    word-break: keep-all;
+    border-bottom: 1px solid #606060;
+    margin-bottom: 35px;
+}
+
+.ITSC_main11 .ex_text {
+    line-height: 2em;
+    margin-bottom: 16px;
+}
+
+.ITSC_main11 .last_ann {
+    font-size: 15px;
+    color: #a9a9a9;
+    font-family: "IBM-R";
+    line-height: 2em;
+    word-break: keep-all;
+}
+
+/* section 11 끝 */
+
+/* section 12 시작 */
+
+.ITSC_main12 {}
+
+.ITSC_closed_btn {
+    padding: 5px 0px;
+    box-shadow: 1px 1px 10px #000;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+    display: block;
+    color: #fff;
+    background-color: #191a1b;
+}
+
+.ITSC_closed_btn img {}
+
+.ITSC_open_btn {
+    padding: 5px 0px;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #191a1b;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.ITSC_open_btn img {
+    transform: rotate(180deg);
+}
+
+.ITSC_main12 .time {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ITSC_main12 .time .time_text {
+    color: #e8632e;
+    font-family: "IBM-B";
+    font-size: 22px;
+    line-height: 1.4em;
+    width: 37%;
+}
+
+.ITSC_main12 .time .ITSC_TBA_MO {
+    font-family: "IBM-B";
+    color: #fff;
+    font-size: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.ITSC_main12 .time ul.time_table {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    width: 62%;
+}
+
+.ITSC_main12 .time .time_table li {
+    width: 50%;
+    line-height: 2em;
+}
+
+.ITSC_main12 .time .time_table li span {
+    color: #a9a9a9;
+    font-family: "IBM-R";
+}
+
+.ITSC_main12 .time .time_table li span.number_count {
+    color: #fff;
+    margin-right: 2px;
+    text-decoration: underline;
+    text-decoration-color : #fff;
+    text-underline-offset : 5px;
+    font-family: "IBM-B";
+    font-size: 16px;
+}
+
+.ITSC_sidebar_menu {
+    width: 100%;
+    height: 186px;
+    background-color: #191a1b;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    position: fixed;
+}
+
+.ITSC_btn_box {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #191a1b;
+    font-family: "IBM-B";
+    font-size: 16px;
+}
+
+.ITSC_btn_box .buy_btn, .ITSC_btn_box .go_btn {
+    width: 100%;
+    height: 100%;
+}
+
+.ITSC_btn_box .buy_btn a {
+    display: block;
+    padding: 15px;
+    border: 2px solid #e8632e;
+    background-color: #e8632e;
+}
+
+.ITSC_btn_box .go_btn a {
+    display: block;
+    padding: 15px;
+    border: 2px solid #e8632e;
+}
+
+.ITSC_main12 .ITSC_pc_ver {
+    display: none;
+}
+
+/* section 12 끝 */
+
+/* 태블릿 시작 */
+
+@media screen and (min-width: 425px) {
+    
+    /* section 4 시작 */
+
+    .ITSC_main5 .mint_info_box .mint_info_bg {
+        background-image: url(../img/mint_bg.png);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 210px;
+        margin-bottom: 30px;
+    }
+
+    .ITSC_main5 .mint_info_box .mint_info {
+        height: 210px;
+        width: 100%;
+        padding: 40px 20px;
+        padding-bottom: 0px;
+        color: #fff;
+        line-height: 2em;
+        font-family: "IBM-R";
+        word-break: keep-all;
+        font-size: 15px;
+    }
+
+    /* section 4 끝 */
+
+}
+
+@media screen and (min-width: 768px) {
+
+    /* 공통 시작 */
+
+    .ITSC_inner {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .ITSC_section_line_box .ITSC_section_line_01 {
+        width: 70%;
+        height: 10px;
+    }
+
+    .ITSC_section_line_box .ITSC_section_line_02 {
+        width: 25%;
+        height: 10px;
+    }
+
+    .ITSC_ta_line {
+        display: none;
+    }
+
+    /* 공통 끝 */
+
+    /* section 1 시작 */
+
+    .ITSC_main1 {
+        margin-bottom: 50px;
+    }
+
+    .ITSC_main1 .ITSC_banner_mo {
+        display: none;
+    }
+    .ITSC_main1 .ITSC_banner_pc {
+        display: block;
+    }
+
+    .ITSC_main1 img {
+        width: 100%;
+    }
+
+    /* section 1 끝 */
+
+    /* section 2 시작 */
+    
+    .ITSC_main2 .about_right .right_con_02 .r_con_02_info .info_name::after {
+        left: 350px;
+    }
+    
+    .ITSC_main2 .about_right .right_con_02 .r_con_02_info .info_content {
+        text-align: right;
+    }
+
+    /* section 2 끝 */
+
+    /* section 3 시작 */
+
+    .ITSC_main3 .main3_img {
+        text-align: center;
+    }
+
+    .ITSC_main3 .main3_img img {
+        width: 60%;
+        margin-bottom: 40px;
+    }
+
+    /* section 4 시작 */
+
+    .ITSC_main4 .ITSC_story_box .story_img img {
+        width: 300px;
+    }
+
+    /* section 4 끝 */
+
+    /* section 5 시작 */
+
+    .ITSC_main5 .main5_title {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .ITSC_main5 .mint_info_box {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .ITSC_main5 .mint_info_box .mint_info_bg {
+        background-size: contain;
+        background-position: center;
+        width: 50%;
+        height: 180px;
+        margin-bottom: 30px;
+    }
+
+    .ITSC_main5 .mint_info_box .mint_info {
+        width: 100%;
+        height: 180px;
+        padding: 40px 30px;
+        font-size: 16px;
+    }
+
+    .ITSC_main5 .mint_info_box .mint_info span {
+        color: #a9a9a9;
+    }
+
+    /* section 5 끝 */
+
+    /* section 6 시작 */
+
+    .ITSC_main6 .ITSC_main6_box .main6_text {
+        text-align: center;
+    }
+
+    .ITSC_main6 .ITSC_main6_box .main6_text img {
+        width: 500px;
+    }
+
+    /* section 6 끝 */
+
+    /* section 7 시작 */
+    
+    .ITSC_main7 .ITSC_main7_box .roadmap_img img.road_img_mo {
+        width: 400px;
+    }
+
+    /* section 7 끝 */
+
+
+    /* section 9 시작 */
+
+    .ITSC_main9 .main9_title_box img {
+        width: 120px;
+    }
+
+    /* section 9 끝 */
+
+}
+
+/* 태블릿 끝 */
+
+/* 노트북 시작 */
+
+@media screen and (min-width: 1024px) {
+
+    /* 공통 시작 */
+
+    .ITSC_inner {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .ITSC_section_line_box .section_line_01 {
+        width: 85%;
+        height: 10px;
+    }
+
+    .ITSC_section_line_box .section_line_02 {
+        width: 13%;
+        height: 10px;
+    }
+
+    .ITSC_mo_line {
+        display: none;
+    }
+
+    /* 공통 끝 */
+
+    /* section 1 시작 */
+
+    .ITSC_main1 {
+        margin-bottom: 80px;
+    }
+
+    /* section 1 끝 */
+
+    /* section 2 시작 */
+
+    .ITSC_main2 {
+        padding-bottom: 80px;
+    }
+    
+    .ITSC_main2 .main2_content_box {
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .ITSC_main2 .about_left {
+        margin-bottom: 0px;
+        width: 50%;
+    }
+    
+    .ITSC_main2 .about_left .left_con_01 {
+        padding: 15px 25px;
+        border-radius: 25px;
+        font-size: 18px;
+    }
+    
+    .ITSC_main2 .about_left .left_con_02 {
+        font-size: 38px;
+        margin-top: 40px;
+    }
+    
+    .ITSC_main2 .about_left .left_con_03 {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    
+    .ITSC_main2 .about_right .right_con_02 .r_con_02_info .info_name::after {
+        left: 180px;
+    }
+
+    /* section 2 끝 */
+
+    /* section 3 시작 */
+
+    .ITSC_main3 {
+        margin-bottom: 80px;
+    }
+    
+    .ITSC_main3 .ITSC_main3_box {
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 0px;
+    }
+
+    .ITSC_main3 .main3_img {
+        text-align: inherit;
+    }
+
+    .ITSC_main3 .main3_img img {
+        padding-top: 50px;
+        width: 380px;
+        margin-bottom: 0px;
+    }
+
+    .ITSC_main3 .intro_box {
+        width: 45%;
+    }
+
+    .ITSC_main3 .intro_box .intro_title {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+    
+    .ITSC_main3 .intro_box .intro_text {
+        font-size: 15px;
+    }
+    
+    .ITSC_main3 .intro_box .intro_text_a {
+        margin-bottom: 25px;
+    }
+    
+    .ITSC_main3 .intro_box .intro_text_b {
+        margin-bottom: 25px;
+    }
+
+    /* section 3 끝 */
+
+    /* section 4 시작 */
+
+    .ITSC_main4 {
+        padding-bottom: 80px;
+    }
+
+    .ITSC_main4 .ITSC_main4_box {
+        margin-bottom: 80px;
+    }
+
+    .ITSC_main4 .main4_title {
+        font-size: 38px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .ITSC_main4 .ITSC_story_box {
+        font-size: 18px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_img {
+        margin-bottom: 0px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_img img {
+        width: 300px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_ico {
+        margin-bottom: 0px;
+        position: absolute;
+    }
+    
+    .ITSC_main4 .ITSC_story_box .story_text {
+        border: 1px solid #606060;
+        border-radius: 50px;
+        height: 300px;
+        width: 700px;
+        background-color: #101010;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_text_a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 10px;
+        padding-top: 40px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_text_b {
+        color: #9a9a9a;
+        font-size: 16px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_ico img {
+        width: 60px;
+    }
+    .ITSC_main4 .ITSC_story_box .story_01_box {
+        margin-bottom: 150px;
+        display: flex;
+        position: relative;
+        margin-left: 240px;
+        text-align: left;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_01_box .story_text {
+        padding-left: 150px;
+        padding-right: 30px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_01_box .story_ico {
+        position: absolute;
+        right: 50px;
+        top: -20px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_01_box .story_img {
+        position: absolute;
+        bottom: 0;
+        left: -200px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_02_box {
+        margin-bottom: 150px;
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        margin-right: 240px;
+        text-align: left;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_02_box .story_text {
+        padding-right: 150px;
+        padding-left: 30px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_02_box .story_ico {
+        position: absolute;
+        top: -20px;
+        left: 50px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_02_box .story_img {
+        position: absolute;
+        bottom: 0;
+        right: -200px;
+    }
+
+
+    .ITSC_main4 .ITSC_story_box .story_03_box {
+        margin-bottom: 150px;
+        display: flex;
+        position: relative;
+        margin-left: 240px;
+        text-align: left;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_03_box .story_text {
+        padding-left: 150px;
+        padding-right: 30px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_03_box .story_ico {
+        position: absolute;
+        right: 50px;
+        top: -20px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_03_box .story_img {
+        position: absolute;
+        bottom: 0;
+        left: -200px;
+    }
+
+
+    .ITSC_main4 .ITSC_story_box .story_04_box {
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        text-align: left;
+        margin-right: 240px;
+        text-align: left;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_04_box .story_text {
+        padding-right: 150px;
+        padding-left: 30px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_04_box .story_ico {
+        position: absolute;
+        top: -20px;
+        left: 50px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_04_box .story_img {
+        position: absolute;
+        bottom: 0;
+        right: -200px;
+    }
+
+    /* section 4 끝 */
+
+    /* section 5 시작 */
+
+    .ITSC_main5 {
+        padding-bottom: 80px;
+    }
+
+    .ITSC_main45.main5_box {
+        margin-bottom: 80px;
+    }
+
+    .ITSC_main5 .main5_title {
+        font-size: 38px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .ITSC_main5 .mint_info_box {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .ITSC_main5 .mint_info_box .mint_info_bg {
+        background-size: contain;
+        background-position: center;
+        width: 50%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .ITSC_main5 .mint_info_box .mint_info_bg_pc {
+        background-image: url(../img/mint_none_bg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 50%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .ITSC_main5 .mint_info_box .mint_info {
+        width: 100%;
+        height: 200px;
+        padding: 40px 80px;
+        font-size: 18px;
+    }
+
+    .ITSC_main5 .mint_info_box .mint_info span {
+        color: #a9a9a9;
+    }
+
+    /* section 5 끝 */
+
+    /* section 6 시작 */
+
+    .ITSC_main6 {
+        padding-bottom: 80px;
+    }
+    .ITSC_main6 .ITSC_main6_box {
+        margin-bottom: 80px;
+    }
+    .ITSC_main6 .main6_title {
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 60px;
+    }
+
+    .ITSC_main6 .main6_text {
+        text-align: center;
+        width: 750px;
+        color: #fff;
+        line-height: 2em;
+        word-break: keep-all;
+        font-family: "IBM-R";
+        font-size: 18px;
+        padding: 0px 0px;
+        margin: 0 auto;
+    }
+
+    /* section 6 끝 */
+
+    /* section 7 시작 */
+
+    .ITSC_main7 {
+        padding-bottom: 80px;
+    }
+
+    .ITSC_main7 .ITSC_main7_box {
+        margin-bottom: 80px;
+    }
+
+    .ITSC_main7 .main7_title {
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 60px;
+    }
+
+    /* section 7 끝 */
+
+    /* section 8 시작 */
+
+    .ITSC_main8 {
+        padding-bottom: 80px;
+    }
+
+    .ITSC_main8 .ITSC_main8_box {
+        margin-bottom: 80px;
+    }
+
+    .ITSC_main8 .main8_title {
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 60px;
+    }
+
+    .ITSC_main8 .mint_info_box {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .ITSC_main8 .mint_info_box .mint_info {
+        margin-bottom: 0px;
+        width: 40%;
+    }
+
+    .ITSC_main8 .mint_info_box .mint_info .top_info .sale {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .ITSC_main8 .mint_info_box .mint_info .top_info .role {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .ITSC_main8 .mint_info_box .mint_info ul li {
+        margin-bottom: 10px;
+    }
+
+    .ITSC_text_point {
+        font-size: 18px;
+    }
+
+    .ITSC_right_pick {
+        text-align: right;
+    }
+
+    /* section 8 끝 */
+
+    /* section 9 시작 */
+
+    .ITSC_main9 {
+        margin-bottom: 80px;
+    }
+
+    .ITSC_main9 .ITSC_main9_box {
+        margin-bottom: 80px;
+    }
+
+    .ITSC_main9 .main9_title {
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 60px;
+    }
+
+    .ITSC_que {
+        padding: 18px 0;
+        font-size: 18px;
+    }
+
+    .ITSC_que_box {
+        margin: 0 auto;
+        width: 700px;
+        margin-bottom: 50px;
+    }
+
+    .ITSC_que::before{
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .ITSC_anw {
+        font-size: 16px;
+    }
+
+    .ITSC_anw::before {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    /* section 9 끝 */
+
+    /* section 10 시작 */
+
+    .ITSC_main10 {
+        margin-bottom: 80px;
+    }
+
+    .ITSC_main10 .ITSC_main10_box {
+        margin-bottom: 80px;
+        padding-bottom: 0px;
+        display: flex;
+        align-items: center;
+    }
+    .ITSC_main10 .main10_title {
+        font-size: 38px;
+        margin-bottom: 0px;
+        width: 30%;
+    }
+
+    .ITSC_main10 .sns_box {
+        width: 70%;
+        display: flex;
+        justify-content: right;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .ITSC_main10 .sns_box a {
+        width: 300px;
+        padding: 10px 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px !important;
+    }
+
+    .ITSC_main10 .sns_box a.go_kakao {
+        margin-bottom: 0px !important;
+    }
+    .ITSC_main10 .sns_box a.go_linktree {
+        margin-bottom: 0px !important;
+    }
+
+    
+
+    .ITSC_main10 .sns_box a.go_twitterKR:hover .twitter_btn {
+        background-image: url(../img/twitter_btn_ico_hover.png);
+    }
+
+    .ITSC_main10 .sns_box a.go_twitterKR:hover div {
+        color: #1d9bf0;
+    }
+
+    .ITSC_main10 .sns_box a.go_twitterKR:hover {
+        background-color: #fff;
+    }
+
+
+    .ITSC_main10 .sns_box a.go_discord:hover .discord_btn {
+        background-image: url(../img/discord_btn_ico_hover.png);
+    }
+
+    .ITSC_main10 .sns_box a.go_discord:hover div {
+        color: #7289da;
+    }
+
+    .ITSC_main10 .sns_box a.go_discord:hover {
+        background-color: #fff;
+    }
+
+    .ITSC_main10 .sns_box a.go_site:hover .site_btn {
+        background-image: url(../img/ITSC_btn_ico_hover.png);
+    }
+
+    .ITSC_main10 .sns_box a.go_site:hover div {
+        color: #d5b958;
+    }
+
+    .ITSC_main10 .sns_box a.go_site:hover {
+        background-color: #fff;
+    }
+
+    .ITSC_main10 .sns_box a.go_instar:hover .instar_btn {
+        background-image: url(../img/insta_btn_ico_hover.png);
+    }
+    
+    .ITSC_main10 .sns_box a.go_instar:hover div {
+        color: #b473ca;
+    }
+
+    .ITSC_main10 .sns_box a.go_instar:hover {
+        background-color: #fff;
+    }
+
+    .ITSC_main10 .sns_box a.go_kakao:hover .kakao_btn {
+        background-image: url(../img/kakao_btn_ico_hover.png);
+    }
+
+    .ITSC_main10 .sns_box a.go_kakao:hover div {
+        color: #fbe300;
+    }
+    
+    .ITSC_main10 .sns_box a.go_kakao:hover {
+        background-color: #fff;
+    }
+
+    .ITSC_main10 .sns_box a.go_linktree:hover .linktree_btn {
+        background-image: url(../img/linktree_btn_ico_hover.png);
+    }
+
+    .ITSC_main10 .sns_box a.go_linktree:hover div {
+        color: #39e09b;
+    }
+    
+    .ITSC_main10 .sns_box a.go_linktree:hover {
+        background-color: #fff;
+    }
+
+    /* section 10 끝 */
+
+    /* section 11 시작 */
+
+    .ITSC_main11 {
+        padding-bottom: 200px;
+    }
+
+    .ITSC_main11 .ITSC_main11_box {
+        margin: 0 auto;
+        width: 750px;
+    }
+
+    .ITSC_main11 .main11_title_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 50px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #606060;
+    }
+
+    .ITSC_main11 .main11_title_box img {
+        width: 120px;
+    }
+
+    .ITSC_main11 .main11_title {
+        font-size: 38px;
+    }
+
+    /* section 11 끝 */
+
+    /* section 12 시작 */
+
+    .ITSC_main12 .time {
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .ITSC_main12 .time .time_text {
+        padding-top: 12px;
+        font-size: 24px;
+        line-height: 1.4em;
+        width: 50%;
+        text-align: center;
+    }
+
+    .ITSC_main12 .time ul.time_table {
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        flex-wrap: wrap;
+        width: 75%;
+    }
+
+    .ITSC_main12 .time .time_table li {
+        width: 40%;
+    }
+
+    .ITSC_main12 .time .time_table li span {
+        font-size: 18px;
+    }
+
+    .ITSC_main12 .time .time_table li span.number_count {
+        color: #fff;
+        margin-right: 5px;
+        text-decoration: underline;
+        text-decoration-color : #fff;
+        text-underline-offset : 5px;
+        font-family: "IBM-B";
+        font-size: 20px;
+    }
+
+    .ITSC_sidebar_menu {
+        height: 182px;
+        z-index: 9999;
+    }
+
+    .ITSC_btn_box {
+        font-size: 18px;
+    }
+
+    /* section 12 끝 */
+
+}
+
+/* 노트북 끝 */
+
+/* PC 시작 */
+
+@media screen and (min-width: 1300px) {
+    /* 공통 시작 */
+
+    .ITSC_inner {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 1300px;
+    }
+
+    .ITSC_section_line_box .ITSC_section_line_01 {
+        width: 85%;
+    }
+
+    .ITSC_section_line_box .ITSC_section_line_02 {
+        width: 13%;
+    }
+
+    /* 공통 끝 */
+
+    /* section 1 시작 */
+
+    .ITSC_main1 {
+        margin-bottom: 100px;
+    }
+
+    /* section 1 끝 */
+
+    /* section 2 시작 */
+
+    .ITSC_main2 {
+        padding-bottom: 100px;
+    }
+
+    .ITSC_main2 .main2_content_box {
+        margin-bottom: 100px;
+    }
+
+    .ITSC_main2 .about_left {
+        padding-top: 18px;
+    }
+
+    .ITSC_main2 .about_left .left_con_03 {
+        line-height: 2em;
+    }
+
+    .ITSC_main2 .about_right {
+        width: 45%;
+    }
+
+    /* section 2 끝 */
+
+    /* section 3 시작 */
+
+    .ITSC_main3 {
+        margin-bottom: 100px;
+    }
+    
+    .ITSC_main3 .ITSC_main3_box {
+        margin-bottom: 100px;
+    }
+
+    .ITSC_main3 .main3_img img {
+        width: 440px;
+        margin-bottom: 0px;
+    }
+
+    .ITSC_main3 .intro_box {
+        width: 45%;
+    }
+
+    .ITSC_main3 .intro_box .intro_title {
+        margin-bottom: 35px;
+    }
+    
+    .ITSC_main3 .intro_box .intro_text {
+        font-size: 18px;
+    }
+    
+    .ITSC_main3 .intro_box .intro_text_a {
+        margin-bottom: 28px;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    
+    .ITSC_main3 .intro_box .intro_text_b {
+        margin-bottom: 28px;
+    }
+
+    /* section 3 끝 */
+
+    /* section 4 시작 */
+
+    .ITSC_main4 {
+        padding-bottom: 100px;
+    }
+
+    .ITSC_main4 .ITSC_main4_box {
+        margin-bottom: 100px;
+    }
+
+    .ITSC_main4 .main4_title {
+        margin-bottom: 200px;
+    }
+
+    .ITSC_main4 .ITSC_story_box {
+        font-size: 20px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_img img {
+        width: 360px;
+    }
+    
+    .ITSC_main4 .ITSC_story_box .story_text {
+        margin: 0 auto;
+        border-radius: 50px;
+        height: 320px;
+        width: 900px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_text_a {
+        font-size: 24px;
+        margin-bottom: 15px;
+        padding-top: 50px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_01_box {
+        margin-bottom: 200px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_01_box .story_ico {
+        top: -30px;
+        right: 120px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_02_box {
+        margin-bottom: 200px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_02_box .story_ico {
+        top: -30px;
+        left: 120px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_03_box {
+        margin-bottom: 200px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_03_box .story_text {
+        padding-left: 150px;
+        padding-right: 30px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_03_box .story_ico {
+        right: 120px;
+        top: -30px;
+    }
+
+    .ITSC_main4 .ITSC_story_box .story_04_box .story_ico {
+        position: absolute;
+        top: -30px;
+        left: 120px;
+    }
+
+    /* section 4 끝 */
+
+    /* section 5 시작 */
+
+    .ITSC_main5 {
+        padding-bottom: 100px;
+    }
+
+    .ITSC_main5 .ITSC_main5_box {
+        margin-bottom: 100px;
+    }
+
+    .ITSC_main5 .main5_title {
+        font-size: 38px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .ITSC_main5 .mint_info_box {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .ITSC_main5 .mint_info_box .mint_info_bg {
+        background-size: contain;
+        background-position: center;
+        width: 470px;
+        height: 220px;
+        margin-bottom: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .ITSC_main5 .mint_info_box .mint_info_bg_pc {
+        background-size: contain;
+        background-position: center;
+        width: 470px;
+        height: 220px;
+        margin-bottom: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+
+    .ITSC_main5 .mint_info_box .mint_info {
+        width: 430px;
+        height: 200px;
+        padding-top: 60px;
+        font-size: 18px;
+        padding-left: 50px;
+    }
+
+    /* section 5 끝 */
+
+    /* section 6 시작 */
+
+    .ITSC_main6 {
+        padding-bottom: 100px;
+    }
+    .ITSC_main6 .ITSC_main6_box {
+        margin-bottom: 100px;
+    }
+    .ITSC_main6 .main6_title {
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 80px;
+    }
+
+    .ITSC_main6 .main6_text {
+        width: 900px;
+        font-size: 20px;
+    }
+
+    /* section 6 끝 */
+
+    /* section 7 시작 */
+
+    .ITSC_main7 {
+        padding-bottom: 100px;
+    }
+
+    .ITSC_main7 .ITSC_main7_box {
+        margin-bottom: 100px;
+    }
+
+    .ITSC_main7 .main7_title {
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 60px;
+    }
+
+    .ITSC_main7 .ITSC_main7_box .roadmap_img img.road_img_mo {
+        display: none;
+    }
+
+    .ITSC_main7 .ITSC_main7_box .roadmap_img img.road_img_pc {
+        display: inline-block;
+        width: 600px;
+    }
+
+    /* section 7 끝 */
+
+    /* section 8 시작 */
+
+    .ITSC_main8 {
+        padding-bottom: 100px;
+    }
+
+    .ITSC_main8 .ITSC_main8_box {
+        margin-bottom: 100px;
+    }
+
+    .ITSC_main8 .main8_title {
+        margin-bottom: 80px;
+    }
+
+    .ITSC_main8 .mint_info_box .mint_info {
+        margin-bottom: 0px;
+        width: 40%;
+        font-size: 16px;
+    }
+
+    .ITSC_main8 .mint_info_box .mint_info .top_info .sale {
+        font-size: 24px;
+    }
+
+    .ITSC_main8 .mint_info_box .mint_info .top_info .role {
+        font-size: 24px;
+    }
+
+    .ITSC_main8 .mint_info_box .mint_info ul li {
+        margin-bottom: 20px;
+    }
+
+    .ITSC_text_point {
+        font-size: 18px;
+    }
+
+    /* section 8 끝 */
+
+    /* section 9 시작 */
+
+    .ITSC_main9 {
+        margin-bottom: 100px;
+    }
+
+    .ITSC_main9 .ITSC_main9_box {
+        margin-bottom: 100px;
+    }
+
+    .ITSC_main9 .main9_title {
+        margin-bottom: 80px;
+    }
+
+    .ITSC_que {
+        padding: 18px 0;
+        font-size: 20px;
+        line-height: 1.8em;
+    }
+
+    .ITSC_que_box {
+        width: 800px;
+        margin-bottom: 60px;
+    }
+
+    .ITSC_que::before{
+        font-size: 22px;
+        margin: 0 10px;
+    }
+
+    .ITSC_anw {
+        font-size: 20px;
+        line-height: 1.8em;
+    }
+
+    .ITSC_anw::before {
+        font-size: 22px;
+        margin: 0 10px;
+    }
+
+    /* section 9 끝 */
+
+    /* section 10 시작 */
+
+    .ITSC_main10 {
+        margin-bottom: 100px;
+    }
+
+    .ITSC_main10 .ITSC_main10_box {
+        margin-bottom: 100px;
+    }
+
+    .ITSC_main10 .sns_box {
+        font-size: 20px;
+    }
+
+    .ITSC_main10 .sns_box a {
+        padding: 15px 60px;
+        width: 420px;
+    }
+
+    /* section 10 끝 */
+
+    /* section 11 시작 */
+
+    .ITSC_main11 {
+        padding-bottom: 100px;
+    }
+
+    .ITSC_main11 .ITSC_main11_box {
+        width: 1100px;
+    }
+
+    .ITSC_main11 .ex_text_box {
+        font-size: 18px;
+    }
+
+    .ITSC_main11 .ex_text {
+        margin-bottom: 20px;
+    }
+
+    /* section 11 끝 */
+
+    /* section 12 시작 */
+
+    .ITSC_main12 .ITSC_tamo_ver {
+        display: none;
+    }
+
+    .ITSC_main12 .ITSC_pc_ver {
+        display: block;
+        text-align: center;
+    }
+
+    .ITSC_pc_ver .right_fixed {
+        position: absolute;
+        top: 500px;
+        right: 65px;
+        z-index: 9999;
+    }
+
+    .ITSC_pc_ver .right_fixed .ITSC_TBA_PC {
+        font-family: "IBM-B";
+        color: #fff;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+    .ITSC_pc_ver .right_fixed .pc_time {
+        background-color: #191a1b;
+        border-radius: 30px 30px 0px 0px;
+        width: 140px;
+        height: 250px;
+        padding-top: 20px;
+    }
+
+    .ITSC_pc_ver .right_fixed .pc_time .time_text {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 1.4em;
+        color: #e8632e;
+        font-family: "IBM-B";
+    }
+
+    .ITSC_pc_ver .right_fixed .pc_time .time_table li {
+        margin-bottom: 15px;
+    }
+
+    .ITSC_pc_ver .right_fixed .pc_time .time_table li:last-child {
+        margin-bottom: 0px;
+    }
+
+    .ITSC_pc_ver .right_fixed .pc_time .time_table li span {
+        font-family: "IBM-R";
+        font-size: 18px;
+        color: #a9a9a9;
+    }
+
+    .ITSC_pc_ver .right_fixed .pc_time .time_table li span.number_count {
+        color: #fff;
+        margin-right: 5px;
+        text-decoration: underline;
+        text-decoration-color : #fff;
+        text-underline-offset : 5px;
+        font-family: "IBM-B";
+        font-size: 20px;
+    }
+
+    .ITSC_pc_ver .right_fixed .btn_box_pc {
+        width: 140px;
+    }
+
+    .ITSC_pc_ver .right_fixed .btn_box_pc  .buy_btn_PC {
+        width: 100%;
+    }
+
+    .ITSC_pc_ver .right_fixed .btn_box_pc  .buy_btn_PC a {
+        width: 100%;
+        display: block;
+        background-color: #e8632e;
+        width: 140px;
+        padding: 15px 0px;
+        font-family: "IBM-B";
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .ITSC_pc_ver .right_fixed .btn_box_pc  .buy_btn_PC a:hover {
+        color: #e8632e;
+        background-color: #fff;
+    }
+
+    .ITSC_pc_ver .right_fixed .btn_box_pc .go_btn_PC a {
+        color: #fff;
+        width: 100%;
+        display: block;
+        background-color: #e8632e;
+        width: 140px;
+        padding: 15px 0px;
+        padding-bottom: 20px;
+        border-radius: 0px 0px 30px 30px;
+        font-family: "IBM-B";
+        font-size: 16px;
+    }
+
+    .ITSC_pc_ver .right_fixed .btn_box_pc .go_btn_PC a:hover {
+        color: #e8632e;
+        background-color: #fff;
+    }
+
+    /* section 12 끝 */
+
+}
+
+@media screen and (min-width: 1921px) {
+    .ITSC_pc_ver .right_fixed {
+        right: 250px;
+        top: 600px;
+    }
+}
+
+
+/* PC 끝 */
+

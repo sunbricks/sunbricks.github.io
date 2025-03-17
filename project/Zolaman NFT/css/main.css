@@ -1,0 +1,1300 @@
+@charset "utf-8";
+
+/* 공통 */
+
+#load {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    text-align: center;
+}
+
+#load img {
+    background-color: #fff;
+    transform: translate(50%, 60%);
+    margin-left: -500px;
+}
+
+.section_title {
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 100px;
+    font-family: "Neo";
+    font-size: 40px;
+    color: #e61f1f;
+    text-shadow: 0px 1px yellow, 1px 2px yellow, 2px 1px yellow, 1px 0px yellow;
+}
+
+/* 공통 끝 */
+
+
+/* main1 시작 */
+
+.main1 {
+    margin-top: 10px;
+}
+.main1 .main1_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px #000;
+    padding-bottom: 50px;
+}
+
+.ta_img, .mo_img {
+    display: none;
+}
+
+.main1_left {
+    width: 50%;
+    margin-right: 4px;
+}
+.main1_left .main1_left_top {
+    margin-bottom: 30px;
+}
+
+.top_con_img {
+    margin-bottom: 0px;
+}
+
+.pc_img {
+    display: none;
+}
+
+.top_con_box {
+    margin-bottom: 10px;
+}
+
+.top_con_btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: dotted 2px #b6cdf7;
+    font-family: "Neo";
+}
+
+.blue_point {
+    color: #00a6ea;
+}
+.red_point {
+    color: #e61f1f;
+}
+
+.text_box {
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+.text_box a {
+    color: blue;
+}
+.text_box .box_title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #3c4f72;
+}
+.text_box .box_title .title_text {
+    position: relative;
+}
+.text_box .box_title .title_text .int_kor {
+    font-family: "Neo";
+    color: #c39333;
+    padding-left: 20px;
+}
+
+.text_box .box_title .title_text .int_kor::before {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #c39333;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    margin-left: 4px;
+}
+
+.text_box .box_title .title_text .int_eng {
+    font-family: "StarS";
+    color: #3c4f72;
+    margin-left: 5px;
+}
+
+.text_box .box_title .more_view {
+    font-family: "Neo";
+    color: #3c4f72;
+    margin-right: 10px;
+    padding-top: 2px;
+}
+.text_box .box_info {
+    text-decoration: underline;
+    line-height: 1.8em;
+    padding-left: 15px;
+    padding-right: 40px;
+}
+
+.text_box .box_info .info_text_a {
+    font-weight: bold;
+}
+.text_box .box_info .info_text_b {}
+
+
+.main1_right {
+    width: 50%;
+    margin-left: 4px;
+}
+
+.box_side {
+    position: absolute;
+    bottom: 50px;
+    right: -10%;
+}
+
+.main1_right .right_con_img img {
+    width: 100%;
+}
+
+/* main1 끝 */
+
+/* main2 시작 */
+
+.main2 {}
+.main2 .main2_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    border-bottom: 2px solid #000;
+    padding-bottom: 120px;
+}
+
+.story_side {
+    position: absolute;
+    top: 0;
+    left: -73px;
+}
+
+.main2 .main2_inner .story_box {
+    text-align: center;
+}
+
+.main2 .main2_inner .story_box img {
+    margin-bottom: 80px;
+}
+
+.main2 .main2_inner .story_box .story_text {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.main2 .main2_inner .story_box .story_text span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.story_bot {
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+
+/* main2 끝 */
+
+/* main3 시작 */
+
+.main3 {}
+.main3 .main3_inner {
+    width: 1100px;
+    margin: 0 auto;
+    border-bottom: 2px solid #000;
+    padding-bottom: 120px;
+}
+
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.swiper-container .swiper-slide img {
+    width: 210px;
+    height: 210px;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+.swiper-wrapper {
+    transition-duration: 6000ms;
+    transform: translate3d(-3848.5px, 0px, 0px);
+    transition-timing-function: linear !important;
+}
+
+/* main3 끝  */
+
+/* main4 시작 */
+
+.main4 {}
+.main4 .main4_inner {
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+    border-bottom: 2px solid #000;
+}
+
+.roadmap_box {
+    width: 750px;
+    padding: 30px;
+    border: 3px solid #18a7f7;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.roadmap_box .roadmap_01_box {
+    margin-bottom: 30px;
+}
+
+.roadmap_box .roadmap_01_box .roadmap_01 {
+    display: flex;
+    border-bottom: 2px solid #18a7f7;
+    padding-bottom: 30px;
+}
+
+.roadmap_box .roadmap_01_box .roadmap_01 .roadmap_text_box {
+    margin-left: 18px;
+    font-family: "Neo";
+    text-align: center;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.roadmap_box .roadmap_01_box .roadmap_01 .roadmap_text_box .roadmap_text_a {
+    font-size: 22px;
+    line-height: 1.4em;
+    color: #0046c6;
+    margin-bottom: 50px;
+}
+
+.roadmap_box .roadmap_01_box .roadmap_01 .roadmap_text_box .roadmap_text_a span {
+    font-size: 30px;
+    color: #e5151f;
+}
+
+.roadmap_box .roadmap_01_box .roadmap_01 .roadmap_text_box .roadmap_text_b {
+    font-size: 24px;
+}
+/* box_01 */
+
+.roadmap_box .roadmap_02_box {
+    
+}
+.roadmap_box .roadmap_02_box .roadmap_02 {
+    display: flex;
+}
+
+.roadmap_box .roadmap_02_box .roadmap_02 .roadmap_text_box {
+    margin-left: 18px;
+    font-family: "Neo";
+    text-align: center;
+    width: 100%;
+    padding-top: 75px;
+}
+
+.roadmap_box .roadmap_02_box .roadmap_02 .roadmap_text_box .roadmap_text_a {
+    font-size: 22px;
+    line-height: 1.4em;
+    color: #0046c6;
+    margin-bottom: 50px;
+}
+
+.roadmap_box .roadmap_02_box .roadmap_02 .roadmap_text_box .roadmap_text_a div {
+    display: inline;
+}
+
+.roadmap_box .roadmap_02_box .roadmap_02 .roadmap_text_box .roadmap_text_a span {
+    font-size: 30px;
+    color: #e5151f;
+}
+
+.roadmap_box .roadmap_02_box .roadmap_02 .roadmap_text_box .roadmap_text_b {
+    font-size: 24px;
+}
+
+.roadmap_hidden {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.roadmap_hidden .hidden_line {
+    margin-bottom: 40px;
+}
+
+.roadmap_hidden .hidden_line .dotted {
+    margin: 0 auto;
+    width: 6px;
+    height: 6px;
+    background-color: #18a7f7;
+    margin-bottom: 14px;
+}
+.roadmap_hidden .hidden_btn {}
+.roadmap_hidden .hidden_btn img {}
+
+/* main4 끝 */
+
+/* main5 시작 */
+
+.main5 {
+    padding-bottom: 120px;
+}
+.main5 .main5_inner {
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    background-color: #fae5e4;
+    border-bottom: 2px solid #000;
+}
+.main5_member_box {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.main5_member_box .member {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../img/team_bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.main5_member_box .member .team_title {
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 60px;
+    font-family: "Neo";
+    font-size: 40px;
+    color: #e61f1f;
+    text-shadow: 0px 1px yellow, 1px 2px yellow, 2px 1px yellow, 1px 0px yellow;
+}
+
+.team_list_up {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap : wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.team_list_up li {
+    display: flex;
+    justify-content: left;
+    width: 350px;
+}
+.team_list_up li .team_img {
+    margin-bottom: 50px;
+}
+.team_list_up li .team_img img {}
+.team_list_up li .team_info {
+    font-family: "UhBee";
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.team_list_up li .team_info .team_name {
+    padding-top: 16px;
+    margin-bottom: 6px;
+}
+.team_list_up li .team_info .team_position {
+
+}
+
+/* main5 끝 */
+
+/* main6 시작 */
+
+.main6 {}
+.main6 .main6_inner {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    border-bottom: 2px solid #000;
+}
+
+.faq_side {
+    position: absolute;
+    top: -125px;
+    left: -43px;
+    z-index: -10;
+}
+
+.faq_title {
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: "Neo";
+    font-size: 40px;
+    color: #e61f1f;
+    text-shadow: 0px 1px yellow, 1px 2px yellow, 2px 1px yellow, 1px 0px yellow;
+}
+
+.main6 .main6_inner .faq_box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.faq_box .faq_box_left {
+    font-family: "Neo";
+    font-size: 22px;
+}
+
+.faq_box .faq_box_left .faq_kor {
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.faq_box .faq_box_left .faq_eng {}
+.faq_box .faq_box_right {
+    font-family: "Neo";
+    font-size: 18px;
+}
+
+.faq_box .faq_box_right .inc_acodian {}
+
+.acodian_list {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 450px;
+}
+
+.acodian_list.active {
+    width: 450px;
+}
+.acodian_list .quest_box {
+    width: 450px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li .arrow {
+    transform: rotate(-90deg);
+    transition: all 0.3s;
+    margin-left: 10px;
+}
+
+li.active .arrow {
+    transform: rotate(90deg);
+    transition: all 0.3s;
+}
+
+
+.acodian_list .quest_box .quest_info {
+    color: blue;
+    text-decoration: underline;
+}
+.acodian_list .info_text {}
+.acodian_list .info_text .answer_box {
+    
+}
+.acodian_list .info_text .answer_box .answer_info {
+
+}
+
+.faq_img {
+    position: absolute;
+    bottom: -70px;
+    left: 30px;
+}
+
+/* main6 끝 */
+
+/* 노트북 시작 */
+
+@media screen and (max-width:1300px) {
+
+    /* container 시작*/
+
+    /* main1 시작 */
+
+    .main1 .main1_inner {
+        width: 900px;
+    }
+    
+    .main1_left {
+        margin-right: 12px;
+    }
+
+    .main1_left .main1_left_top {
+        margin-bottom: 5px;
+    }
+
+    .top_con_box img {
+        width: 450px;
+    }
+
+    .board_list div.board_content {
+        width: 200px !important;
+    }
+
+    .text_box {
+        margin-bottom: 20px;
+    }
+
+    .text_box .box_title {
+        padding-bottom: 4px;
+        margin-bottom: 10px;
+    }
+    
+    .text_box .box_info {
+        line-height: 1.6em;
+        padding-right: 5px;
+    }
+    
+    .main1_right {
+        width: 50%;
+        margin-left: 5px;
+    }
+
+    .main1_right .right_con_img img {
+        width: 100%;
+    }
+    
+    .box_side {
+        position: absolute;
+        bottom: 65px;
+        right: -7%;
+    }
+
+    .box_side img {
+        width: 70px;
+    }
+
+    /* main1 끝 */
+
+    /* main2 시작 */
+
+    .main2 .main2_inner {
+        width: 900px;
+    }
+
+    /* main2 끝 */
+
+    /* main3 시작 */
+
+    .main3 {}
+    .main3 .main3_inner {
+        width: 900px;
+    }
+
+    .swiper-slide {}
+
+
+
+    /* main3 끝 */
+
+    /* main4 시작 */
+
+    .main4 {}
+    .main4 .main4_inner {
+        width: 900px;
+        margin: 0 auto;
+        padding-bottom: 120px;
+        border-bottom: 2px solid #000;
+    }
+
+    .roadmap_box {
+        width: 750px;
+        padding: 30px;
+        border: 3px solid #18a7f7;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .roadmap_box .roadmap_01_box {
+        margin-bottom: 30px;
+    }
+
+    .roadmap_box .roadmap_01_box .roadmap_01 {
+        display: flex;
+        border-bottom: 2px solid #18a7f7;
+        padding-bottom: 30px;
+    }
+
+    .roadmap_box .roadmap_01_box .roadmap_01 .roadmap_text_box {
+        margin-left: 18px;
+        font-family: "Neo";
+        text-align: center;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .roadmap_hidden {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .roadmap_hidden .hidden_line {
+        margin-bottom: 40px;
+    }
+
+    .roadmap_hidden .hidden_line .dotted {
+        margin: 0 auto;
+        width: 6px;
+        height: 6px;
+        background-color: #18a7f7;
+        margin-bottom: 14px;
+    }
+    .roadmap_hidden .hidden_btn {}
+    .roadmap_hidden .hidden_btn img {}
+
+    /* main4 끝 */
+
+    /* main5 시작 */
+
+    .main5 {}
+    .main5 .main5_inner {
+        width: 900px;
+    }
+    .main5_member_box {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    .main5_member_box .member {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-size: 95% 100%;
+    }
+
+    /* main5 끝 */
+
+    /* main6 시작 */
+
+    .main6 {
+        
+    }
+    .main6 .main6_inner {
+        width: 900px;
+    }
+
+    /* main6 끝 */
+
+    /* container 끝*/
+}
+
+/* 노트북 끝 */
+
+/* 테블릿 시작 */
+
+@media screen and (max-width:1023px) {
+
+    /* main1 시작 */
+
+    .main1 .main1_inner {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 5px;
+    }
+
+    .ta_content {
+        display: block;
+    }
+    .mo_content {
+        display: none;
+    }
+    .pc_content {
+        display: none;
+    }
+
+    .main1_inner .main1_left .main1_left_top .top_con_img {
+        margin-bottom: 30px;
+    }
+
+    .ta_img {
+        display: block;
+    }
+
+    img.ta_img {
+        width: 100%;
+    }
+
+    .main1_inner .main1_left {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .main1_inner .main1_left .main1_left_top .top_con_btn {
+        border: none;
+        margin-bottom: 0px;
+        margin: 0 auto;
+    }
+
+    .top_con_btn img {
+        width: 200px;
+    }
+
+    .main1_inner .main1_right {
+        width: 0%;
+        margin-left: 0px;
+    }
+
+    .top_con_box {
+        display: none;
+    }
+
+
+    /* main1 끝 */
+
+    /* main2 시작 */
+
+    .main2 {}
+
+    .main2 .main2_inner {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .story_side img {
+        width: 80%;
+    }
+
+    .story_side {
+        left: 3%;
+    }
+
+    /* main2 끝 */
+
+    /* main3 시작 */
+
+    .main3 {}
+    .main3 .main3_inner {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 40px;
+    }
+
+    .swiper-container .swiper-slide img {
+        width: 170px;
+        height: 170px;
+    }
+    /* main3 끝 */
+
+    /* main4 시작 */
+
+    .main4 {}
+    .main4 .main4_inner {
+        width: 100%;
+    }
+
+    .roadmap_box {
+        width: 550px;
+    }
+
+    .roadmap_box .roadmap_01_box .roadmap_01 {
+        display: block;
+    }
+
+    .roadmap_box .roadmap_01_box .roadmap_01 .roadmap_text_box {
+        padding-top: 30px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .roadmap_box .roadmap_01_box .roadmap_01 .roadmap_text_box .roadmap_text_a {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .roadmap_box .roadmap_01_box .roadmap_01 .roadmap_text_box .roadmap_text_b {
+        font-size: 20px;
+        padding-top: 0px;
+    }
+
+    /* box 1 */
+
+
+    .roadmap_box .roadmap_02_box .roadmap_02 {
+        display: block;
+    }
+
+    .roadmap_box .roadmap_02_box .roadmap_02 .roadmap_text_box {
+        padding-top: 30px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .roadmap_box .roadmap_02_box .roadmap_02 .roadmap_text_box .roadmap_text_a {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .roadmap_box .roadmap_02_box .roadmap_02 .roadmap_text_box .roadmap_text_b {
+        font-size: 20px;
+        padding-top: 0px;
+    }
+
+    /* box 2 */
+
+    .roadmap_hidden {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .roadmap_hidden .hidden_line {
+        margin-bottom: 40px;
+    }
+
+    .roadmap_hidden .hidden_line .dotted {
+        margin: 0 auto;
+        width: 6px;
+        height: 6px;
+        background-color: #18a7f7;
+        margin-bottom: 10px;
+    }
+    .roadmap_hidden .hidden_btn {}
+    .roadmap_hidden .hidden_btn img {
+        width: 300px;
+    }
+
+    .roadmap_img {
+        text-align: center;
+    }
+
+    .roadmap_img img {}
+
+    /* main4 끝 */
+
+    /* main5 시작 */
+
+    .main5 {}
+    .main5 .main5_inner {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main5_member_box .member .team_title {
+        margin-bottom: 50px;
+    }
+
+    .main5_member_box {
+        padding-bottom: 70px;
+    }
+
+    .team_list_up {
+        width: 600px;
+    }
+
+    .team_list_up li {
+        width: 250px;
+    }
+
+    .team_list_up li .team_img {
+        margin-bottom: 30px;
+    }
+
+    .team_list_up li .team_img img {
+        width: 50px;
+    }
+
+    .team_list_up li .team_info {
+        margin-left: 10px;
+    }
+
+    .team_list_up li .team_info p {
+        line-height: 1.4em;
+    }
+
+    .team_list_up li .team_info .team_name {
+        padding-top: 0px;
+    }
+
+    /* main5 끝 */
+
+    /* main6 시작 */
+
+    .main6 {}
+    .main6 .main6_inner {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .acodian_list {
+        width: 450px;
+    }
+    
+    .acodian_list.active {
+        width: 450px;
+    }
+    .acodian_list .quest_box {
+        width: 450px;
+        
+    }
+
+    .faq_side {
+        left: 0px;
+    }
+
+    .faq_side img {
+        width: 120px;
+    }
+
+    .faq_box .faq_box_left {
+        padding-top: 30px;
+    }
+
+    .faq_img {
+        bottom: -53px;
+    }
+
+    .faq_img img {
+        width: 300px;
+    }
+
+    /* main6 끝 */
+}
+
+/* 테블릿 끝 */
+
+/* 모바일 시작 */
+
+@media screen and (max-width:475px) {
+    .ta_img {
+        display: none;
+    }
+
+    .mo_img {
+        display: block;
+    }
+
+    img.mo_img {
+        width: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width:425px) {
+
+    /* 공통 */
+    .section_title {
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+
+    /* main1 시작 */
+
+    .main1 {}
+    .main1 .main1_inner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .mo_content {
+        display: block;
+    }
+
+    .mo_board {
+        display: none;
+    }
+
+    /* main1 끝 */
+
+    /* main2 시작 */
+
+    .main2 {}
+
+    .main2 .main2_inner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main2 .main2_inner .story_box img {
+        margin-bottom: 60px;
+    }
+
+    .main2 .main2_inner .story_box {
+        text-align: inherit;
+    }
+    
+    .main2 .main2_inner .story_box .story_text {
+        font-size: 15px;
+        line-height: 1.4em;
+    }
+    .main2 .main2_inner .story_box .story_text span {
+        font-size: 17px;
+    }
+
+    .story_side img {
+        width: 60%;
+    }
+
+    .story_side {
+        left: 2%;
+    }
+
+    .mo_none {
+        display: none;
+    }
+
+    /* main2 끝 */
+
+    /* main3 시작 */
+
+    .main3 {}
+    .main3 .main3_inner {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .swiper-slide {}
+
+    .swiper-container .swiper-slide img {
+        width: 180px;
+        height: 180px;
+    }
+    /* main3 끝 */
+
+    /* main4 시작 */
+
+    .main4 {}
+    .main4 .main4_inner {
+        width: 100%;
+        padding-bottom: 80px;
+    }
+
+    .roadmap_box {
+        width: 90%;
+    }
+
+    .roadmap_box .roadmap_01_box .roadmap_01 .roadmap_text_box {
+        padding-top: 30px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .roadmap_box .roadmap_01_box .roadmap_01 .roadmap_text_box .roadmap_text_a {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .roadmap_box .roadmap_01_box .roadmap_01 .roadmap_text_box .roadmap_text_b {
+        font-size: 18px;
+        padding-top: 0px;
+    }
+
+    /* box 1 */
+
+    .roadmap_box .roadmap_02_box .roadmap_02 .roadmap_text_box {
+        padding-top: 30px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .roadmap_box .roadmap_02_box .roadmap_02 .roadmap_text_box .roadmap_text_a {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .roadmap_box .roadmap_02_box .roadmap_02 .roadmap_text_box .roadmap_text_b {
+        font-size: 18px;
+        padding-top: 0px;
+    }
+
+    /* box 2 */
+
+    .roadmap_hidden {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .roadmap_hidden .hidden_line {
+        margin-bottom: 20px;
+    }
+
+    .roadmap_hidden .hidden_line .dotted {
+        width: 4px;
+        height: 4px;
+        margin-bottom: 8px;
+    }
+    .roadmap_hidden .hidden_btn {}
+    .roadmap_hidden .hidden_btn img {
+        width: 250px;
+    }
+
+    .roadmap_img img {
+        width: 100%;
+    }
+
+    /* main4 끝 */
+
+    /* main5 시작 */
+
+    .main5 {}
+    .main5 .main5_inner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main5_member_box {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .main5_member_box .member {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        background-image: none;
+    }
+
+    .main5_member_box .member .team_title {
+        padding-top: 40px;
+        margin-bottom: 80px;
+        font-size: 30px;
+    }
+
+    .team_list_up {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .team_list_up li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .team_list_up li .team_img {
+        margin-bottom: 30px;
+    }
+
+    .team_list_up li .team_img img {
+        width: 50px;
+    }
+
+    .team_list_up li .team_info {
+        margin-left: 20px;
+    }
+
+    .team_list_up li .team_info .team_name {
+        padding-top: 0px;
+    }
+
+    /* main5 끝 */
+
+    /* main6 시작 */
+
+    .main6 .main6_inner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .acodian_list {
+        width: 410px;
+    }
+    
+    .acodian_list.active {
+        width: 410px;
+    }
+
+    .acodian_list .quest_box {
+        width: 410px;
+    }
+
+    .faq_title {
+        font-size: 30px;
+    }
+
+    .faq_side img {
+        width: 100px;
+    }
+
+    .faq_box .faq_box_left {
+        display: none;
+    }
+
+    .faq_img {
+        left: 260px;
+        bottom: -28px;
+    }
+
+    .faq_img img {
+        transform: scaleX(-1);
+        width: 160px;
+    }
+
+
+
+    /* main6 끝 */
+}
+
+    @media screen and (max-width:375px) {
+
+    /* main2 시작 */
+
+    .main2 .main2_inner .story_box img {
+        width: 100%;
+    }
+
+    /* main2 끝 */
+
+    /* main5 시작 */
+
+    .main5_member_box {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .main5_member_box .member .team_title {
+        margin-bottom: 70px;
+        font-size: 30px;
+    }
+
+    /* main5 끝 */
+
+
+    /* main6 시작 */
+    
+    .faq_box .faq_box_right {
+        font-size: 16px;
+    }
+
+    .faq_side img {
+        width: 80px;
+    }
+
+    .faq_img {
+        left: 180px;
+    }
+
+    .acodian_list {
+        width: 300px;
+    }
+    
+    .acodian_list.active {
+        width: 300px;
+    }
+    
+    .acodian_list .quest_box {
+        width: 300px;
+    }
+    
+    .arrow {
+        display: none;
+    }
+    /* main6 끝 */
+}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "main";
+    src: url(../fonts/PRETENDARD-BLACK.TTF);
+}
+
+@font-face {
+    font-family: "eb";
+    src: url(../fonts/PRETENDARD-EXTRABOLD.TTF);
+}
+
+@font-face {
+    font-family: "sub2";
+    src: url(../fonts/PRETENDARD-SEMIBOLD.TTF);
+}
+
+@font-face {
+    font-family: "sub";
+    src: url(../fonts/PRETENDARD-REGULAR.TTF);
+}

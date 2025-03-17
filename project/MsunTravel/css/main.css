@@ -1,0 +1,599 @@
+@charset "utf-8";
+
+/* main1 시작 */
+
+.home {}
+.main1 {
+    height: 100vh;
+    background-image: url(../image/main1_mo_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main_tit_box {
+    position: absolute;
+    top: 80%;
+    right: 20px;
+    transform: translateY(-80%);
+    text-align: right;
+}
+
+.main_title {
+    font-family: "RE";
+    color: #E8CDB0;
+    font-size: 26px;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+.sub_title {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.2em;
+    font-family: "RE";
+}
+
+/* main1 끝 */
+
+
+
+/* main2 시작 */
+
+.company {}
+.main2 {
+    background-color: #272727;
+    padding: 80px 0;
+}
+
+.main2_title {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 60px;
+    font-family: "AE";
+} 
+
+.main2_con_box {}
+.m2_img_box {
+    margin-bottom: 30px;
+}
+.m2_img_box img {
+    width: 100%;
+}
+.m2_txt_box {
+    color: #fff;
+}
+
+.m2_txt_box .m2_txt_title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "PM";
+}
+.m2_txt_box .m2_txt_info {
+    font-size: 16px;
+    font-family: "RE";
+    line-height: 1.4em;
+}
+
+.m2_txt_box .m2_txt_info p {
+    margin-bottom: 25px;
+}
+
+.m2_symbol_box {
+    display: none;
+}
+
+.m2_bg_txt1, .m2_bg_txt2 {
+    display: none;
+}
+
+/* main2 끝 */
+
+
+/* main3 시작 */
+
+.ceo {}
+.main3 {
+    background-color: #333333;
+    padding: 80px 0;
+}
+
+.main3_title {
+    font-family: "BO";
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 80px;
+    line-height: 1.4em;
+} 
+
+.main3_con_box {
+    color: #fff;
+    font-family: "RE";
+    line-height: 1.4em;
+    position: relative;
+}
+
+.m3_txt_box_a {
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 1.6em;
+    position: relative;
+}
+
+.m3_txt_box_a::before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: -30px;
+    background-image: url(../image/up_dot.png);
+    background-repeat: no-repeat;
+}
+
+.m3_txt_box_a::after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    right: 0;
+    bottom: -30px;
+    background-image: url(../image/down_dot.png);
+    background-repeat: no-repeat;
+}
+
+.m3_txt_info {
+    margin-bottom: 25px;
+}
+
+.m3_txt_box_b {
+    font-size: 22px;
+    line-height: 1.6em;
+}
+
+.m3_bg_txt1 {
+    display: none;
+}
+
+
+
+/* main3 끝 */
+
+@media screen and (min-width: 768px) {
+
+    /* main1 시작 */
+    .home {}
+    .main1 {
+        background-image: url(../image/main1_ta_bg.png);
+    }
+
+    .main_tit_box {
+        top: 85%;
+        right: 30px;
+        transform: translateY(-85%);
+    }
+
+    .main_title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .sub_title {
+        font-size: 28px;
+    }
+
+    /* main1 끝 */
+
+
+
+    /* main2 시작 */
+    .company {}
+    .main2 {
+        padding: 100px 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .main2_title {
+        color: #fff;
+        font-size: 28px;
+        margin-bottom: 80px;
+    } 
+
+    .main2_con_box {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .m2_img_box {
+        margin-bottom: 0px;
+        width: 50%;
+    }
+
+    .m2_img_box img {
+        width: 100%;
+        margin-right: 30px;
+    }
+
+    .m2_txt_box {
+        width: 50%;
+        margin-left: 30px;
+    }
+
+    .m2_txt_box .m2_txt_title {
+        text-align: inherit;
+        margin-bottom: 60px;
+        font-size: 24px;
+    }
+    .m2_txt_box .m2_txt_info {
+        font-size: 17px;
+    }
+
+    .m2_txt_box .m2_txt_info p {
+        margin-bottom: 35px;
+    }
+
+    .m2_bg_txt1, .m2_bg_txt2 {
+        display: block;
+        color: rgba(255, 255, 255, 0.02);
+        font-family: "BO";
+        position: absolute;
+        font-size: 130px;
+    }
+
+    .m2_bg_txt1 {
+        top: 10%;
+    }
+    .m2_bg_txt2 {
+        bottom: 4%;
+        right: 0;
+    }
+    /* main2 끝 */
+
+
+    /* main3 시작 */
+    .ceo {}
+    .main3 {
+        padding: 100px 0;
+        position: relative;
+    }
+
+    .main3_title {
+        font-size: 32px;
+        margin-bottom: 100px;
+    } 
+
+    .main3_con_box {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .m3_txt_box_a {
+        margin-bottom: 0px;
+        font-size: 16px;
+        width: 50%;
+    }
+
+    .m3_txt_box_a::before {
+        width: 30px;
+        height: 30px;
+        left: -30px;
+        top: -30px;
+    }
+
+    .m3_txt_box_a::after {
+        width: 30px;
+        height: 30px;
+        right: -20px;
+        bottom: -30px;
+    }
+
+    .m3_txt_info {
+        margin-bottom: 25px;
+    }
+
+    .m3_txt_box_b {
+        padding-top: 220px;
+        width: 50%;
+        font-size: 24px;
+    }
+
+    .m3_bg_txt1 {
+        display: block;
+        color: rgba(255, 255, 255, 0.02);
+        font-family: "BO";
+        position: absolute;
+        font-size: 130px;
+        top: 55%;
+    }
+    /* main3 끝 */
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* main1 시작 */
+    .main1 {
+        background-image: url(../image/main1_bg.png);
+    }
+
+    .main_tit_box {
+        top: 80%;
+        right: 30px;
+        transform: translateY(-80%);
+    }
+
+    .main_title {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .sub_title {
+        font-size: 32px;
+    }
+    /* main1 끝 */
+
+    /* main2 시작 */
+    .company {}
+    .main2 {
+        padding: 120px 0;
+    }
+
+    .main2_title {
+        font-size: 40px;
+        margin-bottom: 120px;
+    } 
+
+    .m2_img_box {
+        width: 45%;
+    }
+
+    .m2_img_box img.mo_img {
+        display: none;
+    }
+
+    .m2_img_box img.pc_img {
+        display: block;
+    }
+
+    .m2_txt_box {
+        padding-top: 50px;
+        width: 45%;
+    }
+
+    .m2_txt_box .m2_txt_title {
+        margin-bottom: 80px;
+        font-size: 26px;
+    }
+    .m2_txt_box .m2_txt_info {
+        font-size: 18px;
+    }
+
+    .m2_txt_box .m2_txt_info p {
+        margin-bottom: 50px;
+    }
+
+    .m2_bg_txt1, .m2_bg_txt2 {
+        font-size: 150px;
+    }
+    /* main2 끝 */
+
+
+    /* main3 시작 */
+    .ceo {}
+    .main3 {
+        padding: 120px 0;
+        position: relative;
+    }
+
+    .main3_title {
+        font-size: 40px;
+        margin-bottom: 120px;
+    } 
+
+    .m3_txt_box_a {
+        font-size: 18px;
+        width: 50%;
+    }
+
+    .m3_txt_box_a::before {
+        width: 30px;
+        height: 30px;
+        left: -30px;
+        top: -30px;
+    }
+
+    .m3_txt_box_a::after {
+        width: 30px;
+        height: 30px;
+        right: -20px;
+        bottom: -30px;
+    }
+
+    .m3_txt_info {
+        margin-bottom: 25px;
+    }
+
+    .m3_txt_box_b {
+        padding-top: 280px;
+        width: 50%;
+        font-size: 28px;
+    }
+
+    .m3_bg_txt1 {
+        font-size: 150px;
+        top: 55%;
+        left: 30px;
+    }
+    /* main3 끝 */
+}
+
+@media screen and (min-width: 1300px) {
+
+    /* main1 시작 */
+    .main_tit_box {
+        top: 50%;
+        right: 310px;
+        transform: translateY(-50%);
+    }
+
+    .main_title {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    /* main1 끝 */
+
+    /* main2 시작 */
+    .company {}
+    .main2 {
+        padding: 150px 0;
+    }
+
+    .main2_title {
+        font-size: 50px;
+        margin-bottom: 150px;
+    } 
+
+    .main2_con_box {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .m2_img_box {
+        width: 35%;
+    }
+
+    .m2_img_box img.mo_img {
+        display: none;
+    }
+
+    .m2_img_box img.pc_img {
+        display: block;
+    }
+
+    .m2_txt_box {
+        margin-left: 0px;
+        padding-top: 0px;
+        width: 35%;
+    }
+
+    .m2_symbol_box {
+        display: block;
+        width: 20%;
+    }
+
+    .m2_sym_title {
+        color: #fff;
+        margin-bottom: 80px;
+        font-family: "PM";
+        font-size: 32px;
+    }
+
+    .m2_sym {
+        margin-bottom: 70px;
+    }
+
+    .sym_tit {
+        font-family: "PM";
+        color: #E8CDB0;
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .sym_info {
+        font-size: 20px;
+        color: #fff;
+        font-family: "RE";
+    }
+
+    .m2_txt_box .m2_txt_title {
+        margin-bottom: 80px;
+        font-size: 32px;
+    }
+    .m2_txt_box .m2_txt_info {
+        font-size: 20px;
+    }
+
+    .m2_txt_box .m2_txt_info p {
+        margin-bottom: 50px;
+    }
+
+    .m2_bg_txt1, .m2_bg_txt2 {
+        font-size: 150px;
+    }
+
+    .m2_bg_txt1 {
+        top: 22%;
+        left: 8%;
+    }
+    .m2_bg_txt2 {
+        bottom: 3%;
+        right: 5%;
+    }
+
+    .m2_bg_txt1, .m2_bg_txt2 {
+        font-size: 180px;
+    }
+    /* main2 끝 */
+
+    /* main3 시작 */
+    .ceo {}
+    .main3 {
+        padding: 150px 0;
+        position: relative;
+    }
+
+    .main3_title {
+        font-size: 40px;
+        margin-bottom: 120px;
+    } 
+
+    .main3_con_box {
+        display: block;
+        width: 60%;
+        margin-left: 450px;
+    }
+
+    .m3_txt_box_a {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .m3_txt_box_a::before {
+        left: -60px;
+        top: -50px;
+        background-size: 100%;
+    }
+
+    .m3_txt_box_a::after {
+        right: 130px;
+        bottom: -180px;
+        background-size: 100%;
+    }
+
+    .m3_txt_info {
+        margin-bottom: 25px;
+    }
+
+    .m3_txt_box_b {
+        padding-top: 0px;
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .ta_br {
+        display: none;
+    }
+
+    .m3_bg_txt1 {
+        font-size: 180px;
+        top: 55%;
+        left: 250px;
+    }
+    /* main3 끝 */
+}

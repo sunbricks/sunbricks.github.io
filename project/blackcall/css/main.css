@@ -1,0 +1,1459 @@
+
+/* PC 2560 size */
+
+/* home 시작 */
+
+.home {
+    width: 100%;
+    height: 1440px;
+}
+
+.home video {
+    position: absolute;
+    width: 100%;
+}
+
+.home_box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.home_box .home_text_box {
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+    z-index: 999;
+    color: #fff;
+}
+
+.home_box .home_text_box .home_text_top {
+    font-family: "main";
+    font-size: 70px;
+    line-height: 1.6em;
+}
+
+.home_box .home_text_box .home_text_bot {
+    display: inline-block;
+    height: 80px;
+    margin-top: 50px;
+    padding-top: 28px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #e5e5e5;
+    background: linear-gradient(135deg, #e5e5e5 10px, rgba(0, 0, 0, 0.5) 0);
+    font-family: "sub2";
+}
+
+/* home 끝 */
+
+
+/* intro 시작 */
+
+.intro {}
+.intro_box {}
+.banner_mo {
+    display: none;
+}
+.intro_box .top_title {
+    color: #4c4948;
+    font-size: 45px;
+    line-height: 1.5em;
+    font-family: "main";
+    margin-bottom: 50px;
+}
+
+.intro_box ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.intro_box ul li {
+    width: 380px;
+    padding-right: 60px;
+    border-right: dashed 4px #eee;
+}
+
+.intro_box ul li:last-child {
+    border: none;
+}
+
+.item_number {
+    font-family: "main";
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.item_img {
+    margin-bottom: 20px;
+}
+
+.item_info {
+    font-size: 24px;
+    line-height: 1.4em;
+    word-break: keep-all;
+}
+
+.item_info > span {
+    font-weight: bold;
+}
+
+.banner_pc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_box {
+    margin-bottom: 80px;
+}
+
+.banner_box img {
+    width: 640px;
+}
+
+.info_call_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    border: 1px solid #eee;
+    height: 140px;
+}
+
+.info_call_box .call_text {
+    color: #595757;
+    font-family: "main";
+}
+
+.info_call_box .center_bar {
+    width: 10px;
+    height: 40px;
+    background-color: #eeeeee;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.info_call_box .call_number {
+    font-family: "sub2";
+    color: #595757;
+}
+/* intro 끝 */
+
+/* creed 시작 */
+
+.creed {
+    background-image: url(../img/creed_bg_pc.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.creed_title {
+    color: #fff;
+}
+
+.creed .creed_list_box {}
+
+.creed .creed_list_box .creed_list {
+    background-color: #fff;
+    display: flex;
+    padding: 50px 80px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.creed .creed_list_box .creed_list:last-child {
+    margin-bottom: 0px;
+}
+
+.creed_main {
+    width: 250px;
+}
+
+.text_under_box {
+    width: 180px;
+    height: 50px;
+    background: linear-gradient(to top, rgba(230, 0, 18 ,0.2) 50%, transparent 50%);
+    margin-bottom: 10px;
+}
+
+.creed_main .creed_text_a {
+    width: 185px;
+    font-family: "main";
+    font-size: 38px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.creed_main .creed_text_b {
+    font-family: "sub2";
+    font-size: 28px;
+    line-height: 1.4em;
+    width: 185px;
+}
+
+.creed_bar {
+    background-color: #01243a;
+    width: 6px;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+.creed_info {
+    width: 700px;
+    font-size: 26px;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-family: "sub";
+    word-break: keep-all;
+    padding-right: 150px;
+}
+
+/* creed 끝 */
+
+/* process 시작 */
+
+.process_title {
+    line-height: 1.5em;
+    color: #4c4948;
+}
+
+.process_under_line {
+    width: 50px;
+    height: 10px;
+    background-color: #4c4948;
+    margin-bottom: 30px;
+}
+
+.process_text {
+    font-family: "sub2";
+    font-size: 24px;
+    color: #595757;
+    width: 420px;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-gap: 30px;
+}
+
+.grid_container div {
+    
+}
+
+.grid_item_01 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid_item_03 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.grid_item_03 img {
+    width: 100%;
+}
+
+.grid_item_08 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.grid_box .work_box {
+    display: flex;
+    font-family: "main";
+    font-size: 32px;
+}
+
+.grid_box .work_box .work_number {
+    padding: 25px 20px;
+    background-color: #e60012;
+    color: #fff;
+}
+
+.blue {
+    background-color: #01243a !important;
+}
+
+.grid_box .work_box .work_title {
+    padding: 25px 20px;
+    color: #595757;
+    background-color: #f6f6f6;
+    width: 100%;
+    font-family: "eb";
+}
+
+.grid_box .work_info {
+    background-color: #eeeeee;
+    color: #595757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "sub2";
+    font-size: 24px;
+    line-height: 1.6em;
+    padding: 50px;
+    height: 220px;
+}
+
+/* process 끝 */
+
+/* order 시작 */
+
+.order {
+    background-image: url(../img/order_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+}
+
+.order_top, .order_bot {
+    display: flex;
+    position: relative;
+}
+
+.order_bot {
+    margin-left: 90px;
+}
+
+.order_list {
+    width: 450px;
+    background-color: #fff;
+    padding: 50px;
+    color: #4c4948;
+    margin: 2px;
+}
+
+.ol_width {
+    width: 650px !important;
+}
+
+.order_list img {
+    border-radius: 20px;
+}
+
+.order_list .order_img {
+    margin-bottom: 20px;
+}
+
+.order_list .order_title {
+    margin-bottom: 20px;
+    font-family: "main";
+    font-size: 24px;
+}
+
+.order_list .order_info {
+    font-family: "sub2";
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+.arrow2 img {
+    display: none;
+}
+
+.arrow img {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    background-color: red;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.order_top .arrow img {
+    left: 50%;
+    top: 50%;
+    margin-left: -225px;
+    margin-top: -20px;
+}
+
+.order_bot .arrow img {
+    left: 50%;
+    top: 50%;
+    margin-left: -180px;
+    margin-top: -20px;
+}
+
+/* order 끝 */
+
+/* road 시작 */
+
+.road_title {
+    color: #4c4948;
+    margin-top: 50px;
+}
+
+.road_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.road_left_con {
+    width: 480px;
+}
+
+.anno_line {
+    width: 50px;
+    height: 6px;
+    background-color: #4c4948;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.road_left_con .anno_box {}
+
+.road_left_con .anno_text {
+    color: #898989;
+    font-family: "sub2";
+    font-size: 20px;
+    line-height: 1.6em;
+    word-break: keep-all;
+    margin-bottom: 50px;
+}
+
+.road_left_con .anno_text div {
+    margin-bottom: 30px;
+}
+
+.road_left_con .anno_call_title {
+    color: #595757;
+    font-family: "main";
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.road_left_con .anno_call_number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.road_left_con .anno_item {}
+
+.road_left_con .anno_item a {
+    display: flex;
+    align-items: center;
+}
+
+.road_left_con .anno_item a img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.road_left_con .anno_item a div {
+    font-family: "eb";
+    color: #595757;
+    font-size: 18px;
+}
+
+.road_right_con a {
+    width: 600px
+}
+
+.road_right_con a img {
+    width: 600px
+}
+
+.mo_call_box {
+    display: none;
+}
+
+/* road 끝 */
+
+/* PC 2560 size 끝 */
+
+/* PC 1920 size 시작 */
+
+@media screen and (max-width:1920px) {
+    /* home 시작 */
+
+    .home {
+        height: 1080px;
+    }
+
+    .home_box .home_text_box {
+        left: 12%;
+        bottom: 25%;
+    }
+
+    .home_box .home_text_box .home_text_top {
+        font-size: 54px;
+    }
+
+    /* home 끝 */
+}
+
+/* PC 1920 size 끝 */
+
+/* notebook size 시작 */
+
+@media screen and (max-width:1300px) {
+    /* home 시작 */
+
+    .home {
+        height: 100vh;
+    }
+
+    .home video {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .home_box .home_text_box {
+        position: absolute;
+        left: 5%;
+        bottom: 7%;
+    }
+
+    .home_box .home_text_box .home_text_top {
+        font-size: 40px;
+    }
+
+    .home_box .home_text_box .home_text_bot {
+        display: inline-block;
+        height: 60px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 28px;
+    }
+
+    /* home 끝 */
+
+    /* intro 시작 */
+
+    .intro_box .top_title {
+        font-size: 36px;
+    }
+
+    .intro_box ul li {
+        width: 280px;
+    }
+
+    .item_number {
+        font-family: "main";
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .item_info {
+        font-size: 20px;
+        word-break: normal;
+    }
+
+    .banner_box img {
+        width: 430px;
+    }
+
+    .info_call_box {
+        font-size: 28px;
+        border: 1px solid #eee;
+        height: 100px;
+    }
+
+    .info_call_box .center_bar {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    /* intro 끝 */
+
+    /* creed 시작 */
+    .creed {
+        background-image: url(../img/creed_bg_pc.png);
+        background-repeat: no-repeat;
+        background-size: 100% 1070px;
+        background-position: top;
+    }
+
+    .creed_title {
+        color: #fff;
+    }
+    
+    .creed .creed_list_box {}
+    
+    .creed .creed_list_box .creed_list {
+        padding: 30px 50px;
+    }
+    
+    .creed .creed_list_box .creed_list:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .creed_main {
+        width: 250px;
+        text-align: center;
+    }
+    
+    .text_under_box {
+        width: 185px;
+        height: 40px;
+        background: linear-gradient(to top, rgba(230, 0, 18 ,0.2) 50%, transparent 50%);
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .creed_main .creed_text_a {
+        width: 185px;
+        font-family: "main";
+        font-size: 38px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+    
+    .creed_main .creed_text_b {
+        text-align: center;
+        font-family: "sub2";
+        font-size: 24px;
+        line-height: 1.4em;
+        width: 185px;
+    }
+    
+    .creed_bar {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .creed_info {
+        padding-right: 80px;
+    }
+    /* creed 끝 */
+
+    /* process 시작 */
+
+    .process_title {
+        line-height: 1.4em;
+    }
+
+    .process_under_line {
+        height: 6px;
+        margin-bottom: 26px;
+    }
+
+    .process_text {
+        font-size: 22px;
+    }
+
+    .grid_container {
+        grid-gap: 15px;
+    }
+
+    .grid_box .work_box {
+        font-size: 26px;
+    }
+
+    .grid_box .work_box .work_number {
+        padding: 20px 10px;
+    }
+
+    .grid_box .work_box .work_title {
+        padding: 20px 10px;
+    }
+
+    .grid_box .work_info {
+        font-size: 22px;
+        line-height: 1.4em;
+        padding: 30px;
+        height: 200px;
+    }
+
+    /* process 끝 */
+
+    /* order 시작 */
+
+    .order {
+        background-image: url(../img/order_bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 1240px;
+        background-position: center top;
+    }
+
+    .order_bot {
+        margin-left: 0px;
+    }
+
+    .order_list {
+        width: 480px;
+        padding: 35px;
+        margin: 2px;
+    }
+
+    .ol_width {
+        width: 400px !important;
+    }
+
+    .order_list .order_img {
+        margin-bottom: 20px;
+    }
+
+    .order_list .order_img img {
+        width: 100px;
+    }
+
+    .order_list .order_title {
+        margin-bottom: 20px;
+        font-family: "main";
+        font-size: 24px;
+    }
+
+    .order_list .order_info {
+        font-family: "sub2";
+        font-size: 20px;
+        line-height: 1.6em;
+    }
+
+    .arrow img {
+        width: 60px;
+        height: 60px;
+        padding: 15px;
+        background-color: red;
+        border-radius: 30px;
+        position: absolute;
+    }
+
+    .order_top .arrow img {
+        margin-left: 0px;
+        margin-top: -20px;
+    }
+
+    .order_bot .arrow img {
+        margin-left: 0px;
+        margin-top: -20px;
+    }
+    /* order 끝 */
+
+    /* road 시작 */
+
+    .road_title {
+        margin-top: 30px;
+    }
+
+    .road_left_con {
+        width: 400px;
+    }
+
+    .anno_line {
+        height: 6px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .road_left_con .anno_box {}
+
+    .road_left_con .anno_text {
+        font-size: 20px;
+        line-height: 1.4em;
+        word-break: keep-all;
+        margin-bottom: 30px;
+    }
+
+    .road_left_con .anno_text div {
+        margin-bottom: 10px;
+    }
+
+    .road_left_con .anno_call_title {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .road_left_con .anno_item a img {
+        width: 40px;
+    }
+
+    .road_right_con a {
+        width: 480px
+    }
+
+    .road_right_con a img {
+        width: 480px
+    }
+
+    /* road 끝 */
+}
+
+/* notebook size 끝 */
+
+/* table size 시작 */
+
+@media screen and (max-width:1023px) {
+    /* home 시작 */
+    .home_box .home_text_box {
+        position: absolute;
+        left: 5%;
+        bottom: 14%;
+    }
+
+    .home_box .home_text_box .home_text_top {
+        font-size: 36px;
+    }
+
+    .home_box .home_text_box .home_text_bot {
+        display: inline-block;
+        height: 60px;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 24px;
+    }
+    /* home 끝 */
+
+    /* intro 시작 */
+
+    .intro_box .top_title {
+        font-size: 28px;
+    }
+
+    .intro_box {
+        margin: 0 auto;
+    }
+
+    .intro_box ul {
+        margin-bottom: 40px;
+    }
+
+    .intro_box ul li {
+        width: 100%;
+        padding: 20px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .item_number {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .item_info {
+        font-size: 18px;
+    }
+
+    .banner_pc .sms_banner img {
+        padding-right: 5px;
+    }
+    .banner_pc .telegram_banner img {
+        padding-left: 5px;
+    }
+
+    .banner_box img {
+        width: 100%;
+    }
+
+    .info_call_box {
+        font-size: 24px;
+        border: 1px solid #eee;
+        height: 100px;
+    }
+
+    .info_call_box .center_bar {
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+    /* intro 끝 */
+
+    /* creed 시작 */
+    .creed {
+        background-size: 100% 1600px;
+    }
+    
+    .creed .creed_list_box .creed_list {
+        padding: 30px 40px;
+    }
+    
+    .creed_main {
+        width: 250px;
+    }
+    
+    .text_under_box {
+        width: 185px;
+        height: 40px;
+    }
+    
+    .creed_main .creed_text_a {
+        width: 185px;
+        font-size: 32px;
+    }
+    
+    .creed_main .creed_text_b {
+        font-size: 20px;
+    }
+    
+    .creed_bar {
+        width: 4px;
+        height: 80px;
+        margin-left: 30px;
+        margin-right: 50px;
+    }
+    
+    .creed_info {
+        width: 100%;
+        font-size: 22px;
+        line-height: 1.4em;
+        padding-right: 0px;
+    }
+    /* creed 끝 */
+
+    /* process 시작 */
+
+    .process_under_line {
+        height: 6px;
+        margin-bottom: 26px;
+    }
+
+    .process_text {
+        font-size: 22px;
+    }
+
+    .grid_container {
+        grid-gap: 10px;
+    }
+
+    .grid_box .work_box {
+        font-size: 22px;
+    }
+
+    .grid_box .work_info {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    /* process 끝 */
+
+    /* order 시작 */
+
+    .order {
+        background-size: 100% 1240px;
+        background-position: center top;
+    }
+
+    .order_bot {
+        margin-left: 0px;
+    }
+
+    .order_list {
+        width: 360px;
+        padding: 25px;
+    }
+
+    .ol_width {
+        width: 360px !important;
+    }
+
+    .order_list .order_title {
+        font-size: 22px;
+    }
+
+    .arrow img {
+        width: 50px;
+        height: 50px;
+        padding: 12px;
+    }
+
+    .order_top .arrow img {
+        margin-left: -25px;
+        margin-top: -30px;
+    }
+
+    .order_bot .arrow img {
+        margin-left: -25px;
+        margin-top: -30px;
+    }
+
+    /* order 끝 */
+
+    /* road 시작 */
+
+    .road_title {
+        margin-top: 0px;
+    }
+
+    .road_left_con {
+        width: 300px;
+    }
+
+    .road_left_con .anno_box {}
+
+    .road_left_con .anno_text {
+        font-size: 18px;
+    }
+
+    .road_left_con .anno_text div {
+        margin-bottom: 10px;
+    }
+
+    .road_left_con .anno_call_title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .road_left_con .anno_call_number {
+        display: block;
+    }
+
+    .road_left_con .anno_call_number .anno_item {
+        margin-bottom: 10px;
+    }
+
+    .road_left_con .anno_item a img {
+        width: 36px;
+    }
+
+    .road_right_con a {
+        width: 380px
+    }
+
+    .road_right_con a img {
+        width: 380px
+    }
+
+    /* road 끝 */
+}
+
+/* table size 끝 */
+
+/* mobile 425 size 시작 */
+
+@media screen and (max-width:767px) {
+    /* home 시작 */
+    .home_box .home_text_box {
+        position: absolute;
+        left: 4%;
+        bottom: 20%;
+    }
+
+    .home_box .home_text_box .home_text_top {
+        font-size: 34px;
+        word-break: keep-all;
+    }
+
+    .home_box .home_text_box .home_text_bot {
+        width: 95%;
+        margin-top: 18px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    /* home 끝 */
+
+    /* intro 시작 */
+
+    .intro_box .top_title {
+        font-size: 24px;
+    }
+
+    .intro_box {
+        margin: 0 auto;
+    }
+
+    .intro_box ul {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .intro_box ul li {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        border: none;
+        padding: 0px;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+    }
+
+    .intro_box ul li img {
+        width: 80px;
+    }
+
+    
+    .item_number {
+        font-size: 32px;
+    }
+
+    .item_info {
+        font-size: 22px;
+    }
+
+    .banner_mo {
+        display: block;
+        width: 100%;
+    }
+
+    .mo_banner {
+        width: 120%;
+        padding: 30px;
+        font-family: "eb";
+        font-size: 24px;
+        width: calc(100% + 28*2); 
+        margin: 0px 0 0px -24px;
+    }
+
+    .banner_mo_sms {
+        background-color: #fae300;
+        color: #4c4948;
+    }
+
+    .banner_mo_tele {
+        background-color: #23b0e2;
+        color: #fff;
+    }
+
+    .banner_top {
+        margin-bottom: 20px;
+        line-height: 1.4em;
+    }
+
+    .banner_bot {
+        font-family: "sub";
+    }
+    
+    .banner_pc {
+        display: none;
+    }
+
+    .info_call_box {
+        display: block;
+        font-size: 22px;
+        border: none;
+        height: 100%;
+    }
+
+    .info_call_box .center_bar {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 50px;
+        height: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /* intro 끝 */
+
+    /* creed 시작 */
+    .creed {
+        background-size: 100% 1200px;
+    }
+    
+    .creed .creed_list_box .creed_list {
+        display: block;
+        padding: 30px 40px;
+        text-align: center;
+    }
+    
+    .creed_main {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    .text_under_box {
+        width: 160px;
+        height: 40px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .creed_main .creed_text_a {
+        width: 160px;
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    
+    .creed_main .creed_text_b {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .creed_bar {
+        display: none;
+    }
+    
+    .creed_info {
+        width: 100%;
+        font-size: 24px;
+        line-height: 1.4em;
+        padding-right: 0px;
+    }
+    /* creed 끝 */
+
+    /* process 시작 */
+
+    .process_under_line {
+        height: 6px;
+        margin-bottom: 26px;
+    }
+
+    .process_text {
+        font-size: 22px;
+    }
+
+    .grid_container {
+        display: block;
+    }
+
+    .grid_container .grid_item {
+        margin-bottom: 20px;
+    }
+
+    .grid_box .work_info {
+        height: 160px;
+    }
+
+    .grid_item_03 {
+        display: none;
+    }
+
+    .c_blue {
+        background-color: #01243a !important;
+    }
+
+    .c_red {
+        background-color: red !important;
+    }
+
+    /* process 끝 */
+
+    /* order 시작 */
+
+    .order {
+        background-size: 100% 1810px;
+        background-position: center top;
+    }
+
+    .order_top, .order_bot {
+        display: block;
+    }
+
+    .order_bot {
+        margin-left: 0px;
+    }
+
+    .order_list {
+        width: 100%;
+        padding: 25px;
+        margin-bottom: 6px;
+        height: 400px;
+    }
+
+    .ol_width {
+        width: 100% !important;
+    }
+
+    .order_list .order_title {
+        font-size: 22px;
+    }
+
+    .order_top .arrow img {
+        left: 50%;
+        top: 50%;
+        margin-top: -20px;
+        margin-left: -25px;
+        transform: rotate(90deg);
+    }
+
+    .order_bot .arrow img {
+        left: 50%;
+        top: 50%;
+        margin-top: -20px;
+        margin-left: -25px;
+        transform: rotate(90deg);
+    }
+
+    .arrow2 img {
+        display: block;
+        width: 50px;
+        height: 50px;
+        padding: 12px;
+        background-color: red;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .order_bot .arrow2 img {
+        left: 50%;
+        top: -3%;
+        margin-top: 0px;
+        margin-left: -25px;
+        transform: rotate(90deg);
+    }
+    /* order 끝 */
+
+    /* road 시작 */
+
+    .main6 {
+        padding-bottom: 0px !important;
+    }
+
+    .road_box {
+        display: block;
+    }
+
+    .road_left_con {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .road_left_con .anno_call_number .anno_item {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .road_left_con .anno_item a img {
+        width: 36px;
+    }
+
+    .anno_line {
+        display: none;
+    }
+
+    .road_right_con {
+        margin-bottom: 40px;
+    }
+
+    .road_right_con a {
+        width: 120%;
+        width: calc(100% + 24*2); 
+        margin: 24px 0 24px -24px;
+        
+    }
+
+    .road_right_con a img {
+        width: 120%;
+        width: calc(100% + 24*2); 
+        margin: 24px 0px 24px -24px;   
+    }
+
+    .mo_call_box .anno_call_title {
+        color: #595757;
+        font-family: "main";
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    
+    .mo_call_box .anno_item {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #eee;
+    }
+
+    .mo_call_box .anno_item:last-child {
+        border: none;
+    }
+    
+    .mo_call_box .anno_item a {
+        display: flex;
+        align-items: center;
+    }
+    
+    .mo_call_box .anno_item a img {
+        width: 50px;
+        margin-right: 10px;
+    }
+    
+    .mo_call_box .anno_item a div {
+        font-family: "eb";
+        color: #595757;
+        font-size: 18px;
+    }
+    /* road 끝 */
+}
+
+/* mobile 425 size 끝 */
+
+/* mobile 320 size 시작 */
+
+@media screen and (max-width:424px) {
+
+    /* home 시작 */
+    .home_box .home_text_box {
+        bottom: 20%;
+    }
+
+    .home_box .home_text_box .home_text_top {
+        font-size: 28px;
+    }
+
+    .home_box .home_text_box .home_text_bot {
+        padding-top: 18px;
+        font-size: 22px;
+    }
+
+/* home 끝 */
+
+    /* intro 시작 */
+
+    .intro_box .top_title {
+        font-size: 22px;
+    }
+
+    .intro_box ul li img {
+        width: 70px;
+    }
+
+    .item_number {
+        font-size: 28px;
+    }
+    /* intro 끝 */
+
+    /* creed 시작 */
+
+    .creed {
+        background-image: url(../img/creed_bg_mo.png);
+        background-size: 100% 1250px;
+    }
+    
+    .creed_main {
+        margin-bottom: 30px;
+    }
+    
+    .creed_info {
+        font-size: 22px;
+    }
+    /* creed 끝 */
+
+    /* process 시작 */
+
+    .process_under_line {
+        height: 6px;
+        margin-bottom: 20px;
+    }
+
+    .process_text {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* process 끝 */
+
+    /* order 시작 */
+
+    .order {
+        background-size: 100% 1966px;
+        background-position: center top;
+    }
+
+    .order_bot {
+        margin-left: 0px;
+    }
+
+    .order_list {
+        height: 450px;
+    }
+
+    /* order 끝 */
+}
+
+
+/* mobile 320 size 끝 */

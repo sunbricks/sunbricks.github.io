@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* font */
+
+@font-face {
+    font-family: "eng1";
+    src: url(../fonts/eng1.TTF);
+}
+
+@font-face {
+    font-family: "suitB";
+    src: url(../fonts/SUIT-BOLD.TTF);
+}
+
+@font-face {
+    font-family: "suitR";
+    src: url(../fonts/SUIT-REGULAR.TTF);
+}
+
+@font-face {
+    font-family: "faq";
+    src: url(../fonts/newfrench.otf);
+}
+
+/* font 끝 */

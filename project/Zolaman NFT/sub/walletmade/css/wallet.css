@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+}
+
+ul.tabs{
+    height: 250px;
+    background-color: #3382ff;
+    padding-top: 90px;
+}
+
+ul.tabs li{
+    background: none;
+    color: #3382ff;
+    display: inline-block;
+    padding: 20px 15px;
+    cursor: pointer;
+    width: 160px;
+    height: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 40px;
+    background-color: #fff;
+    font-size: 18px;
+    font-family: "suit";
+    font-weight: bold;
+}
+
+.tab-content{
+    display: none;
+}
+
+ul.tabs li.current{
+    background-color: #191f28;
+    color: #fff;
+}
+
+.tab-content.current{
+    display: inherit;
+}
+
+img.mo_img {
+    display: none;
+}
+/* 노트북 시작 */
+@media screen and (max-width: 1300px) {
+    .container img {
+        width: 100%;
+    }
+}
+/* 1024px 기준 */
+
+/* 노트북 끝 */
+
+/* 테블릿 시작 */
+
+@media screen and (max-width: 1023px) {
+    
+}
+/* 768px 기준 */
+/* 테블릿 끝 */
+
+/* 모바일 시작 */
+@media screen and (max-width: 750px) {
+
+    img.mo_img {
+        display: block;
+    }
+
+    img.pc_img {
+        display: none;
+    }
+
+    ul.tabs {
+        padding-top: 100px;
+    }
+    
+    ul.tabs li {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+
+    ul.tabs {
+        padding-top: 55px;
+    }
+    
+    ul.tabs li {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+/* 모바일 끝 */

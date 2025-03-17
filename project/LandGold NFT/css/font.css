@@ -1,0 +1,43 @@
+/* font */
+
+@font-face {
+    font-family: "GB";
+    src: url(../fonts/GMARKETSANSBOLD.OTF);
+}
+
+@font-face {
+    font-family: "GL";
+    src: url(../fonts/GMARKETSANSLIGHT.OTF);
+}
+
+@font-face {
+    font-family: "GM";
+    src: url(../fonts/GMARKETSANSMEDIUM.OTF);
+}
+
+@font-face {
+    font-family: "NALT";
+    src: url(../fonts/NANUMSQUARENEO-ALT.TTF);
+}
+
+@font-face {
+    font-family: "NBRG";
+    src: url(../fonts/NANUMSQUARENEO-BRG.TTF);
+}
+
+@font-face {
+    font-family: "NCBD";
+    src: url(../fonts/NANUMSQUARENEO-CBD.TTF);
+}
+
+@font-face {
+    font-family: "NDEB";
+    src: url(../fonts/NANUMSQUARENEO-DEB.TTF);
+}
+
+@font-face {
+    font-family: "NEHV";
+    src: url(../fonts/NANUMSQUARENEO-EHV.TTF);
+}
+
+/* font 끝 */

@@ -1,0 +1,1715 @@
+@charset "utf-8";
+
+/* 공통 시작 */
+
+body {
+    background-color: #000;
+}
+
+#container {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.inner {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section_line_box {
+    display: flex;
+    justify-content: space-between;
+}
+.section_line_box .section_line_01 {
+    width: 70%;
+    height: 10px;
+    background-color: #191a1b;
+    border-radius: 10px;
+}
+.section_line_box .section_line_02 {
+    width: 25%;
+    height: 10px;
+    background-color: #191a1b;
+    border-radius: 10px;
+}
+
+/* 공통 끝 */
+
+/* section 1 시작 */
+
+.main1 {
+    margin-bottom: 50px;
+}
+
+.main1 .banner_mo {}
+.main1 .banner_pc {
+    display: none;
+}
+
+.main1 img {
+    width: 100%;
+}
+
+/* section 1 끝 */
+
+/* section 2 시작 */
+
+.main2 {
+    padding-bottom: 50px;
+}
+
+.main2 .main2_content_box {
+    margin-bottom: 50px;
+}
+
+.main2 .about_left {
+    margin-bottom: 50px;
+}
+
+.main2 .about_left .left_con_01 {
+    padding: 10px 20px;
+    color: #fff;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    display: inline;
+    border-radius: 20px;
+    font-family: "Inter-R";
+    height: 100%;
+}
+
+.main2 .about_left .left_con_02 {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 40px;
+    font-family: "IBM-B";
+}
+
+.main2 .about_left .left_con_03 {
+    word-break: keep-all;
+    font-size: 16px;
+    margin-top: 30px;
+    color: #fff;
+    line-height: 1.6em;
+    font-family: "IBM-R";
+}
+
+.main2 .about_right {
+    color: #a9a9a9;
+}
+
+.main2 .about_right .right_con_01 {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.5);
+}
+.main2 .about_right .right_con_01 .r_con_01_info {
+    line-height: 2em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.main2 .about_right .right_con_01 .r_con_01_info .info_name {
+    font-family: "Inter-R";
+}
+.main2 .about_right .right_con_01 .r_con_01_info .info_content {
+    font-family: "Inter-B";
+}
+
+
+.main2 .about_right .right_con_02 {
+    
+}
+
+.main2 .about_right .right_con_02 .r_con_02_info {
+    line-height: 2.4em;
+    display: flex;
+    font-size: 16px;
+    position: relative;
+}
+
+.main2 .about_right .right_con_02 .r_con_02_info .info_name {
+    font-family: "Inter-L";
+    width: 230px;
+}
+
+.main2 .about_right .right_con_02 .r_con_02_info .info_name::after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 160px;
+    bottom: 12px;
+    width: 2px;
+    height: 14px;
+    background-color: rgba(169, 169, 169, 0.3);
+
+}
+.main2 .about_right .right_con_02 .r_con_02_info .info_content {
+    font-family: "Inter-L";
+    text-align: right;
+    width: 60%;
+}
+
+/* section 2 끝 */
+
+/* section 3 시작 */
+
+.main3 {
+    margin-bottom: 50px;
+}
+
+.main3 .main3_box {
+    margin-bottom: 50px;
+}
+
+.main3 .main3_img img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.main3 .intro_box {}
+.main3 .intro_box .intro_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 30px;
+}
+
+.main3 .intro_box .intro_text {
+    color: #fff;
+    line-height: 2em;
+    font-family: "IBM-R";
+    font-size: 15px;
+}
+
+.main3 .intro_box .intro_text_a {
+    margin-bottom: 30px;
+}
+
+.main3 .intro_box .intro_text_b {
+    margin-bottom: 30px;
+}
+
+.main3 .intro_box .intro_text_c {}
+
+/* section 3 끝 */
+
+/* section 4 시작 */
+
+.main4 {
+    padding-bottom: 50px;
+}
+
+.main4 .main4_box {
+    margin-bottom: 50px;
+}
+
+.main4 .main4_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 30px;
+}
+
+.main4 .mint_info_box .mint_info_bg {
+    background-image: url(../img/mint_bg.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.main4 .mint_info_box .mint_info {
+    height: 180px;
+    width: 100%;
+    padding: 40px 20px;
+    color: #fff;
+    line-height: 2em;
+    font-family: "IBM-R";
+    word-break: keep-all;
+    font-size: 15px;
+}
+
+.main4 .mint_info_box .mint_info span {
+    color: #a9a9a9;
+}
+
+/* section 4 끝 */
+
+/* section 5 시작 */
+
+.main5 {
+    padding-bottom: 50px;
+}
+.main5 .main5_box {
+    margin-bottom: 50px;
+}
+.main5 .main5_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 50px;
+}
+
+.swiper-wrapper {
+    transition-duration: 6000ms;
+    transform: translate3d(-3848.5px, 0px, 0px);
+    transition-timing-function: linear !important;
+}
+
+.swiper-container {
+    margin-bottom: 50px;
+}
+
+.swiper-container .swiper-slide {}
+.swiper-container .swiper-slide img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.main5 .main5_text {
+    color: #fff;
+    line-height: 2em;
+    word-break: keep-all;
+    font-family: "IBM-R";
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+/* section 5 끝 */
+
+/* section 6 시작 */
+
+.main6 {
+    padding-bottom: 50px;
+}
+
+.main6 .main6_box {
+    margin-bottom: 50px;
+}
+
+.main6 .main6_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 50px;
+}
+
+.main6 .mint_info_box {
+    color: #fff;
+}
+
+.main6 .mint_info_box .mint_info {
+    margin-bottom: 50px;
+}
+
+.main6 .mint_info_box .mint_info .top_info {
+    font-family: "IBM-B";
+}
+
+.main6 .mint_info_box .mint_info .top_info .sale {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main6 .mint_info_box .mint_info .top_info .role {
+    font-size: 20px;
+    color: #a9a9a9;
+    margin-bottom: 20px;
+}
+
+.main6 .mint_info_box .mint_info ul li {
+    display: flex;
+    justify-content: space-between;
+    line-height: 3em;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.3);
+    justify-items: center;
+    align-items: center;
+    font-family: "IBM-R";
+}
+
+.text_point {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.right_pick {
+    text-align: right;
+}
+
+
+/* section 6 끝 */
+
+/* section 7 시작 */
+
+.main7 {
+    margin-bottom: 50px;
+}
+.main7 .main7_box {}
+
+.main7 .main7_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 50px;
+}
+
+.que {
+    position: relative;
+    padding: 17px 0;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #606060;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    font-family: "IBM-B";
+    font-size: 16px;
+    color: #fff;
+}
+
+.que_box {
+    margin-bottom: 30px;
+}
+
+.que::before{
+    display: inline-block;
+    content: 'Q.';
+    font-size: 16px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.que.on>span{
+    font-weight: bold;
+}
+
+.anw {
+    display: none;
+    overflow: hidden;
+    font-size: 14px;
+    color: #a9a9a9;
+    background-color: #101010;
+    border: 1px solid #606060;
+    padding: 17px 20px;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    border-top: none;
+    font-family: "IBM-R";
+    word-break: keep-all;
+}
+
+.anw::before {
+    display: inline-block;
+    content: 'A.';
+    font-size: 14px;
+    color: #a9a9a9;
+    margin: 0 5px;
+}
+
+.arrow-wrap {
+    position: absolute;
+    top:50%; right: 20px;
+    transform: translate(0, -50%);
+    display: none;
+}
+
+.que .arrow-top {
+    display: none;
+}
+.que .arrow-bottom {
+    display: block;
+}
+.que.on .arrow-bottom {
+    display: none;
+}
+.que.on .arrow-top {
+    display: block; 
+}
+
+/* section 7 끝 */
+
+/* section 8 시작 */
+
+.main8 {
+    margin-bottom: 50px;
+}
+.main8 .main8_box {
+    padding-bottom: 50px;
+}
+.main8 .main8_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    background: linear-gradient(to right, #50befa, #b473ca);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "IBM-B";
+    margin-bottom: 50px;
+}
+
+.main8 .sns_box {
+    text-align: center;
+    color: #fff;
+    font-family: "IBM-B";
+    font-size: 18px;
+}
+
+.main8 .sns_box a {
+    display: flex;
+    line-height: 2em;
+    padding: 16px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.main8 .sns_box a.go_twitter {
+    background-color: #1d9bf0;
+    margin-bottom: 20px;
+}
+
+.main8 .sns_box a.go_discord {
+    background-color: #7289da;
+}
+
+.main8 .sns_box a.go_twitter .twitter_btn {
+    background-image: url(../img/twitter_btn_ico.png);
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.main8 .sns_box a.go_discord .discord_btn {
+    background-image: url(../img/discord_btn_ico.png);
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+/* section 8 끝 */
+
+/* section 9 시작 */
+
+.main9 {
+    padding-bottom: 150px;
+}
+.main9 .main9_box {}
+
+.main9 .main9_title_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #606060;
+}
+
+.main9 .main9_title_box img {
+    width: 30%;
+}
+
+.main9 .main9_title {
+    line-height: 1.2em;
+    font-size: 36px;
+    color: #fff;
+    font-family: "IBM-B";
+}
+
+.main9 .ex_text_box {
+    color: #fff;
+    font-family: "IBM-R";
+    font-size: 16px;
+    word-break: keep-all;
+    border-bottom: 1px solid #606060;
+    margin-bottom: 35px;
+}
+
+.main9 .ex_text {
+    line-height: 2em;
+    margin-bottom: 16px;
+}
+
+.main9 .last_ann {
+    font-size: 15px;
+    color: #a9a9a9;
+    font-family: "IBM-R";
+    line-height: 2em;
+    word-break: keep-all;
+}
+
+/* section 9 끝 */
+
+/* section 10 시작 */
+
+.main10 {}
+
+.closed_btn {
+    padding: 5px 0px;
+    box-shadow: 1px 1px 10px #000;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+    display: block;
+    color: #fff;
+    background-color: #191a1b;
+}
+
+.closed_btn img {}
+
+.open_btn {
+    padding: 5px 0px;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #191a1b;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.open_btn img {
+    transform: rotate(180deg);
+}
+
+.main10 .time {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main10 .time .time_text {
+    color: #e8632e;
+    font-family: "IBM-B";
+    font-size: 22px;
+    line-height: 1.4em;
+    width: 37%;
+}
+
+.main10 .time ul.time_table {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    width: 62%;
+}
+
+.main10 .time .time_table li {
+    width: 50%;
+    line-height: 2em;
+}
+
+.main10 .time .time_table li span {
+    color: #a9a9a9;
+    font-family: "IBM-R";
+}
+
+.main10 .time .time_table li span.number_count {
+    color: #fff;
+    margin-right: 2px;
+    text-decoration: underline;
+    text-decoration-color : #fff;
+    text-underline-offset : 5px;
+    font-family: "IBM-B";
+    font-size: 16px;
+}
+
+.sidebar_menu {
+    width: 100%;
+    height: 186px;
+    background-color: #191a1b;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    position: fixed;
+}
+
+.btn_box {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #191a1b;
+    font-family: "IBM-B";
+    font-size: 16px;
+}
+
+.btn_box .buy_btn, .btn_box .go_btn {
+    width: 100%;
+    height: 100%;
+}
+
+.btn_box .buy_btn a {
+    display: block;
+    padding: 15px;
+    border: 2px solid #e8632e;
+    background-color: #e8632e;
+}
+
+.btn_box .go_btn a {
+    display: block;
+    padding: 15px;
+    border: 2px solid #e8632e;
+}
+
+.main10 .pc_ver {
+    display: none;
+}
+
+/* section 10 끝 */
+
+/* 태블릿 시작 */
+
+@media screen and (min-width: 425px) {
+    
+    /* section 4 시작 */
+
+    .main4 .mint_info_box .mint_info_bg {
+        background-image: url(../img/mint_bg.png);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 210px;
+        margin-bottom: 30px;
+    }
+
+    .main4 .mint_info_box .mint_info {
+        height: 210px;
+        width: 100%;
+        padding: 40px 20px;
+        padding-bottom: 0px;
+        color: #fff;
+        line-height: 2em;
+        font-family: "IBM-R";
+        word-break: keep-all;
+        font-size: 15px;
+    }
+
+    /* section 4 끝 */
+
+}
+
+@media screen and (min-width: 768px) {
+
+    /* 공통 시작 */
+
+    .inner {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section_line_box .section_line_01 {
+        width: 70%;
+        height: 10px;
+    }
+
+    .section_line_box .section_line_02 {
+        width: 25%;
+        height: 10px;
+    }
+
+    /* 공통 끝 */
+
+    /* section 1 시작 */
+
+    .main1 {
+        margin-bottom: 50px;
+    }
+
+    .main1 .banner_mo {
+        display: none;
+    }
+    .main1 .banner_pc {
+        display: block;
+    }
+
+    .main1 img {
+        width: 100%;
+    }
+
+    /* section 1 끝 */
+
+    /* section 3 시작 */
+
+    .main3 .main3_img {
+        text-align: center;
+    }
+
+    .main3 .main3_img img {
+        width: 60%;
+        margin-bottom: 40px;
+    }
+
+    /* section 3 끝 */
+
+    /* section 4 시작 */
+
+    .main4 {
+        padding-bottom: 50px;
+    }
+
+    .main4 .main4_box {
+        margin-bottom: 50px;
+    }
+
+    .main4 .main4_title {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .main4 .mint_info_box {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .main4 .mint_info_box .mint_info_bg {
+        background-size: contain;
+        background-position: center;
+        width: 50%;
+        height: 180px;
+        margin-bottom: 30px;
+    }
+
+    .main4 .mint_info_box .mint_info {
+        width: 100%;
+        height: 180px;
+        padding: 40px 30px;
+        font-size: 16px;
+    }
+
+    .main4 .mint_info_box .mint_info span {
+        color: #a9a9a9;
+    }
+
+    /* section 4 끝 */
+
+    /* section 9 시작 */
+
+    .main9 .main9_title_box img {
+        width: 120px;
+    }
+
+    /* section 9 끝 */
+
+}
+
+/* 태블릿 끝 */
+
+/* 노트북 시작 */
+
+@media screen and (min-width: 1024px) {
+
+    /* 공통 시작 */
+
+    .inner {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .section_line_box .section_line_01 {
+        width: 85%;
+        height: 10px;
+    }
+
+    .section_line_box .section_line_02 {
+        width: 13%;
+        height: 10px;
+    }
+
+    .mo_line {
+        display: none;
+    }
+
+    /* 공통 끝 */
+
+    /* section 1 시작 */
+
+    .main1 {
+        margin-bottom: 80px;
+    }
+
+    /* section 1 끝 */
+
+    /* section 2 시작 */
+
+    .main2 {
+        padding-bottom: 80px;
+    }
+    
+    .main2 .main2_content_box {
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .main2 .about_left {
+        margin-bottom: 0px;
+        width: 50%;
+    }
+    
+    .main2 .about_left .left_con_01 {
+        padding: 15px 25px;
+        border-radius: 25px;
+        font-size: 18px;
+    }
+    
+    .main2 .about_left .left_con_02 {
+        font-size: 38px;
+        margin-top: 40px;
+    }
+    
+    .main2 .about_left .left_con_03 {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    
+    .main2 .about_right .right_con_02 .r_con_02_info .info_name::after {
+        left: 180px;
+    }
+
+    /* section 2 끝 */
+
+    /* section 3 시작 */
+
+    .main3 {
+        margin-bottom: 80px;
+    }
+    
+    .main3 .main3_box {
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 0px;
+    }
+
+    .main3 .main3_img {
+        text-align: center;
+    }
+
+    .main3 .main3_img img {
+        width: 380px;
+        margin-bottom: 0px;
+    }
+
+    .main3 .intro_box {
+        width: 45%;
+    }
+
+    .main3 .intro_box .intro_title {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+    
+    .main3 .intro_box .intro_text {
+        font-size: 15px;
+    }
+    
+    .main3 .intro_box .intro_text_a {
+        margin-bottom: 25px;
+    }
+    
+    .main3 .intro_box .intro_text_b {
+        margin-bottom: 25px;
+    }
+
+    /* section 3 끝 */
+
+    /* section 4 시작 */
+
+    .main4 {
+        padding-bottom: 80px;
+    }
+
+    .main4 .main4_box {
+        margin-bottom: 80px;
+    }
+
+    .main4 .main4_title {
+        font-size: 38px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .main4 .mint_info_box {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .main4 .mint_info_box .mint_info_bg {
+        background-size: contain;
+        background-position: center;
+        width: 50%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .main4 .mint_info_box .mint_info {
+        width: 100%;
+        height: 200px;
+        padding: 40px 80px;
+        font-size: 18px;
+    }
+
+    .main4 .mint_info_box .mint_info span {
+        color: #a9a9a9;
+    }
+
+    /* section 4 끝 */
+
+    /* section 5 시작 */
+
+    .main5 {
+        padding-bottom: 80px;
+    }
+    .main5 .main5_box {
+        margin-bottom: 80px;
+    }
+    .main5 .main5_title {
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 60px;
+    }
+
+    .main5 .main5_text {
+        text-align: center;
+        width: 750px;
+        color: #fff;
+        line-height: 2em;
+        word-break: keep-all;
+        font-family: "IBM-R";
+        font-size: 18px;
+        padding: 0px 0px;
+        margin: 0 auto;
+    }
+
+    /* section 5 끝 */
+
+    /* section 6 시작 */
+
+    .main6 {
+        padding-bottom: 80px;
+    }
+
+    .main6 .main6_box {
+        margin-bottom: 80px;
+    }
+
+    .main6 .main6_title {
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 60px;
+    }
+
+    .main6 .mint_info_box {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main6 .mint_info_box .mint_info {
+        margin-bottom: 0px;
+        width: 40%;
+    }
+
+    .main6 .mint_info_box .mint_info .top_info .sale {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .main6 .mint_info_box .mint_info .top_info .role {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .main6 .mint_info_box .mint_info ul li {
+        margin-bottom: 10px;
+    }
+
+    .text_point {
+        font-size: 18px;
+    }
+
+    .right_pick {
+        text-align: right;
+    }
+
+    /* section 6 끝 */
+
+    /* section 7 시작 */
+
+    .main7 {
+        margin-bottom: 80px;
+    }
+
+    .main7 .main7_box {
+        margin-bottom: 80px;
+    }
+
+    .main7 .main7_title {
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 60px;
+    }
+
+    .que {
+        padding: 18px 0;
+        font-size: 18px;
+    }
+
+    .que_box {
+        margin: 0 auto;
+        width: 700px;
+        margin-bottom: 50px;
+    }
+
+    .que::before{
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .anw {
+        font-size: 16px;
+    }
+
+    .anw::before {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    .arrow-wrap {
+        position: absolute;
+        top:50%; right: 20px;
+        transform: translate(0, -50%);
+        display: none;
+    }
+
+    .que .arrow-top {
+        display: none;
+    }
+    .que .arrow-bottom {
+        display: block;
+    }
+    .que.on .arrow-bottom {
+        display: none;
+    }
+    .que.on .arrow-top {
+        display: block; 
+    }
+
+    /* section 7 끝 */
+
+    /* section 8 시작 */
+
+    .main8 {
+        margin-bottom: 80px;
+    }
+
+    .main8 .main8_box {
+        margin-bottom: 80px;
+        padding-bottom: 0px;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .main8 .main8_title {
+        font-size: 38px;
+        margin-bottom: 0px;
+    }
+
+    .main8 .sns_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 18px;
+    }
+    .main8 .sns_box a {
+        padding: 10px 50px;
+    }
+
+    .main8 .sns_box a.go_twitter {
+        margin-bottom: 0px;
+        margin-right: 30px;
+    }
+
+    .main8 .sns_box a.go_twitter .twitter_btn {
+        background-image: url(../img/twitter_btn_ico.png);
+        background-size: 100% auto;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .main8 .sns_box a.go_twitter:hover .twitter_btn {
+        background-image: url(../img/twitter_btn_ico_hover.png);
+    }
+
+    .main8 .sns_box a.go_twitter:hover div {
+        color: #1d9bf0;
+    }
+
+    .main8 .sns_box a.go_twitter:hover {
+        background-color: #fff;
+    }
+    
+    .main8 .sns_box a.go_discord .discord_btn {
+        background-image: url(../img/discord_btn_ico.png);
+        background-size: 100% auto;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .main8 .sns_box a.go_discord:hover .discord_btn {
+        background-image: url(../img/discord_btn_ico_hover.png);
+    }
+
+    .main8 .sns_box a.go_discord:hover div {
+        color: #7289da;
+    }
+
+    .main8 .sns_box a.go_discord:hover {
+        background-color: #fff;
+    }
+
+    /* section 8 끝 */
+
+    /* section 9 시작 */
+
+    .main9 {
+        padding-bottom: 200px;
+    }
+
+    .main9 .main9_box {
+        margin: 0 auto;
+        width: 750px;
+    }
+
+    .main9 .main9_title_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 50px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #606060;
+    }
+
+    .main9 .main9_title_box img {
+        width: 120px;
+    }
+
+    .main9 .main9_title {
+        font-size: 38px;
+    }
+
+    /* section 9 끝 */
+
+    .main10 .time {
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main10 .time .time_text {
+        padding-top: 12px;
+        font-size: 24px;
+        line-height: 1.4em;
+        width: 50%;
+        text-align: center;
+    }
+
+    .main10 .time ul.time_table {
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        flex-wrap: wrap;
+        width: 75%;
+    }
+
+    .main10 .time .time_table li {
+        width: 40%;
+    }
+
+    .main10 .time .time_table li span {
+        font-size: 18px;
+    }
+
+    .main10 .time .time_table li span.number_count {
+        color: #fff;
+        margin-right: 5px;
+        text-decoration: underline;
+        text-decoration-color : #fff;
+        text-underline-offset : 5px;
+        font-family: "IBM-B";
+        font-size: 20px;
+    }
+
+    .sidebar_menu {
+        height: 182px;
+        z-index: 9999;
+    }
+
+    .btn_box {
+        font-size: 18px;
+    }
+
+    /* section 10 끝 */
+
+}
+
+/* 노트북 끝 */
+
+/* PC 시작 */
+
+@media screen and (min-width: 1300px) {
+    /* 공통 시작 */
+
+    .inner {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 1300px;
+    }
+
+    .section_line_box .section_line_01 {
+        width: 85%;
+    }
+
+    .section_line_box .section_line_02 {
+        width: 13%;
+    }
+
+    /* 공통 끝 */
+
+    /* section 1 시작 */
+
+    .main1 {
+        margin-bottom: 100px;
+    }
+
+    /* section 1 끝 */
+
+    /* section 2 시작 */
+
+    .main2 {
+        padding-bottom: 100px;
+    }
+
+    .main2 .main2_content_box {
+        margin-bottom: 100px;
+    }
+
+    .main2 .about_left .left_con_03 {
+        line-height: 2em;
+    }
+
+    .main2 .about_right {
+        width: 45%;
+    }
+
+    /* section 2 끝 */
+
+    /* section 3 시작 */
+
+    .main3 {
+        margin-bottom: 100px;
+    }
+    
+    .main3 .main3_box {
+        margin-bottom: 100px;
+    }
+
+    .main3 .main3_img img {
+        width: 440px;
+        margin-bottom: 0px;
+    }
+
+    .main3 .intro_box {
+        width: 45%;
+    }
+
+    .main3 .intro_box .intro_title {
+        margin-bottom: 35px;
+    }
+    
+    .main3 .intro_box .intro_text {
+        font-size: 18px;
+    }
+    
+    .main3 .intro_box .intro_text_a {
+        margin-bottom: 28px;
+    }
+    
+    .main3 .intro_box .intro_text_b {
+        margin-bottom: 28px;
+    }
+
+    /* section 3 끝 */
+
+    /* section 4 시작 */
+
+    .main4 {
+        padding-bottom: 100px;
+    }
+
+    .main4 .main4_box {
+        margin-bottom: 100px;
+    }
+
+    .main4 .main4_title {
+        font-size: 38px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .main4 .mint_info_box {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .main4 .mint_info_box .mint_info_bg {
+        background-size: contain;
+        background-position: center;
+        width: 470px;
+        height: 220px;
+        margin-bottom: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .main4 .mint_info_box .mint_info {
+        width: 430px;
+        height: 200px;
+        padding-top: 60px;
+        font-size: 18px;
+        padding-left: 50px;
+    }
+
+    /* section 4 끝 */
+
+    /* section 5 시작 */
+
+    .main5 {
+        padding-bottom: 100px;
+    }
+    .main5 .main5_box {
+        margin-bottom: 100px;
+    }
+    .main5 .main5_title {
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 80px;
+    }
+
+    .main5 .main5_text {
+        width: 900px;
+        font-size: 20px;
+    }
+
+    /* section 5 끝 */
+
+    /* section 6 시작 */
+
+    .main6 {
+        padding-bottom: 100px;
+    }
+
+    .main6 .main6_box {
+        margin-bottom: 100px;
+    }
+
+    .main6 .main6_title {
+        margin-bottom: 80px;
+    }
+
+    .main6 .mint_info_box .mint_info {
+        margin-bottom: 0px;
+        width: 40%;
+        font-size: 16px;
+    }
+
+    .main6 .mint_info_box .mint_info .top_info .sale {
+        font-size: 24px;
+    }
+
+    .main6 .mint_info_box .mint_info .top_info .role {
+        font-size: 24px;
+    }
+
+    .main6 .mint_info_box .mint_info ul li {
+        margin-bottom: 20px;
+    }
+
+    .text_point {
+        font-size: 18px;
+    }
+
+    /* section 6 끝 */
+
+    /* section 7 시작 */
+
+    .main7 {
+        margin-bottom: 100px;
+    }
+
+    .main7 .main7_box {
+        margin-bottom: 100px;
+    }
+
+    .main7 .main7_title {
+        margin-bottom: 80px;
+    }
+
+    .que {
+        padding: 18px 0;
+        font-size: 20px;
+        line-height: 1.8em;
+    }
+
+    .que_box {
+        width: 800px;
+        margin-bottom: 60px;
+    }
+
+    .que::before{
+        font-size: 22px;
+        margin: 0 10px;
+    }
+
+    .anw {
+        font-size: 20px;
+        line-height: 1.8em;
+    }
+
+    .anw::before {
+        font-size: 22px;
+        margin: 0 10px;
+    }
+
+    .arrow-wrap {
+        position: absolute;
+        top:50%; right: 20px;
+        transform: translate(0, -50%);
+        display: none;
+    }
+
+    .que .arrow-top {
+        display: none;
+    }
+
+    .que .arrow-bottom {
+        display: block;
+    }
+
+    .que.on .arrow-bottom {
+        display: none;
+    }
+
+    .que.on .arrow-top {
+        display: block; 
+    }
+
+    /* section 7 끝 */
+
+    /* section 8 시작 */
+
+    .main8 {
+        margin-bottom: 100px;
+    }
+
+    .main8 .main8_box {
+        margin-bottom: 100px;
+    }
+
+    .main8 .sns_box {
+        font-size: 20px;
+    }
+
+    .main8 .sns_box a {
+        padding: 15px 60px;
+    }
+
+    .main8 .sns_box a.go_twitter {
+        margin-right: 40px;
+    }
+
+    /* section 8 끝 */
+
+    /* section 9 시작 */
+
+    .main9 {
+        padding-bottom: 100px;
+    }
+
+    .main9 .main9_box {
+        width: 900px;
+    }
+
+    .main9 .ex_text_box {
+        font-size: 18px;
+    }
+
+    .main9 .ex_text {
+        margin-bottom: 20px;
+    }
+
+    /* section 9 끝 */
+
+    /* section 10 시작 */
+    .main10 {}
+
+    .main10 .tamo_ver {
+        display: none;
+    }
+
+    .main10 .pc_ver {
+        display: block;
+        text-align: center;
+    }
+
+    .pc_ver .right_fixed {
+        position: fixed;
+        color: #fff;
+        right: 65px;
+        top: 400px;
+        z-index: 9999;
+    }
+
+    .pc_ver .right_fixed .pc_time {
+        background-color: #191a1b;
+        border-radius: 30px 30px 0px 0px;
+        width: 140px;
+        height: 250px;
+        padding-top: 20px;
+    }
+
+    .pc_ver .right_fixed .pc_time .time_text {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 1.4em;
+        color: #e8632e;
+        font-family: "IBM-B";
+    }
+
+    .pc_ver .right_fixed .pc_time {}
+
+    .pc_ver .right_fixed .pc_time .time_table li {
+        margin-bottom: 15px;
+    }
+
+    .pc_ver .right_fixed .pc_time .time_table li:last-child {
+        margin-bottom: 0px;
+    }
+
+    .pc_ver .right_fixed .pc_time .time_table li span {
+        font-family: "IBM-R";
+        font-size: 18px;
+        color: #a9a9a9;
+    }
+
+    .pc_ver .right_fixed .pc_time .time_table li span.number_count {
+        color: #fff;
+        margin-right: 5px;
+        text-decoration: underline;
+        text-decoration-color : #fff;
+        text-underline-offset : 5px;
+        font-family: "IBM-B";
+        font-size: 20px;
+    }
+
+    .pc_ver .right_fixed .btn_box_pc {
+        width: 140px;
+    }
+
+    .pc_ver .right_fixed .btn_box_pc  .buy_btn_PC {
+        width: 100%;
+    }
+
+    .pc_ver .right_fixed .btn_box_pc  .buy_btn_PC a {
+        width: 100%;
+        display: block;
+        background-color: #e8632e;
+        width: 140px;
+        padding: 15px 0px;
+        font-family: "IBM-B";
+        font-size: 16px;
+    }
+
+    .pc_ver .right_fixed .btn_box_pc  .buy_btn_PC a:hover {
+        color: #e8632e;
+        background-color: #fff;
+    }
+
+    .pc_ver .right_fixed .btn_box_pc .go_btn_PC a {
+        width: 100%;
+        display: block;
+        background-color: #e8632e;
+        width: 140px;
+        padding: 15px 0px;
+        padding-bottom: 20px;
+        border-radius: 0px 0px 30px 30px;
+        font-family: "IBM-B";
+        font-size: 16px;
+    }
+
+    .pc_ver .right_fixed .btn_box_pc .go_btn_PC a:hover {
+        color: #e8632e;
+        background-color: #fff;
+    }
+
+    /* section 10 끝 */
+
+}
+
+@media screen and (min-width: 1921px) {
+    .pc_ver .right_fixed {
+        right: 250px;
+        top: 500px;
+    }
+    
+}
+
+
+/* PC 끝 */
+

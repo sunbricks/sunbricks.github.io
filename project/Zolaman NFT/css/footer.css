@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+
+/* PC footer 시작 */
+
+#footer .f_inner {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #fef2e1;
+}
+
+#footer .f_inner .copy {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-family: "Neo";
+    font-size: 16px;
+}
+
+#footer .footer_img {
+    position: absolute;
+    bottom: 98px;
+    left: 200px;
+}
+
+#footer .footer_img img {
+    width: 300px;
+}
+
+/* PC footer 끝 */
+
+/* 노트북 footer 시작 */
+@media screen and (max-width:1300px) {
+    #footer .f_inner {
+        width: 900px;
+    }
+    #footer .f_inner .copy {
+        padding-top: 80px;
+    }
+
+    #footer .footer_img {
+        bottom: 86px;
+        left: 100px;
+    }
+
+    #footer .footer_img img {
+        width: 250px;
+    }
+}
+/* 노트북 footer 끝 */
+
+/* 태블릿 footer 시작 */
+@media screen and (max-width:1023px) {
+    #footer .f_inner {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+/* 태블릿 footer 끝 */
+
+/* 모바일 footer 시작 */
+@media screen and (max-width:425px) {
+    #footer .f_inner {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #footer .footer_img {
+        bottom: 94px;
+        left: 0px;
+    }
+
+    #footer .footer_img img {
+        width: 200px;
+    }
+}
+/* 모바일 footer 끝 */

@@ -1,0 +1,1488 @@
+body {
+    background-color: #000;
+}
+
+/* 공통 시작 */
+
+.inner {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* 공통 끝 */
+
+/* section landgold_nft 시작 */
+
+.landgold_nft {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.land_top {}
+.land_top_left {
+    margin-bottom: 50px;
+}
+
+.land_top_left div {
+    color: #fcb323;
+    display: none;
+}
+
+.land_top_left video {
+    width: 100%;
+}
+
+.land_top_right {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.land_top_right .bot_title_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.land_top_right .bot_title_box .land_title {
+    color: #fcb323;
+    font-family: "GB";
+    font-size: 20px;
+    width: 65%;
+}
+
+.land_top_right .bot_title_box .land_line {
+    width: 35%;
+    background-color: #fcb323;
+    height: 2px;
+}
+
+.land_top_right img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.land_bot {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.land_bot_left {}
+.land_bot_left .intro_title {
+    color: #efefef;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: "NEHV";
+}
+
+.land_bot_left .intro_info {
+    color: #9fa0a0;
+    font-family: "NBRG";
+    line-height: 1.6em;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.land_bot_left .intro_info p {
+    font-weight: bold;
+}
+
+.land_bot_left .buy_btn {
+    background-color: inherit;
+    border: 1px solid #fcb323;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    color: #fcb323;
+    font-size: 16px;
+    font-family: "NEHV";
+    border-radius: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.land_bot_left .buy_btn:hover {
+    background-color: #fcb323;
+    color: #fff;
+    border: none;
+}
+
+.land_bot_left .buy_btn .buy_ico {
+    background-image: url(../img/buy_ico.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.land_bot_left .buy_btn:hover .buy_ico {
+    background-image: url(../img/buy_ico_hover.png);
+}
+
+.land_bot_right {
+    margin-bottom: 20px;
+}
+
+.land_bot_right img {
+    width: 100%;
+}
+
+/* section landgold_nft 끝 */
+
+/* section benefit 시작 */
+
+.benefit {
+    padding-bottom: 50px;
+}
+
+.benefit_title_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.benefit_title_box .benefit_title {
+    color: #fcb323;
+    width: 50%;
+    font-size: 24px;
+    font-family: "GB";
+}
+.benefit_title_box .benefit_line {
+    height: 2px;
+    width: 60%;
+    background-color: #fcb323;
+}
+
+.benefit_info_box {
+    color: #fff;
+}
+
+.benefit_box {
+    position: relative;
+    border: 1px solid #9fa0a0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+
+.benefit_box .benefit_info_01 {
+    font-family: "NEHV";
+    font-size: 20px;
+    line-height: 1.8em;
+}
+.benefit_box .benefit_info_02 {
+    font-family: "NCBD";
+}
+
+.benefit_box img {
+    position: absolute;
+    width: 200px;
+    left: -8px;
+    top: -25px;
+}
+
+.benefit_list {
+    margin-bottom: 40px;
+}
+
+.benefit_list .list_box {
+    display: flex;
+    font-family: "GB";
+    height: 80px;
+    text-align: center;
+    border: 1px solid #fcb323;
+    margin-bottom: 30px;
+    border-radius: 10px 0px 30px 0px;
+}
+
+.benefit_list .list_box .montly {
+    width: 25%;
+    height: 100%;
+    background-color: #fcb323;
+    color: #000;
+    font-size: 18px;
+    border-radius: 8px 0px 16px 0px;
+    padding-top: 22px;
+}
+
+.benefit_list .list_box .rate {
+    width: 75%;
+    height: 100%;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 28px;
+}
+
+.benefit_list .list_box .rate span {
+    color: #fcb323;
+}
+
+.announce {
+    font-family: "NCBD";
+    color: #9fa0a0;
+}
+
+.announce p {
+    margin-bottom: 30px;
+    line-height: 2em;
+}
+
+
+/* section benefit 끝 */
+
+/* section mint plan 시작 */
+
+.plan {
+    padding-bottom: 50px;
+}
+.plan_title_box {
+    font-size: 24px;
+    font-family: "GB";
+    margin-bottom: 30px;
+}
+.plan_title_box .plan_title {
+    color: #fcb323;
+    line-height: 1.6em;
+}
+.plan_title_box .plan_sub_title_box {
+    display: flex;
+    align-items: center;
+}
+.plan_title_box .plan_sub_title {
+    color: #fcb323;
+    width: 50%;
+}
+.plan_title_box .plan_sub_line {
+    background-color: #fcb323;
+    height: 2px;
+    width: 70%;
+}
+
+.plan_content {}
+
+.plan_left_con {
+    margin-bottom: 30px;
+}
+
+.plan_left_con .sale_info {
+    width: 100%;
+    font-family: "GB";
+    font-size: 20px;
+    background-color: #fcb323;
+    border-radius: 10px 0px 30px 0px;
+    text-align: center;
+    padding: 24px 0px;
+}
+
+.plan_right_con {}
+.plan_right_con .plan_r_top {
+    margin-bottom: 30px;
+}
+
+.plan_right_con .plan_r_top div {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "NEHV";
+    font-size: 15px;
+}
+
+.plan_right_con .plan_r_top .name_box {
+    border-bottom: 1px solid #666;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.plan_right_con .plan_r_bot {
+    color: #9fa0a0;
+    font-family: "NBRG";
+    line-height: 1.6em;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.plan_right_con .r_bot_con01 {
+    margin-bottom: 15px;
+}
+.plan_right_con .r_bot_con02 {
+    font-weight: bold;
+}
+
+.plan_bot_con {
+    color: #fff;
+    font-family: "NBRG";
+    line-height: 1.6em;
+    font-size: 15px;
+    padding: 30px 16px;
+    border: 1px solid #fcb323;
+    border-radius: 10px 0px 30px 0px;
+}
+
+/* section mint plan 끝 */
+
+/* section sneakpick 시작 */
+
+.sneakpick {
+    padding-bottom: 50px;
+}
+
+.spick_title_box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.spick_title_box .spick_title {
+    color: #fcb323;
+    width: 80%;
+    font-size: 24px;
+    font-family: "GB";
+}
+.spick_title_box .spick_line {
+    background-color: #fcb323;
+    width: 25%;
+    height: 2px;
+}
+.sneakpick_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sneakpick_list li {
+    width: 46%;
+    height: 140px;
+    background-color: #9fa0a0;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+/* section sneakpick 끝 */
+
+/* section sales plan 시작 */
+
+.s_plan {
+    padding-bottom: 50px;
+}
+
+.sale_date_info {
+    margin-bottom: 30px;
+}
+
+.sale_date_info img {
+    width: 130px;
+    margin-bottom: 15px;
+}
+
+.sale_date_info div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #9fa0a0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-family: "NEHV";
+}
+
+.sale_date_info div p {
+    color: #fff;
+}
+
+/* section sales plan 끝 */
+
+/* section faq 시작 */
+
+.faq {
+    padding-bottom: 50px;
+}
+
+.faq_title_box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.faq_title_box .faq_title {
+    color: #fcb323;
+    width: 30%;
+    font-size: 24px;
+    font-family: "GB";
+}
+
+.faq_title_box .faq_line {
+    background-color: #fcb323;
+    width: 80%;
+    height: 2px;
+}
+
+.acodian_list {
+    width: 100%;
+    border: 1px solid #fcb323;
+    border-radius: 10px 0px 20px 0px;
+    margin-bottom: 20px;
+}
+
+.acodian_list.active {
+    width: 100%;
+}
+.acodian_list .quest_box {
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #fcb323;
+    border-radius: 8px 0px 18px 0px;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+.acodian_list .quest_box .quest_info {
+    color: #000;
+    font-family: "NEHV";
+}
+
+.acodian_list .info_text {
+    color: #fff;
+    padding: 15px;
+    font-family: "NDEB";
+    line-height: 1.8em;
+    word-break: keep-all;
+}
+
+/* section faq 끝 */
+
+/* section sns 시작 */
+
+.sns {
+    padding-bottom: 50px;
+}
+
+.sns_box img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.sns_title_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sns_title_box .sns_title {
+    color: #fcb323;
+    width: 80%;
+    font-family: "GB";
+    font-size: 24px;
+}
+
+.sns_title_box .sns_line {
+    background-color: #fcb323;
+    height: 2px;
+    width: 20%;
+}
+
+.twitter_box, .telegram_box {
+    width: 100%;
+    padding: 26px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 10px 0px 30px 0px;
+    font-family: "GB";
+    font-size: 18px;
+    align-items: center;
+}
+
+/* section sns 끝 */
+
+/* section caution 시작 */
+
+.caution {
+    padding-bottom: 50px;
+}
+
+.caution_title_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.caution_title_box .caution_title {
+    color: #fcb323;
+    width: 40%;
+    font-family: "GB";
+    font-size: 24px;
+}
+
+.caution_title_box .caution_line {
+    background-color: #fcb323;
+    height: 2px;
+    width: 60%;
+}
+
+.caution_list_box {
+    color: #9fa0a0;
+    font-family: "NCBD";
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #fcb323;
+}
+
+.caution_list_box p {
+    margin-bottom: 12px;
+    line-height: 1.8em;
+    font-size: 16px;
+}
+
+.caution_list_box p:last-child {
+    margin-bottom: 0px;
+}
+
+.last_caution {
+    color: #fff;
+    font-family: "NDEB";
+    font-size: 15px;
+    line-height: 2em;
+}
+
+/* section caution 끝 */
+
+
+
+
+/* 태블릿 시작 */
+
+@media screen and (min-width: 768px) {
+    /* 공통 시작 */
+
+    .inner {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* 공통 끝 */
+
+    /* section landgold_nft 시작 */
+
+    .landgold_nft {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .land_top_left {
+        margin-bottom: 80px;
+    }
+
+    .land_top_left div {
+        color: #fcb323;
+        display: none;
+    }
+
+    .land_top_right {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .land_top_right .bot_title_box {
+        margin-bottom: 50px;
+    }
+
+    .land_top_right .bot_title_box .land_title {
+        font-size: 28px;
+        width: 45%;
+    }
+
+    .land_top_right .bot_title_box .land_line {
+        width: 55%;
+    }
+
+    .land_top_right img {
+        margin: 0 auto;
+        width: 350px;
+        margin-bottom: 50px;
+        display: block;
+    }
+
+    .land_bot {
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 650px;
+    }
+
+    .land_bot_left {
+        text-align: center;
+    }
+
+    .land_bot_left .intro_title {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .land_bot_left .intro_info {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .land_bot_left .intro_info p {
+        font-weight: bold;
+    }
+
+    .land_bot_left .buy_btn {
+        margin: 0 auto;
+        width: 80%;
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .land_bot_left .buy_btn .buy_ico {
+        background-position: center;
+        width: 30px;
+        height: 100%;
+    }
+
+    .land_bot_right {
+        text-align: center;
+    }
+
+    .land_bot_right img {
+        width: 65%;
+        margin-bottom: 30px;
+    }
+
+    /* section landgold_nft 끝 */
+
+    /* section benefit 시작 */
+
+    .benefit_title_box {
+        margin-bottom: 80px;
+    }
+
+    .benefit_title_box .benefit_title {
+        width: 30%;
+        font-size: 28px;
+    }
+    .benefit_title_box .benefit_line {
+        width: 70%;
+    }
+
+    .benefit_info_box {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    .benefit_box {
+        width: 45%;
+    }
+
+    .benefit_list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+    .benefit_list .list_box {
+        width: 45%;
+    }
+
+    .announce {
+        margin: 0 auto;
+        width: 650px;
+    }
+
+    .announce p {
+        margin-bottom: 30px;
+        line-height: 2em;
+        font-size: 16px;
+    }
+
+    /* section benefit 끝 */
+
+    /* section mint plan 시작 */
+
+
+    .plan_title_box {
+        font-size: 28px;
+        margin-bottom: 50px;
+    } 
+
+    .plan_title_box .plan_sub_title {
+        width: 45%;
+    }
+
+    .plan_title_box .plan_sub_line {
+        width: 200%;
+    }
+
+    .plan_left_con {
+        margin-bottom: 50px;
+    }
+
+    .plan_left_con .sale_info {
+        font-size: 24px;
+    }
+
+    .plan_right_con .plan_r_top {
+        margin-bottom: 30px;
+    }
+
+    .plan_right_con .plan_r_top div {
+        font-size: 16px;
+    }
+
+    .plan_right_con .plan_r_top .name_box {
+        padding-bottom: 14px;
+        margin-bottom: 14px;
+    }
+
+    .plan_right_con .plan_r_bot {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .plan_right_con .r_bot_con01 {
+        margin-bottom: 20px;
+    }
+
+    .plan_bot_con {
+        font-size: 16px;
+    }
+
+    /* section mint plan 끝 */
+
+    /* section sneakpick 시작 */
+    
+    .spick_title_box {
+        margin-bottom: 40px;
+    }
+    .spick_title_box .spick_title {
+        width: 50%;
+        font-size: 28px;
+    }
+    .spick_title_box .spick_line {
+        background-color: #fcb323;
+        width: 80%;
+        height: 2px;
+    }
+
+    .sneakpick_list {
+        justify-content: center;
+    }
+
+    .sneakpick_list li {
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+    }
+
+    /* section sneakpick 끝 */
+
+    /* section sale plan 시작 */
+    
+    .sale_date_info {
+        margin-bottom: 40px;
+    }
+    
+    .sale_date_info img {
+        width: 160px;
+        margin-bottom: 20px;
+    }
+    
+    .sale_date_info div {
+        margin-bottom: 14px;
+        padding-bottom: 14px;
+        font-size: 16px;
+    }
+
+    /* section sale plan 끝 */
+
+    /* section faq 시작 */
+
+    .faq_title_box {
+        margin-bottom: 40px;
+    }
+    
+    .faq_title_box .faq_title {
+        width: 20%;
+        font-size: 28px;
+    }
+    
+    .faq_title_box .faq_line {
+        width: 80%;
+    }
+    
+    .acodian_list {
+        width: 100%;
+        border: 1px solid #fcb323;
+        border-radius: 10px 0px 20px 0px;
+        margin-bottom: 20px;
+    }
+    
+    .acodian_list.active {
+        width: 100%;
+    }
+    .acodian_list .quest_box {
+        font-size: 16px;
+    }
+    
+    .acodian_list .info_text {
+        font-size: 16px;
+    }
+
+    /* section faq 끝 */
+
+    /* section sns 시작 */
+
+    .sns {
+        padding-bottom: 50px;
+    }
+    
+    .sns_box img {
+        width: 40px;
+        margin-right: 10px;
+    }
+    
+    .sns_title_box .sns_title {
+        font-size: 28px;
+    }
+    
+    .sns_title_box .sns_line {
+        width: 50%;
+    }
+
+    /* section sns 끝 */
+
+    /* section caution 시작 */
+    
+    .caution_title_box {
+        margin-bottom: 40px;
+    }
+    
+    .caution_title_box .caution_title {
+        font-size: 28px;
+    }
+    
+    .caution_list_box {
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .caution_list_box p {
+        margin-bottom: 14px;
+    }
+    
+    .last_caution {
+        font-size: 16px;
+    }
+
+    /* section caution 끝 */
+}
+
+/* 태블릿 끝 */
+
+/* 노트북 시작 */
+
+@media screen and (min-width: 1024px) {
+    /* 공통 시작 */
+
+    .inner {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .contour_line {
+        margin-bottom: 70px;
+        padding-bottom: 70px;
+        border-bottom: 1px solid #fcb323;
+    }
+
+    /* 공통 끝 */
+
+    /* section landgold nft 시작 */
+
+    .landgold_nft {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 150px;
+        display: block;
+    }
+
+    .land_top {
+        width: 960px;
+        max-width: 1300px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    .land_top_left {
+        margin-bottom: 0px;
+        width: 60%;
+    }
+
+    .land_top_left video {
+        width: 530px;
+    }
+
+    .land_top_left div {
+        color: #fcb323;
+        display: block;
+        font-size: 28px;
+        font-family: "GB";
+        margin-bottom: 20px;
+    }
+
+    .land_top_right {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 40%;
+    }
+
+    .land_top_right .bot_title_box {
+        margin-bottom: 50px;
+        display: none;
+    }
+
+    .land_top_right img {
+        margin: 0 auto;
+        width: 350px;
+        margin-bottom: 50px;
+        display: block;
+    }
+
+    .land_bot {
+        margin: 0 auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 960px;
+        max-width: 1300px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: inherit;
+    }
+
+    .land_bot_left {
+        text-align: left;
+        width: 60%;
+        padding-right: 60px;
+    }
+
+    .land_bot_left .intro_title {
+        margin-bottom: 24px;
+        font-size: 26px;
+    }
+
+    .land_bot_left .intro_info {
+        font-size: 18px;
+        margin-bottom: 40px;
+        line-height: 1.8em;
+    }
+
+    .land_bot_left .intro_info p {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .land_bot_left .buy_btn {
+        margin: 0;
+        width: 360px;
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .land_bot_left .buy_btn .buy_ico {
+        background-position: center;
+        width: 30px;
+        height: 100%;
+    }
+
+    .land_bot_right {
+        text-align: center;
+        width: 40%;
+    }
+
+    .land_bot_right img {
+        width: 360px;
+        margin-bottom: 0px;
+    }
+
+    /* section landgold nft 끝 */
+
+    /* section benefit 시작 */
+
+    .benefit_title_box {
+        margin-bottom: 80px;;
+    }
+
+    .benefit_title_box .benefit_line {
+        width: 0%;
+    }
+
+    .benefit_info_box {
+        justify-content: space-between;
+    }
+
+    .benefit_box {
+        width: 48%;
+    }
+
+    .benefit_list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .benefit_list .list_box {
+        width: 48%;
+    }
+
+    .announce {
+        margin: 0 auto;
+        width: 960px;
+    }
+
+    .announce p {
+        margin-bottom: 30px;
+        line-height: 2em;
+        font-size: 16px;
+    }
+
+    /* section benefit 끝 */
+
+
+
+    /* section plan 시작 */
+
+    .plan_title_box {
+        font-size: 28px;
+        margin-bottom: 50px;
+    } 
+
+    .plan_title_box .plan_sub_title {
+        width: 45%;
+    }
+
+    .plan_title_box .plan_sub_line {
+        width: 0%;
+        display: none;
+    }
+
+    .plan_left_con {
+        margin-bottom: 0px;
+        width: 280px;
+    }
+
+    .plan_content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    .plan_left_con .sale_info {
+        font-size: 24px;
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plan_right_con {
+        width: 600px;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .plan_right_con .plan_r_top {
+        margin-bottom: 30px;
+    }
+
+    .plan_right_con .plan_r_top div {
+        font-size: 18px;
+    }
+
+    .plan_right_con .plan_r_top .name_box {
+        padding-bottom: 14px;
+        margin-bottom: 14px;
+    }
+
+    .plan_right_con .plan_r_bot {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .plan_right_con .r_bot_con01 {
+        margin-bottom: 20px;
+    }
+
+    .plan_bot_con {
+        font-size: 18px;
+    }
+
+    /* section plan 끝 */
+
+    /* section sneakpick 시작 */
+    
+    .spick_title_box {
+        margin-bottom: 40px;
+    }
+    .spick_title_box .spick_title {
+        width: 50%;
+        font-size: 28px;
+    }
+    .spick_title_box .spick_line {
+        width: 0%;
+    }
+
+    .sneakpick_list {
+        justify-content: center;
+    }
+
+    .sneakpick_list li {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+    }
+
+    .sneakpick_list li.last_skip {
+        display: none;
+    }
+
+    /* section sneakpick 끝 */
+
+    /* section sale plan 시작 */
+
+    .sale_box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    
+    .sale_date_info {
+        width: 48%;
+        margin-bottom: 0px;
+    }
+    
+    .sale_date_info div {
+        margin-bottom: 16px;
+        padding-bottom: 16px;
+        font-size: 18px;
+    }
+
+    /* section sale plan 끝 */
+
+    /* section faq 시작 */
+
+    .faq_title_box {
+        margin-bottom: 60px;
+    }
+    
+    .faq_title_box .faq_title {
+        width: 100%;
+        font-size: 28px;
+    }
+    
+    .faq_title_box .faq_line {
+        width: 0%;
+        display: none;
+    }
+    
+    .acodian_list {
+        width: 100%;
+    }
+    
+    .acodian_list.active {
+        width: 100%;
+    }
+    .acodian_list .quest_box {
+        font-size: 18px;
+    }
+    
+    .acodian_list .info_text {
+        font-size: 18px;
+    }
+
+    /* section faq 끝 */
+
+    /* section sns 시작 */
+
+    .sns {
+        padding-bottom: 60px;
+    }
+
+    .sns_title_box .sns_line {
+        display: none;
+        width: 0%;
+    }
+
+    .sns_box {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .sns_box a {
+        width: 48%;
+    }
+
+    /* section sns 끝 */
+
+    /* section caution 시작 */
+
+    .caution {
+        padding-bottom: 200px;
+    }
+
+    .caution_title_box .caution_line {
+        display: none;
+        width: 0%;
+    }
+
+    
+    .caution_list_box p {
+        margin-bottom: 14px;
+        font-size: 18px;
+    }
+    
+    .last_caution {
+        font-size: 16px;
+    }
+
+    /* section caution 끝 */
+    
+}
+
+/* 노트북 끝 */
+
+/* PC 시작 */
+
+@media screen and (min-width: 1300px) {
+    /* 공통 시작 */
+
+    .inner {
+        width: 1200px;
+    }
+
+    .contour_line {
+        margin-bottom: 100px;
+        padding-bottom: 100px;
+    }
+
+    /* 공통 끝 */
+
+    
+    /* section landgold nft 시작 */
+
+    .landgold_nft {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 150px;
+        display: block;
+    }
+
+    .land_top {
+        width: 1200px;
+    }
+
+    .land_top_left {
+        margin-bottom: 0px;
+        width: 60%;
+    }
+
+    .land_top_left video {
+        width: 650px;
+    }
+
+    .land_top_left div {
+        font-size: 32px;
+    }
+
+    .land_top_right {
+        width: 50%;
+    }
+
+    .land_top_right img {
+        width: 400px;
+        margin-bottom: 70px;
+    }
+
+    .land_bot {
+        width: 1200px;
+    }
+
+    .land_bot_left {
+        text-align: left;
+        width: 60%;
+        padding-right: 60px;
+    }
+
+    .land_bot_left .intro_title {
+        margin-bottom: 28px;
+        font-size: 30px;
+    }
+
+    .land_bot_left .intro_info {
+        font-size: 20px;
+    }
+
+    .land_bot_left .buy_btn {
+        margin: 0;
+        width: 360px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .land_bot_left .buy_btn .buy_ico {
+        width: 34px;
+    }
+
+    .land_bot_right img {
+        width: 370px;
+    }
+
+    /* section landgold nft 끝 */
+
+    /* section benefit 시작 */
+
+    .benefit_title_box {
+        margin-bottom: 100px;
+    }
+
+    .benefit_title_box .benefit_title {
+        font-size: 32px;
+    }
+
+    .benefit_box {
+        width: 48%;
+    }
+
+    .benefit_list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .benefit_list .list_box {
+        width: 48%;
+        height: 100px;
+    }
+    
+    .benefit_box .benefit_info_01 {
+        font-size: 32px;
+    }
+    .benefit_box .benefit_info_02 {
+        font-size: 22px;
+    }
+    
+    .benefit_box img {
+        width: 240px;
+        left: -10px;
+        top: -34px;
+    }
+
+    .benefit_list .list_box .montly {
+        height: 100px;
+        font-size: 22px;
+        padding-top: 26px;
+    }
+    
+    .benefit_list .list_box .rate {
+        height: 100px;
+        color: #fff;
+        font-size: 26px;
+        padding-top: 34px;
+    }
+
+    .announce {
+        width: 1200px;
+    }
+
+    .announce p {
+        margin-bottom: 10px;
+        line-height: 1.8em;
+        font-size: 20px;
+    }
+
+    /* section benefit 끝 */
+
+    /* section plan 시작 */
+
+    .plan_title_box {
+        font-size: 28px;
+        margin-bottom: 50px;
+    } 
+
+    .plan_title_box .plan_sub_title {
+        width: 45%;
+    }
+
+    .plan_title_box .plan_sub_line {
+        width: 0%;
+        display: none;
+    }
+
+    .plan_left_con {
+        margin-bottom: 0px;
+        width: 280px;
+    }
+
+    .plan_content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    .plan_left_con .sale_info {
+        font-size: 24px;
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plan_right_con {
+        width: 600px;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .plan_right_con .plan_r_top {
+        margin-bottom: 30px;
+    }
+
+    .plan_right_con .plan_r_top div {
+        font-size: 18px;
+    }
+
+    .plan_right_con .plan_r_top .name_box {
+        padding-bottom: 14px;
+        margin-bottom: 14px;
+    }
+
+    .plan_right_con .plan_r_bot {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .plan_right_con .r_bot_con01 {
+        margin-bottom: 20px;
+    }
+
+    .plan_bot_con {
+        font-size: 18px;
+    }
+
+    /* section plan 끝 */
+}
+
+/* PC 끝 */
