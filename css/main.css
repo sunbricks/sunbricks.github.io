@@ -394,14 +394,14 @@ input, button {
 .skills__groups {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 50px;
 }
 .skills__group {
-  flex: 0 0 calc(50% - 20px);
+  flex: 0 0 calc(50% - 25px);
 }
 .skills__group-title {
   font-family: "GB";
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-bottom: 10px;
   color: #D25DEF;
 }
@@ -409,10 +409,15 @@ input, button {
   background-color: #333;
   padding: 20px;
   border-radius: 8px;
+  letter-spacing: 1px;
+  line-height: 1.4em;
 }
 .skills__item-desc {
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  word-break: keep-all;
+  font-family: "GL";
+  font-size: 16px;
 }
 .skills__item .skills__icons {
   display: flex;
@@ -422,8 +427,8 @@ input, button {
   padding: 0;
 }
 .skills__item .skills__icons li img {
-  max-width: 40px;
-  height: auto;
+  width: 40px;
+  height: 40px;
   display: block;
 }
 

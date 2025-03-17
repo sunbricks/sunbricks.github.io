@@ -289,16 +289,16 @@
     &__groups {
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 50px;
     }
 
     &__group {
-        flex: 0 0 calc(50% - 20px);
+        flex: 0 0 calc(50% - 25px);
     }
 
     &__group-title {
         font-family: "GB";
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-bottom: 10px;
         color: #D25DEF; // 타이틀 색상 (예시)
     }
@@ -307,10 +307,15 @@
         background-color: #333; // 박스 배경색
         padding: 20px;
         border-radius: 8px;
+        letter-spacing: 1px;
+        line-height: 1.4em;
 
         &-desc {
             color: #fff; // 설명 텍스트 색상 (예시)
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+            word-break: keep-all;
+            font-family: "GL";
+            font-size: 16px;
         }
 
         .skills__icons {
@@ -322,8 +327,8 @@
 
             li {
                 img {
-                    max-width: 40px; // 아이콘 크기 (필요에 따라 조정)
-                    height: auto;
+                    width: 40px;
+                    height: 40px;
                     display: block;
                 }
             }
