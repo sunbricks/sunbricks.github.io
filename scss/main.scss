@@ -227,7 +227,7 @@
                 .about__section {
                     &--introduce {
                         .about__description {
-                            line-height: 1.5;
+                            line-height: 2em;
                             word-break: keep-all;
                         }
                     }
@@ -294,6 +294,7 @@
             word-break: keep-all;
             font-family: "GL";
             font-size: 16px;
+            line-height: 1.8em;
         }
 
         .skills__icons {
@@ -412,3 +413,670 @@
     }
 }
 /* portfolio 끝 */
+
+
+
+
+@media screen and (max-width:1300px) {
+    // 1024 size
+    /* home 시작 */
+    .home {
+        .title-box {
+            .title__box {
+                .first__title {
+                    font-size: 26px;
+                    margin-bottom: 20px;
+                }
+
+                .second__title {
+                    font-size: 60px;
+                    margin-bottom: 30px;
+                }
+                
+                .third__title {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+    /* home 끝 */
+
+    /* about 시작 */
+    .about {
+
+        &__content {
+            gap: 20px;
+        }
+        
+        &__column {
+
+            &--profile {
+                width: 25%;
+                .about__profile-img {
+                    width: 240px;
+                    margin-bottom: 20px;
+                }
+
+                .about__list {
+                    &-item {
+                        margin-bottom: 12px;
+
+                        .about__label {
+                            width: 80px;
+                            font-size: 15px;
+                        }
+                        .about__value {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            &--details {
+                width: 75%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                
+                & > .about__details-top {
+                    display: flex;
+                    
+                    & > .about__details-left {
+                        width: 55%;
+
+                        .about__section {
+                            &--education {
+                                margin-bottom: 50px;
+
+                                .about__list {
+                                    &-item {
+                                        margin-bottom: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    & > .about__details-right {
+                        width: 45%;
+
+                        .about__section {
+                            .license-group {
+                                display: flex;
+                                &__year {
+                                    font-size: 14px;
+                                    width: 60px;
+                                }
+
+                                &__list {
+                                    margin-bottom: 25px;
+                                }
+
+                                &__item {
+                                    margin-bottom: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &__date {
+            font-size: 12px;
+        }
+
+        &__subheading {
+            font-size: 20px;
+        }
+    }
+    /* about 끝 */
+
+    /* portfolio 시작 */
+    .portfolio {
+        &__list {
+            gap: 20px;
+        }
+
+        &__item {
+            flex: 0 0 calc((100% - 40px) / 3);
+        }
+
+        &__image {
+            img {
+                height: 100%;
+            }
+        }
+
+        &__techs {
+            gap: 5px;
+        
+            .portfolio__tech {
+                font-size: 9px;
+            }
+        }
+    }
+    /* portfolio 끝 */
+}
+
+@media screen and (max-width:1023px) {
+    // 768 size
+    /* home 시작 */
+    .home {
+        .title-box {
+            .title__box {
+                .first__title {
+                    font-size: 24px;
+                }
+
+                .second__title {
+                    font-size: 50px;
+                }
+                
+                .third__title {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    /* home 끝 */
+
+    /* about 시작 */
+    .about {
+
+        &__content {
+            display: block;
+        }
+        
+        &__column {
+
+            &--profile {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+                margin-bottom: 40px;
+
+                .about__profile-img {
+                    width: 280px;
+                    margin-bottom: 0px;
+                }
+
+                .about__list {
+                    &-item {
+                        margin-bottom: 20px;
+
+                        .about__label {
+                            width: 100px;
+                            font-size: 16px;
+                        }
+                        .about__value {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+
+            &--details {
+                width: 100%;
+                display: block;
+                
+                & > .about__details-top {
+                    display: block;
+                    margin-bottom: 40px;
+                    
+                    & > .about__details-left {
+                        display: flex;
+                        gap: 30px;
+                        width: 100%;
+                        margin-bottom: 40px;
+
+                        .about__section {
+                            &--education {
+                                width: 50%;
+                                margin-bottom: 0px;
+
+                                .about__list {
+                                    &-item {
+                                        margin-bottom: 30px;
+                                    }
+                                }
+                            }
+
+                            &--experience {
+                                width: 50%;
+
+                                .about__list {
+                                    &-item {
+                                        .about__description {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    & > .about__details-right {
+                        width: 100%;
+
+                        .about__section {
+                            .license-group-box {
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                                gap: 30px;
+
+                                .license-group {
+                                    flex: 0 0 calc(50% - 30px);
+                                    display: flex;
+
+                                    &__year {
+                                        font-size: 14px;
+                                        width: 60px;
+                                    }
+                                    
+                                    &__list {
+                                        margin-bottom: 0px;
+                                    }
+                                    
+                                    &__item {
+                                        font-size: 16px;
+                                        margin-bottom: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &__date {
+            font-size: 14px;
+        }
+
+        &__label {
+            font-size: 16px;
+        }
+    }
+    /* about 끝 */
+
+    /* skills 시작 */
+    .skills {
+        &__groups {
+            gap: 30px;
+        }
+
+        &__group {
+            flex: 0 0 calc(50% - 15px);
+        }
+    }
+    /* skills 끝 */
+
+    /* portfolio 시작 */
+    .portfolio {
+
+        &__item {
+            flex: 0 0 calc((100% - 20px) / 2);
+        }
+
+        &__header {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+        }
+
+        &__desc {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        &__techs {
+            gap: 5px;
+        
+            .portfolio__tech {
+                padding: 5px 10px;
+                font-size: 12px;
+            }
+        }
+
+        &__btn {
+            margin-bottom: 10px;
+        }
+    }
+    /* portfolio 끝 */
+}
+
+@media screen and (max-width:767px) {
+    // 525 size
+    /* home 시작 */
+    .home {
+        .title-box {
+            .title__box {
+                .first__title {
+                    font-size: 22px;
+                }
+
+                .second__title {
+                    font-size: 45px;
+                }
+                
+                .third__title {
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+    /* home 끝 */
+
+    /* about 시작 */
+    .about {
+        &__column {
+            &--profile {
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+                margin-bottom: 30px;
+
+                .about__profile-img {
+                    width: 240px;
+                }
+
+                .about__list {
+                    &-item {
+                        margin-bottom: 15px;
+
+                        .about__label {
+                            width: 70px;
+                            font-size: 14px;
+                        }
+
+                        .about__value {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            &--details {
+                & > .about__details-top {
+                    margin-bottom: 30px;
+                    
+                    & > .about__details-left {
+                        display: flex;
+                        gap: 20px;
+                        margin-bottom: 30px;
+
+                        .about__section {
+                            &--education {
+                                width: 50%;
+
+                                .about__list {
+                                    &-item {
+                                        margin-bottom: 20px;
+                                    }
+                                }
+                            }
+
+                            &--experience {
+                                width: 50%;
+
+                                .about__list {
+                                    &-item {
+                                        .about__description {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    & > .about__details-right {
+
+                        .about__section {
+                            .license-group-box {
+                                display: flex;
+                                gap: 20px;
+
+                                .license-group {
+                                    flex: 0 0 calc(50% - 20px);
+
+                                    &__year {
+                                        font-size: 14px;
+                                        width: 50px;
+                                    }
+                                    
+                                    &__list {
+                                        margin-bottom: 0px;
+                                    }
+                                    
+                                    &__item {
+                                        font-size: 15px;
+                                        margin-bottom: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &__date {
+            font-size: 12px;
+        }
+
+        &__label {
+            font-size: 15px;
+            word-break: keep-all;
+        }
+
+        &__subheading {
+            font-size: 18px;
+        }
+    }
+    /* about 끝 */
+
+    /* skills 시작 */
+    .skills {
+        &__groups {
+            display: block;
+        }
+
+        &__group {
+            margin-bottom: 40px;
+        }
+
+        &__item {
+            padding: 20px;
+
+            &-desc {
+                margin-bottom: 20px;
+                font-size: 16px;
+            }
+
+            .skills__icons {
+
+                li {
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+    /* skills 끝 */
+
+    /* portfolio 시작 */
+    .portfolio {
+        &__list {
+            display: block;
+        }
+
+        &__item {
+            margin-bottom: 30px;
+        }
+
+        &__header {
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+        }
+    }
+    /* portfolio 끝 */
+}
+
+@media screen and (max-width:424px) {
+    // 320 size
+    /* home 시작 */
+    .home {
+        .title-box {
+            .title__box {
+                .first__title {
+                    font-size: 18px;
+                }
+
+                .second__title {
+                    font-size: 30px;
+                }
+                
+                .third__title {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+    /* home 끝 */
+
+    /* about 시작 */
+    .about {
+        &__column {
+            &--profile {
+                display: block;
+                margin-bottom: 40px;
+
+                .about__profile-img {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+
+                .about__list {
+                    &-item {
+                        .about__label {
+                            width: 100px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            &--details {
+                & > .about__details-top {
+                    margin-bottom: 40px;
+                    
+                    & > .about__details-left {
+                        display: block;
+                        margin-bottom: 40px;
+
+                        .about__section {
+                            &--education {
+                                width: 100%;
+                                margin-bottom: 40px;
+                            }
+
+                            &--experience {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    & > .about__details-right {
+
+                        .about__section {
+                            .license-group-box {
+                                display: block;
+
+                                .license-group {
+                                    
+                                    &__list {
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                                    &__item {
+                                        font-size: 15px;
+                                        margin-bottom: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* about 끝 */
+
+    /* skills 시작 */
+    .skills {
+        &__group {
+            margin-bottom: 30px;
+        }
+
+        &__item {
+            padding: 15px;
+
+            .skills__icons {
+
+                li {
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+    /* skills 끝 */
+
+    /* portfolio 시작 */
+    .portfolio {
+        &__item {
+            margin-bottom: 20px;
+        }
+
+        &__header {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+
+            .portfolio__project-name {
+                font-size: 16px;
+            }
+        
+            .portfolio__completion {
+                font-size: 12px;
+            }
+        }
+
+        &__desc {
+            font-size: 14px;
+        }
+
+        &__techs {
+            margin-bottom: 20px;
+            .portfolio__tech {
+                font-size: 8px;
+            }
+        }
+
+        &__btn {
+            margin-bottom: 10px;
+            
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+    /* portfolio 끝 */
+}

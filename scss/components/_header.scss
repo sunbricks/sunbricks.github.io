@@ -11,25 +11,31 @@
         background-color: rgba(0, 0, 0, 0.4);
     }
 
+    &__logo {
+        a {
+            font-size: 26px;
+        }
+    }
+
     &__nav {
         width: 100%;
         height: 60px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
 
         // 햄버거 버튼 (데스크톱에서는 기본 숨김)
-    &-toggle {
-        display: none;
-        position: absolute;
-        right: 20px;
-        top: 15px;
-        width: 30px;
-        height: 30px;
-        background: none;
-        border: none;
-        cursor: pointer;
-        z-index: 10;
+        &-toggle {
+            display: none;
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            width: 30px;
+            height: 30px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            z-index: 10;
 
             &-bar {
                 display: block;
@@ -87,49 +93,78 @@
             }
         }
     }
+}
 
-    @media screen and (max-width:1300px) {
-        // 1024 size
-        
-    }
-
-    @media screen and (max-width:1023px) {
-        // 768 size
-        &__nav {
-            // 햄버거 버튼 보이기
-            &-toggle {
-                display: block;
-            }
-    
-            // 기본 메뉴 리스트 숨기기
-            &-list {
-                display: none;
-                position: absolute;
-                top: 60px;
-                right: 0;
-                background-color: rgba(0, 0, 0, 0.9);
-                flex-direction: column;
-                width: 100%;
-                padding: 20px 0;
-            }
-    
-            // 메뉴 리스트가 열렸을 때의 클래스
-            &-list--active {
-                display: flex;
-            }
-        
-            &-item {
-                margin: 10px 0;
-                text-align: center;
+@media screen and (max-width:1300px) {
+    // 1024 size
+    .header {
+        &__logo {
+            a {
+                font-size: 22px;
             }
         }
     }
-    @media screen and (max-width:767px) {
-        // 525 size
-    
+}
+
+@media screen and (max-width:1023px) {
+    // 768 size
+    .header {
+        &__nav {
+            &-toggle {
+                display: block;
+            }   
+
+            &-list {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 0;
+                right: 0;
+                text-align: center;
+                background-color: #333;
+                width: 100%;
+                height: 100vh;
+                padding-top: 60px;
+                opacity: 0;
+                transform: translateY(-20px);
+                pointer-events: none;
+                transition: opacity 0.3s ease, transform 0.3s ease;
+            }
+
+            &-link {
+                position: relative;
+                font-size: 18px;
+                display: block;
+                padding: 30px 0;
+            }
+
+            &-list--active {
+                opacity: 1;
+                transform: translateY(0);
+                pointer-events: auto;
+            }
+        }
     }
-    @media screen and (max-width:424px) {
-        // 320 size
-    
+}
+
+@media screen and (max-width:767px) {
+    // 525 size
+    .header {
+        &__logo {
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:424px) {
+    // 320 size
+    .header {
+        &__logo {
+            a {
+                font-size: 16px;
+            }
+        }
     }
 }

@@ -69,11 +69,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener('DOMContentLoaded', function() {
   const navLinks = document.querySelectorAll('.header__nav-link');
-  
+  const navList = document.querySelector('.header__nav-list');
+  const navToggle = document.querySelector('.header__nav-toggle');
+
   navLinks.forEach(link => {
     link.addEventListener('click', function(e) {
       e.preventDefault();
-      const targetId = this.getAttribute('href'); // 예: "#about"
+      const targetId = this.getAttribute('href');
       const targetEl = document.querySelector(targetId);
       
       if (targetEl) {
@@ -81,6 +83,15 @@ document.addEventListener('DOMContentLoaded', function() {
           behavior: 'smooth',
           block: 'start'
         });
+      }
+      
+      // 메뉴가 열려있다면 메뉴 리스트와 햄버거 버튼의 active 클래스를 제거
+      if(navList.classList.contains('header__nav-list--active')) {
+        navList.classList.remove('header__nav-list--active');
+      }
+      
+      if(navToggle.classList.contains('active')) {
+        navToggle.classList.remove('active');
       }
     });
   });
@@ -108,3 +119,26 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // --------------------------------
+
+document.addEventListener('DOMContentLoaded', function() {
+  const goTopBtn = document.querySelector('.go-top');
+
+  // 스크롤 위치에 따라 버튼을 보여주거나 숨깁니다.
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 300) {
+      goTopBtn.style.opacity = 1;
+      goTopBtn.style.pointerEvents = 'auto';
+    } else {
+      goTopBtn.style.opacity = 0;
+      goTopBtn.style.pointerEvents = 'none';
+    }
+  });
+
+  // 버튼 클릭 시 페이지 상단으로 부드럽게 스크롤
+  goTopBtn.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
