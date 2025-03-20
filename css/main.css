@@ -128,10 +128,21 @@ input, button {
     margin: 0;
     padding: 0 30px;
   }
+  .section__title {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 767px) {
   .inner {
     padding: 0 20px;
+  }
+  .section__title {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 424px) {
+  .section__title {
+    font-size: 26px;
   }
 }
 @font-face {

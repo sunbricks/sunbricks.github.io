@@ -57,6 +57,10 @@
         padding: 0 30px;
     }
 
+    .section__title {
+        font-size: 30px;
+    }
+
 }
 @media screen and (max-width:767px) {
     // 525 size
@@ -64,9 +68,15 @@
         padding: 0 20px;
     }
 
+    .section__title {
+        font-size: 28px;
+    }
+
 }
 @media screen and (max-width:424px) {
     // 320 size
-
+    .section__title {
+        font-size: 26px;
+    }
 }
 

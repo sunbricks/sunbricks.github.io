@@ -163,13 +163,6 @@
                     <video muted autoplay loop  class="pc_video">
                         <source src="videos/teralonz_main.mp4" type="video/mp4">
                     </video>
-
-                    
-                    <!-- <div class="main1_V_image">
-                        <img class="mainV_m" src="image/main_V_mo.png" alt="테라론즈메인">
-                        <img class="mainV_ta" src="image/main_V_ta.png" alt="테라론즈메인">
-                        <img class="mainV_pc" src="image/main_V_pc.png" alt="테라론즈메인">
-                    </div> -->
                 </div>
             </section>
             <!-- main1 -->
@@ -209,9 +202,7 @@
             <section id="sec_nft" class="main3">
                 <h1 class="nft_title" data-aos="zoom-out-left" data-aos-duration="1500">TERA LONZ NFT</h1>
                 <div class="swiper-container"  data-aos="fade-up" data-aos-duration="500">
-                    <!-- Additional required wrapper -->
                     <div class="swiper-wrapper swiper_nft">
-                        <!-- Slides -->
                         <div class="swiper-slide">
                             <img src="image/nft_item_q.png" alt="NFT스니픽">
                         </div>
@@ -242,7 +233,6 @@
                     </a>
                 </p>
             </section>
-            <!-- sec_nft 롤링 슬라이더 -->
             <!-- main3 -->
 
             <section class="main4" id="sec_membership">
@@ -646,20 +636,20 @@
             centeredSlides: true,
             speed: 6000,
             autoplay: {
-                delay: 1,
+                delay: 0, // 0으로 설정해 지연 없이 움직임
+                disableOnInteraction: false,
             },
             loop: true,
             slidesPerView: 5,
             allowTouchMove: false,
             disableOnInteraction: true,
-            observer: true,	// 추가
-            observeParents: true,	// 추가  
+            observer: true,
+            observeParents: true,
             });
             const swiper = this.swiper;
                 swiper.loopDestroy();
                 swiper.loopCreate();
     </script>
-    <!-- infinity rolling slide -->
 
     <script>
         window.addEventListener("load", function(){

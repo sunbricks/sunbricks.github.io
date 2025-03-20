@@ -1,13 +1,6 @@
-
-
-
 $('.head_burger_menu').click(function(){
     $('.navbar').slideToggle(500);
 })
-
-// $('.close').click(function(){
-//     $('.navbar').slideUp(500);
-// })
 
 
 $('.main_Slide').slick({
@@ -98,16 +91,6 @@ $(document).ready(function($) {
 });
 // page move
 
-
-// $(window).resize(function() {
-//     $(".navbar > .nav > li > a ").click(function(event){
-//         if($(window).width() < 1300) { 
-//             $('.navbar').slideUp(500);
-//         }
-//     })
-// });
-// // mobile navbar slideup
-
 $(document).ready(function(){
     $(".burger_menu").click(function(){
         $(".burger_menu").hide()
@@ -119,21 +102,16 @@ $(document).ready(function(){
     })
 })
 
-
-
 function btn(){
     alert('Coming Soon!!');
 }
 // click alert
 
-
-
 setInterval(function(){
     if($(".big_door").prop("ended")){
         $('main_door_video > video').hide()
         $('main_door_enter > button').css('display','block')
-      //영상종료 후 진행할 함수 입력부분
     }
-  },200);
+},200);
 
 
