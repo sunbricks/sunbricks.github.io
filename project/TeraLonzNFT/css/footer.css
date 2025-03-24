@@ -1,0 +1,117 @@
+/* footer.css */
+
+/* 기본 스타일 */
+#footer {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #333;
+    position: relative;
+}
+
+.footer__in {
+    text-align: center;
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+.footer__logo img {
+    width: 120px;
+}
+
+.footer__sns {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.footer__sns-item {
+    margin: 0 10px;
+}
+
+.footer__sns-link {
+    display: block;
+}
+
+.footer__sns-icon {
+    width: 25px;
+}
+
+.footer__sns-icon--hover {
+    display: none;
+}
+
+.footer__sns-link:hover .footer__sns-icon {
+    display: none;
+}
+
+.footer__sns-link:hover .footer__sns-icon--hover {
+    display: block;
+}
+
+.footer__copy {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer__go-top {
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    z-index: 99999;
+    cursor: pointer;
+    animation: blink-effect 1s infinite;
+}
+
+.footer__go-top__ico {
+    background-image: url(../image/go_top_icon.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.footer__go-top__text {
+    text-align: center;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+@keyframes blink-effect {
+    25% { 
+        opacity: 0.75;
+    }
+
+    100% { 
+        opacity: 0.25;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .footer__sns-icon {
+        width: 40px;
+    }
+
+    .footer__go-top {
+        transition: all 3s;
+        z-index: 999;
+    }
+
+    .footer__go-top-ico {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer__go-top:hover .footer__go-top__text {
+        color: #499dc1;
+    }
+
+    .footer__go-top:hover .footer__go-top__ico {
+        background-image: url(../image/go_top_hover_icon.png);
+    }
+}

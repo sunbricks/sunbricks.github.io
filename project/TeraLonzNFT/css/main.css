@@ -1,0 +1,677 @@
+@charset "utf-8";
+/* main.css */
+
+/* mobile 320 size */
+
+/* home */
+.home {
+    width: 100%;
+    position: relative;
+}
+
+.home__video-container {
+    width: 100%;
+    position: relative;
+    z-index: 30;
+}
+
+.home__video-container video {
+    width: 100vw;
+}
+
+.home__video--tablet,
+.home__video--desktop {
+    display: none;
+}
+/* home 끝 */
+
+/* story 시작 */
+.story__slider .story__slide {
+    width: 100%;
+    overflow: hidden;
+}
+
+.story__slider .story__slide img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.story__slider .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.story__slider .slick-dots li {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.story__slider .slick-dots li button {
+    width: 35px;
+    height: 4px;
+    border: 0;
+    background-color: #838485;
+    text-indent: -9999px;
+}
+
+.story__slider .slick-dots .slick-active button {
+    background-color: #f7f8f8;
+}
+
+.story__slider .slick-next {
+    position: absolute;
+    top: 25%;
+    z-index: 999;
+    right: 0;
+    background-image: url(../image/right_slide_icon.png);
+}
+
+.story__slider .slick-prev {
+    position: absolute;
+    top: 25%;
+    z-index: 999;
+    left: 0;
+    background-image: url(../image/left_slide_icon.png);
+}
+
+.story__slider .slick-arrow {
+    display: none !important;
+    border: 0;
+    width: 30px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -99999px;
+    cursor: pointer;
+    background-color: inherit;
+}
+/* story 끝 */
+
+/* nft */
+.nft__slider {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.nft__wrapper {
+    transition-duration: 6000ms;
+    transform: translate3d(-3848.5px, 0px, 0px);
+    transition-timing-function: linear !important;
+}
+
+.nft__slide img {
+    width: 200px;
+}
+
+.nft__opensea-container {
+    text-align: center;
+}
+
+.nft__opensea {
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.nft__opensea:hover {
+    border: 1px solid #6cd4dc;
+}
+
+.nft__opensea a img {
+    width: 120px;
+}
+/* nft 끝 */
+
+/* membership */
+.membership__title {
+    text-align: center;
+    font-family: "gmarketB";
+    font-size: 36px;
+    margin-bottom: 150px;
+}
+
+.membership__list {
+    position: relative;
+    height: 1200px;
+    margin-bottom: 20px;
+}
+
+.membership__list-item {
+    position: absolute;
+}
+
+.membership__list-item--odd {
+    left: -5%;
+}
+
+.membership__list-item--even {
+    right: -5%;
+}
+
+.membership__list-item--planet-1 { top: 0; }
+.membership__list-item--planet-2 { top: 15%; }
+.membership__list-item--planet-3 { top: 30%; }
+.membership__list-item--planet-4 { top: 45%; }
+.membership__list-item--planet-5 { top: 60%; }
+.membership__list-item--planet-6 { top: 75%; }
+
+.membership__list-item img {
+    width: 220px;
+}
+
+.membership__bottom {
+    text-align: center;
+}
+
+.membership__first-img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.membership__second-img {
+    width: 50%
+}
+/* membership 끝 */
+
+/* team */
+.team__group {
+    margin-bottom: 50px;
+}
+
+.team__member {
+    cursor: pointer;
+}
+
+.team__member-header {
+    text-align: center;
+    position: relative;
+}
+
+.team__logo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.team__logo-img {
+    margin-right: 20px;
+}
+
+.team__more {
+    transition: all 0.3s;
+}
+
+.team__more img {
+    width: 30px;
+}
+
+.team__profiles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team__profile {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.team__position {
+    margin-bottom: 10px;
+    font-family: "gmarketEB";
+    font-size: 16px;
+}
+
+.team__profile-info {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team__profile-img {
+    width: 100px;
+}
+
+.team__name {
+    font-family: "nanumR";
+    font-size: 16px;
+}
+
+.team__member.active .team__more--teralonz,
+.team__member.active .team__more--xrisp {
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
+/* team 끝 */
+
+/* partner */
+.partner__item {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #fff;
+    height: 100px;
+}
+
+.partner__logo--xrisp {
+    width: 80px;
+    padding-top: 5px;
+}
+
+.partner__logo--kongz {
+    padding-top: 22px;
+}
+
+.partner__logo--tnfc {
+    width: 290px;
+    padding-top: 10px;
+}
+
+.partner__item--soon {
+    padding-top: 36px;
+    font-size: 20px;
+    color: #838485;
+}
+/* partner 끝 */
+
+/* FAQ */
+.faq__item {
+    font-family: "nanumR";
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.faq__question {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    background-color: #3a4751;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.faq__qmark {
+    font-family: "nanumB";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #84c3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.faq__qtext {
+    margin-left: 10px;
+    flex: 1;
+}
+
+.faq__answer-list {
+    margin-top: 15px;
+}
+
+.faq__answer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.faq__amark {
+    font-family: "nanumB";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-color: #1c3d54;
+}
+
+.faq__atext {
+    margin-left: 10px;
+    flex: 1;
+}
+/* FAQ 끝 */
+
+@media screen and (min-width:768px) {
+    /* table 768 size */
+
+    /* home */
+    .home__video--mobile,
+    .home__video--desktop {
+        display: none;
+    }
+
+    .home__video--tablet {
+        display: block;
+    }
+    /* home 끝 */
+
+    /* story */
+    .story__slider .story__slide img {
+        width: 600px;
+    }
+    
+    .story__slider .slick-next {
+        right: 10%;
+        margin-right: -50px;
+    }
+    
+    .story__slider .slick-prev {
+        left: 10%;
+        margin-left: -50px;
+    }
+    
+    .story__slider .slick-arrow {
+        display: block !important;
+        border: 0;
+        width: 40px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-indent: -99999px;
+        cursor: pointer;
+        background-color: inherit;
+    }
+    /* story 끝 */
+
+    /* nft */
+    .nft__slide img {
+        width: 250px;
+    }
+
+    .nft__opensea a img {
+        width: 140px;
+    }
+    /* nft 끝 */
+
+    /* membership */
+    .membership__list-item--odd {
+        left: -3%;
+    }
+
+    .membership__list-item--even {
+        right: -3%;
+    }
+
+    .membership__list-item img {
+        width: 280px;
+    }
+
+    .membership__list-item--planet-1 { top: 0; }
+    .membership__list-item--planet-2 { top: 15%; }
+    .membership__list-item--planet-3 { top: 30%; }
+    .membership__list-item--planet-4 { top: 45%; }
+    .membership__list-item--planet-5 { top: 60%; }
+    .membership__list-item--planet-6 { top: 75%; }
+    /* membership 끝 */
+
+    /* team */
+    .team__logo-img--teralonz {
+        width: 250px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-right: 30px;
+    }
+
+    .team__logo-img--xrisp {
+        width: 120px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-right: 30px;
+    }
+
+    .team__more--teralonz img {
+        width: 35px;
+    }
+
+    .team__more--xrisp img {
+        width: 35px;
+    }
+    
+    .team__profile-img {
+        margin-bottom: 20px;
+    }
+    /* team 끝 */
+
+    /* partner */
+    .partner__title {
+        font-size: 40px;
+    }
+    
+    .partner__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .partner__item {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        border: 1px solid #fff;
+        height: 100px;
+    }
+    
+    .partner__logo--kongz {
+        padding-top: 22px;
+    }
+    /* partner 끝 */
+
+    /* FAQ */
+    .faq__item {
+        font-family: "nanumR";
+        width: 100%;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    
+    .faq__qmark {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .faq__qtext {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    
+    .faq__answer-list {
+        margin-top: 15px;
+    }
+    
+    .faq__amark {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .faq__atext {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    /* FAQ 끝 */
+}
+
+@media screen and (min-width:1300px) {
+    /* PC 1920 size */
+
+    /* home */
+    .home__video--tablet,
+    .home__video--mobile {
+        display: none;
+    }
+    
+    .home__video--desktop {
+        display: block;
+    }
+    /* home 끝 */
+
+    /* story */
+    .story__title {
+        font-size: 48px;
+    }
+    
+    .story__slider .slick-dots li button {
+        width: 50px;
+    }
+
+    .story__slider .story__slide img {
+        margin-bottom: 70px;
+    }
+    
+    .story__slider .slick-next {
+        right: 25%;
+        margin-right: 0px;
+    }
+    
+    .story__slider .slick-prev {
+        left: 25%;
+        margin-left: 0px;
+    }
+    
+    .story__slider .slick-arrow {
+        width: 50px;
+        height: 70px;
+    }
+    /* story 끝 */
+
+    /* nft */
+    .nft__slide img {
+        width: 300px;
+    }
+    
+    .nft__opensea a img {
+        width: 180px;
+    }
+    /* nft 끝 */
+
+    /* membership */
+    .membership__list {
+        height: 1000px;
+    }
+    
+    .membership__list-item--odd {
+        left: 0;
+    }
+    .membership__list-item--even {
+        right: 0;
+    }
+    
+    .membership__list-item img {
+        width: 320px;
+    }
+    
+    .membership__list-item--planet-1 { top: 0%; }
+    .membership__list-item--planet-2 { top: 0%; }
+    .membership__list-item--planet-3 {
+        top: 15%;
+        left: 50% !important;
+        margin-left: -165px;
+    }
+    .membership__list-item--planet-4 { top: 40%; }
+    .membership__list-item--planet-5 { top: 40%; }
+    .membership__list-item--planet-6 {
+        top: 55%;
+        left: 50%;
+        margin-left: -165px;
+    }
+    /* membership 끝 */
+
+    /* team */
+
+    .team__profiles {
+        justify-content: space-between;
+    }
+    
+    .team__profile {
+        width: 20%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .team__profile-img {
+        width: 130px;
+    }
+    
+    .team__position {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    /* team 끝 */
+
+    /* partner */
+    .partner__list li {
+        width: 25%;
+        height: 120px;
+    }
+
+    .partner__list li img.partner__logo--kongz {
+        padding-top: 38px;
+        width: 220px;
+    }
+
+    .partner__list li.partner__item--soon {
+        padding-top: 46px;
+        font-size: 24px;
+    }
+
+    .partner__list li img.partner__logo--xrisp {
+        width: 90px;
+        padding-top: 10px;
+    }
+
+    .partner__list li img.partner__logo--tnfc {
+        width: 250px;
+        padding-top: 22px;
+    }
+    /* partner 끝 */
+
+    /* FAQ */
+    .faq__qmark {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    .faq__qtext {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    
+    .faq__answer-list {
+        margin-top: 15px;
+    }
+    
+    .faq__amark {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    .faq__atext {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    /* FAQ 끝 */
+}
