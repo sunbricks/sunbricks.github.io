@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* Footer 기본 스타일 */
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* 내부 컨테이너 */
+.footer__in {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+/* 박스 레이아웃: 가로 정렬 */
+.footer__box {
+    display: flex;
+    justify-content: center;
+}
+
+/* 로고 영역 */
+.footer__logo {
+    padding-top: 10px;
+    margin-right: 50px;
+}
+.footer__logo-img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* kpop 로고에 대한 modifier */
+.footer__logo-img--kpop {
+    width: 100px;
+    padding-top: 1px;
+}
+
+/* 정보 영역 */
+.footer__info {
+    text-align: center;
+    margin: 0 100px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+/* SNS 영역 */
+.footer__sns {
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.footer__sns-icon {
+    margin: 0 10px;
+}
+
+/* 고탑 버튼 */
+.footer__go-top {
+    position: fixed;
+    right: 10%;
+    bottom: 15%;
+    width: 44px;
+    height: 64px;
+}
+.footer__go-top-button {
+    background-image: url(../image/go_top.png);
+    width: 44px;
+    height: 64px;
+    transition: all 0.5s;
+    border: none;
+    background-color: inherit;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.footer__go-top-button:hover {
+    background-image: url(../image/go_top_hover.png);
+}
+
+/* Footer 미디어 쿼리 (max-width:1300px) */
+@media screen and (max-width: 1300px) {
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .footer__in {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .footer__box {
+        display: block;
+    }
+    
+    .footer__logo {
+        padding-top: 0;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .footer__logo-img {
+        margin: 0 10px;
+    }
+    
+    .footer__logo-img--kpop {
+        width: 100px;
+        padding-top: 1px;
+    }
+    
+    .footer__info {
+        margin: 0;
+        padding-top: 0;
+        margin-bottom: 50px;
+    }
+    
+    .footer__sns {
+        margin: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+    
+    .footer__sns-icon {
+        margin: 0 10px;
+    }
+    
+    .footer__go-top {
+        position: fixed;
+        right: 10%;
+        bottom: 15%;
+        width: 44px;
+        height: 64px;
+    }
+    
+    .footer__go-top-button {
+        background-image: url(../image/go_top.png);
+        width: 44px;
+        height: 64px;
+        transition: all 0.5s;
+        border: none;
+        background-color: inherit;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    
+    .footer__go-top-button:hover {
+        background-image: url(../image/go_top.png);
+    }
+}

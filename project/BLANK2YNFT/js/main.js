@@ -1,5 +1,5 @@
 $(window).scroll(function(){
-    var s = $(window).scrollTop();
+    let s = $(window).scrollTop();
     if(s>=1){
         $('#header').css('background-color','rgba(0,0,0,1)');
     } else {
@@ -7,67 +7,11 @@ $(window).scroll(function(){
     }
 });
 
-
-$(document).ready(function() {
-    var $tablink = $(".sneakpick_btn button").click(function() {
-        var idx = $tablink.index(this);
-        $(".sneakpick_btn button").removeClass("on");
-        $(".sneakpick_btn button").eq(idx).addClass("on");
-        $(".NFT_intro_right > div").hide();
-        $(".NFT_intro_right > div").eq(idx).show();
-    })
-});
-// 스니픽 탭 효과
-
-const button=()=> {
-    const burger = document.querySelector('.burger_menu'); 
-    //burger class 가져오기
-    const menu = document.querySelector('.nav_bar');
-    burger.addEventListener('click', ()=> {
-        // click event
-        burger.classList.toggle('toggle');
-        menu.classList.toggle('active');
-    });
-}
-button();
-
-$('.nav_M').hide();
-$('.burger_menu').click(function(){
-    $('.nav_M').slideToggle(400);
-});
-// 모바일 헤더
-
-$('.info_text').hide();
-$('.inc_acodian > .acodian_list').click(function() {
-    if ( $(this).hasClass('active') ) {
-        $(this).find('.info_text').stop().slideUp(500);
-        $(this).removeClass('active');
-    }
-    else {
-        $(this).find('.info_text').stop().slideDown(500);
-        $(this).addClass('active');
-    }
-});
-// FAQ 아코디언
-
-
-$('.go_top').click(function(){
+$('.footer__go-top-button').click(function(){
     $('html,body').animate({
         scrollTop : 0
     });
 });
-// go_top button
-
-$(window).scroll(function(){
-    var s = $(window).scrollTop();
-
-    if(s>=700){
-        $('.go_top').show();
-    } else {
-        $('.go_top').hide();
-    }
-}); 
-// 스크롤 top menu
 
 $(document).ready(function($) {
     $(".scroll_move").click(function(event){         
@@ -75,5 +19,35 @@ $(document).ready(function($) {
         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
     });
 });
-
 // 페이지 이동
+
+
+$(document).ready(function(){
+    $('.header__burger').click(function(){
+        $(this).toggleClass('toggle');
+        $('.header__nav').slideToggle(400);
+    });
+
+    $('.header__nav-item a').click(function(){
+        if ($(window).width() < 1024) {
+            $('.header__nav').slideUp(400);
+            $('.header__burger').removeClass('toggle');
+        }
+    });
+    
+    $(window).resize(function(){
+        if($(window).width() >= 1024){
+            $('.header__nav').show();
+        }
+    });
+});
+
+$(window).scroll(function(){
+    let s = $(window).scrollTop();
+    if(s>=700){
+        $('.footer__go-top').show();
+    } else {
+        $('.footer__go-top').hide();
+    }
+}); 
+// 스크롤 top menu
