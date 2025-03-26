@@ -517,6 +517,7 @@ button#mute, button#full-screen, input#volume-bar, input#seek-bar { display: non
         list-style: none;
         padding: 0;
         margin: 0 auto;
+        margin-bottom: 150px;
     }
     
     .member {
@@ -547,8 +548,6 @@ button#mute, button#full-screen, input#volume-bar, input#seek-bar { display: non
     
     /* NFT Intro 영역 */
     .nft-intro {
-        padding-top: 150px;
-        padding-bottom: 150px;
         display: block;
         text-align: center;
     }
@@ -599,7 +598,7 @@ button#mute, button#full-screen, input#volume-bar, input#seek-bar { display: non
         margin: 0 auto;
     }
     
-    .artist__left {
+    .artist__content .artist__left {
         margin-right: 0;
         width: 350px;
         height: 350px;
@@ -607,25 +606,25 @@ button#mute, button#full-screen, input#volume-bar, input#seek-bar { display: non
         margin-bottom: 120px;
     }
     
-    .artist__left img {
+    .artist__content .artist__left img {
         width: 350px;
         height: 350px;
         text-align: center;
     }
     
-    .artist__right {
+    .artist__content .artist__right {
         display: inline-block;
         width: 650px;
         margin-left: 0;
         padding-top: 0;
     }
     
-    .artist__right .artist__title {
+    .artist__content .artist__right .artist__title {
         font-size: 28px;
         margin-bottom: 30px;
     }
     
-    .artist__right .artist__info {
+    .artist__content .artist__right .artist__info {
         font-size: 18px;
         line-height: 1.8em;
     }
@@ -711,7 +710,7 @@ button#mute, button#full-screen, input#volume-bar, input#seek-bar { display: non
         grid-template-rows: repeat(2, 1fr);
         row-gap: 10px;
         justify-content: center;
-        margin-bottom: 0;
+        margin-bottom: 100px;
     }
     
     .member {
@@ -799,28 +798,28 @@ button#mute, button#full-screen, input#volume-bar, input#seek-bar { display: non
     /* about 끝 */
 
     /* artist */
-    .artist__left {
+    .artist__content .artist__left {
         width: 300px;
         height: 300px;
     }
     
-    .artist__left img {
+    .artist__content .artist__left img {
         width: 300px;
         height: 300px;
     }
     
-    .artist__right {
+    .artist__content .artist__right {
         width: 100%;
         margin-left: 0;
         padding-top: 0;
     }
     
-    .artist__right .artist__title {
+    .artist__content .artist__right .artist__title {
         font-size: 22px;
         margin-bottom: 20px;
     }
     
-    .artist__right .artist__info {
+    .artist__content .artist__right .artist__info {
         font-size: 16px;
         line-height: 1.6em;
         text-align: left;
@@ -912,12 +911,12 @@ button#mute, button#full-screen, input#volume-bar, input#seek-bar { display: non
     /* about 끝 */
 
     /* artist */
-    .artist__left {
+    .artist__content .artist__left {
         width: 220px;
         height: 220px;
     }
     
-    .artist__left img {
+    .artist__content .artist__left img {
         width: 220px;
         height: 220px;
     }
